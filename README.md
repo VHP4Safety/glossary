@@ -1,1 +1,2 @@
-# glossary
+# Output from the Glossary Task Force
+
