@@ -7,7 +7,11 @@ The (current version of) the glossary can be seen [here](https://github.com/VHP4
 
 ## Meta
 
-This work is licensed under the [CC-BY 4.0 International](https://github.com/VHP4Safety/glossary/blob/main/LICENCE.md). To report issues, please go [here](https://github.com/VHP4Safety/glossary/issues). 
+This work is licensed under the [CC-BY 4.0 International](https://github.com/VHP4Safety/glossary/blob/main/LICENCE.md). 
+
+To make new entry queries, please create an issue [here](https://github.com/VHP4Safety/glossary/issues) using the [issue template](https://github.com/VHP4Safety/glossary/blob/main/.github/ISSUE_TEMPLATE/ontology-term-request.md). 
+
+For other issues, suggestions, or problems, please create an issue [here](https://github.com/VHP4Safety/glossary/issues). 
 
 
 ### Funding
