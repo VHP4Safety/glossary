@@ -1,6 +1,14 @@
 
 ## Toxicology in General
 
+<div about="https://vhp4safety.github.io/cloud/glossary#" typeof="owl:Ontology">
+<p>
+  This <span property="dc:title">Toxicology in General</span> ontology is collected by (in random order)
+  <span property="dc:contributor">Who?</span>.
+</p>
+</div>
+
+
 | **Term** 									| **Abbreviation** 	| **Definition** 										| 
 |-------------------------------------------|-------------------|-------------------------------------------------------|
 | 3 Rs Principle                            | 3Rs 				| Replacement, Reduction, Refinement 					|
@@ -43,16 +51,40 @@
 | VHP server 2 								| 					| 														|
 
 
-## Risk assessment-related terms			
+## Risk assessment-related terms
 
-| **Term** 									| **Abbreviation** 	| **Definition** 										| 
-|-------------------------------------------|-------------------|-------------------------------------------------------|
-| Apical Endpoint 							| 					| 														|
-| High Throughput Screening 				| HTS 				| 														|
-| Integrated Approaches to Testing and Assessment |	IATA 		| 														|		
-| Mode of Action 							| MoA 				| 														|
-| 											| NOEL				| 														|
-
+<table prefix="rdfs: http://www.w3.org/2000/01/rdf-schema#">
+  <tr> <!-- the header -->
+    <td><b>Term</b></td>
+    <td><b>Abbreviation</b></td>
+    <td><b>Definition</b></td>
+  </tr>
+  <tr about="https://vhp4safety.github.io/cloud/glossary#VHP0000001" typeof="owl:Class">
+    <td property="rdfs:label">Apical Endpoint</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>High Throughput Screening</td>
+    <td>HTS</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Integrated Approaches to Testing and Assessment</td>
+    <td>IATA</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Mode of Action</td>
+    <td>MoA</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>NOEL</td>
+    <td></td>
+  </tr>
+</table>
 
 ## Tool/service-related terms
 
