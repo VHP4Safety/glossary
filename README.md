@@ -7,7 +7,7 @@ The (current version of) the glossary can be seen [here](https://github.com/VHP4
 
 ## Meta
 
-This work is licensed under the [CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode.txt). To report issues, please go [here](https://github.com/VHP4Safety/glossary/issues). 
+This work is licensed under the [CC-BY 4.0 International](https://github.com/VHP4Safety/glossary/blob/main/LICENCE.md). To report issues, please go [here](https://github.com/VHP4Safety/glossary/issues). 
 
 
 ### Funding
