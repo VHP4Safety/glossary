@@ -19,5 +19,5 @@ For other issues, suggestions, or problems, please create an issue [here](https:
 VHP4Safety – the Virtual Human Platform for safety assessment project
 [NWA 1292.19.272](https://www.nwo.nl/projecten/nwa129219272) is part of the NWA
 research program ‘Research along Routes by Consortia (ORC)’, which is funded by the Netherlands Organization
-for Scientific Research (NWO). With a budget of over 10 million Euros, the project starts on June 1, 2021
+for Scientific Research (NWO). The project started on June 1, 2021 with a budget of over 10 million Euros
 and will last for the duration of 5 years. 
