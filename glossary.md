@@ -3,11 +3,6 @@
 
 This work is licensed under the [CC-BY 4.0 International](https://github.com/VHP4Safety/glossary/blob/main/LICENCE.md). 
 
-To make new entry queries, please create an issue [here](https://github.com/VHP4Safety/glossary/issues/new/choose) using the [issue template](https://github.com/VHP4Safety/glossary/blob/main/.github/ISSUE_TEMPLATE/ontology-term-request.md). Experienced GitHub users
-are encouraged to submit pull requests.
-
-For other issues, suggestions, or problems, please create an issue [here](https://github.com/VHP4Safety/glossary/issues). 
-
 <div about="https://vhp4safety.github.io/cloud/glossary#" typeof="owl:Ontology">
 <p>
   This <span property="dc:title">VHP4Safety Glossary</span> ontology is collected by (in alphabetical order)
@@ -16,6 +11,14 @@ For other issues, suggestions, or problems, please create an issue [here](https:
 </p>
 </div>
 
+## DEVELOPMENT VERSION
+
+This glossary is under development.
+
+To make new entry queries, please create an issue [here](https://github.com/VHP4Safety/glossary/issues/new/choose)
+using the [issue template](https://github.com/VHP4Safety/glossary/blob/main/.github/ISSUE_TEMPLATE/ontology-term-request.md).
+For other issues, suggestions, or problems, please create an issue [here](https://github.com/VHP4Safety/glossary/issues). 
+Experienced GitHub users are encouraged to submit pull requests.
 
 ## Toxicology in General
 
