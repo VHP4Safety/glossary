@@ -9,7 +9,7 @@ The (current **development version** of) the glossary can be seen [here](https:/
 
 This work is licensed under the [CC-BY 4.0 International](https://github.com/VHP4Safety/glossary/blob/main/LICENCE.md). 
 
-To make new entry queries, please create an issue [here](https://github.com/VHP4Safety/glossary/issues) using the [issue template](https://github.com/VHP4Safety/glossary/blob/main/.github/ISSUE_TEMPLATE/ontology-term-request.md). Experienced GitHub users
+To make new entry queries, please create an issue [here](https://github.com/VHP4Safety/glossary/issues/new/choose) using the [issue template](https://github.com/VHP4Safety/glossary/blob/main/.github/ISSUE_TEMPLATE/ontology-term-request.md). Experienced GitHub users
 are encouraged to submit pull requests.
 
 For other issues, suggestions, or problems, please create an issue [here](https://github.com/VHP4Safety/glossary/issues). 
