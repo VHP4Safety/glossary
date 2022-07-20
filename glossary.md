@@ -137,3 +137,12 @@ For other issues, suggestions, or problems, please create an issue [here](https:
 | Work Package 3.2							| WP3.2				| Acceptance of VHP for safety assessment: objectives to position the VHP in the transition to animal-free safety assessment, raise awareness, investigate uncertainties and acceptance of safety assessments									|
 | Work Package 3.3							| WP3.3				| Training and Education: objectives to promote collaboration, facilitate transferability of methods and models, implementing new teaching modules, promote capacity building and awareness of stakeholders, improve skills regarding risk communication									|
 | Work Package 4							| WP4				| Project Coordination, Impact and Data Management: objectives to ensure that project objectives are achieved, deliverables are completed, manage overall knowledge utilisation, and provide effective and sustainable data management							|
+
+
+### Funding
+
+VHP4Safety – the Virtual Human Platform for safety assessment project
+[NWA 1292.19.272](https://www.nwo.nl/projecten/nwa129219272) is part of the NWA
+research program ‘Research along Routes by Consortia (ORC)’, which is funded by the Netherlands Organization
+for Scientific Research (NWO). The project started on June 1, 2021 with a budget of over 10 million Euros
+and will last for the duration of 5 years. 
