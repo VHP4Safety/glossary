@@ -380,7 +380,7 @@ Experienced GitHub users are encouraged to submit pull requests.
   </tr>
     <tr>
     <td property="rdfs:label">Physiologically based kinetic model</td>
-    <td property="ncit:C42610">PPK model</td>
+    <td property="ncit:C42610">PBK model</td>
     <td property="dc:description"></td>
   </tr>
   <tr>
