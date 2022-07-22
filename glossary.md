@@ -166,15 +166,39 @@ Experienced GitHub users are encouraged to submit pull requests.
   </tr>
 
   <tr>
+    <td property="rdfs:label">Docker</td>
+    <td property="ncit:C42610">-</td>
+    <td property="dc:description">A service to create a virtual computer environment which can include the required software/tools to conduct a scientific work.</td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Dockerfile</td>
+    <td property="ncit:C42610">-</td>
+    <td property="dc:description">A file that includes the commands to build a Docker image.</td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Docker container</td>
+    <td property="ncit:C42610">-</td>
+    <td property="dc:description">The virtual environment that has been initiated to run based on its Docker image.</td>
+  </tr>
+
+  <tr>
     <td property="rdfs:label">Docker image</td>
-    <td property="ncit:C42610"></td>
-    <td property="dc:description"></td>
+    <td property="ncit:C42610">-</td>
+    <td property="dc:description">A representative file of a docker container that can run and execute it.</td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Kubernetes</td>
+    <td property="ncit:C42610">K8s</td>
+    <td property="dc:description">A computer tool to orchesterize and manage Docker containers.</td>
   </tr>
 
   <tr>
     <td property="rdfs:label">Secure Shell</td>
     <td property="ncit:C42610">ssh</td>
-    <td property="dc:description"></td>
+    <td property="dc:description">A network protocol to access a network service remotely and securely.</td>
   </tr>
 
   <tr>
