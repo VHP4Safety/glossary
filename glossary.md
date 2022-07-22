@@ -86,7 +86,7 @@ Experienced GitHub users are encouraged to submit pull requests.
   <tr>
     <td property="rdfs:label">Teratology</td>
     <td property="ncit:C42610"></td>
-    <td property="dc:description">Study of bith defects (literally study of monsters).</td>
+    <td property="dc:description">Scientific field that studies the causes, mechanisms, and classes of congenital malformations in animals and plants.<sup><a href="https://www.britannica.com/science/teratology">ref</a></sup></td>
   </tr>
 
   <tr>
@@ -248,7 +248,7 @@ Experienced GitHub users are encouraged to submit pull requests.
     <tr>
     <td property="rdfs:label">The legislation of ‘Registration, Evaluation, Authorisation and Restriction of Chemicals’</td>
     <td property="ncit:C42610">REACH</td>
-    <td property="dc:description"></td>
+    <td property="dc:description">Regulation (EC) No 1907/2006 of the European Parliament and of the Council concerning the Registration, Evaluation, Authorisation and Restriction of Chemicals (REACH)<sup><a href="http://data.europa.eu/eli/reg/2006/1907/2022-05-01">ref</a></sup></td>
   </tr>
 </table>
 
@@ -346,15 +346,45 @@ Experienced GitHub users are encouraged to submit pull requests.
   <tr>
     <td property="rdfs:label">Model</td>
     <td property="ncit:C42610"></td>
-    <td property="dc:description"></td>
-  </tr>
-  <tr>
-    <td property="rdfs:label">Physiologically Based (Pharma) Kinetic Modelling</td>
-    <td property="ncit:C42610">PBPK</td>
-    <td property="dc:description"></td>
+    <td property="dc:description">A simplified (generally mathematical) representation of a real system (e.g. of system: an organism, an organ, a cell…)</td>
   </tr>
   <tr>
     <td property="rdfs:label"></td>
+    <td property="ncit:C42610">ADME</td>
+    <td property="dc:description">Absorption, distribution, metabolism, and elimination of a substance (toxic or not) in a living organism, following exposure to this substance</td>
+  </tr>
+  <tr>
+    <td property="rdfs:label">Pharmacokinetics</td>
+    <td property="ncit:C42610">PK</td>
+    <td property="dc:description"></td>
+  </tr>
+  <tr>
+    <td property="rdfs:label">Toxicokinetics</td>
+    <td property="ncit:C42610">TK</td>
+    <td property="dc:description"></td>
+  </tr>
+  <tr>
+    <td property="rdfs:label">Physiologically based pharmacokinetic model</td>
+    <td property="ncit:C42610">PBPK</td>
+    <td property="dc:description">Mechanistic representation of ADME processes for a chemical in a living organism, based on physiological and chemical properties</td>
+  </tr>
+    <tr>
+    <td property="rdfs:label">Physiologically based toxicokinetic model</td>
+    <td property="ncit:C42610">PBTK</td>
+    <td property="dc:description"></td>
+  </tr>
+    <tr>
+    <td property="rdfs:label">Physiologically based biokinetic model</td>
+    <td property="ncit:C42610">PBBK</td>
+    <td property="dc:description"></td>
+  </tr>
+    <tr>
+    <td property="rdfs:label">Physiologically based kinetic model</td>
+    <td property="ncit:C42610">PPK model</td>
+    <td property="dc:description"></td>
+  </tr>
+  <tr>
+    <td property="rdfs:label">In-vitro-in-vivo extrapolation</td>
     <td property="ncit:C42610">IVIVE</td>
     <td property="dc:description"></td>
   </tr>
