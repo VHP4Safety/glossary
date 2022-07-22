@@ -11,6 +11,7 @@ This work is licensed under the [CC-BY 4.0 International](https://github.com/VHP
 </p>
 </div>
 
+
 ## DEVELOPMENT VERSION
 
 This glossary is under development.
@@ -20,126 +21,455 @@ using the [issue template](https://github.com/VHP4Safety/glossary/blob/main/.git
 For other issues, suggestions, or problems, please create an issue [here](https://github.com/VHP4Safety/glossary/issues). 
 Experienced GitHub users are encouraged to submit pull requests.
 
+
 ## Toxicology in General
 
-| **Term** 									| **Abbreviation** 	| **Definition** 										| 
-|-------------------------------------------|-------------------|-------------------------------------------------------|
-| 3 Rs Principle                            | 3Rs 				| Replacement, Reduction, Refinement 					|
-| Bench mark dose 							| BMD 				| 														|
-| Developmental and Reproductive Toxicology | DART 				| 														|
-| Developmental Neurotoxicity               | DNT				| 														|
-| Embryonic Stem Cell 						| EST 				| Typically combined like: hESTc (human, cardiac) 		|
-| Lowest Observed Adverse Effect Level 		| LOAEL 			| 														|
-| New Approach Methodology 					| NAM 				| 														|		
-| No Observed Adverse Effect Levek 			| NOAEL 			| 														|
-| Teratology             					|                   | Study of bith defects (literally study of monsters) 	|
-| The legislation of ‘Registration, Evaluation, Authorisation and Restriction of Chemicals’ | REACH | 					|
-
-
-## Adverse Outcome Pathway-related terms
-
-| **Term** 									| **Abbreviation** 	| **Definition** 										| 
-|-------------------------------------------|-------------------|-------------------------------------------------------|
-| Adverse Outcome 							| AO				| 														|
-| Adverse Outcome Pathway					| AOP 				| 														|		
-| European Centre for the Validation of Alternative Methods | ECVAM | 													|		
-| European Chemical Agency 					| ECHA 				| Legislator 											|
-| European Food Safety Authority 			| EFSA 				| Legislator 											|
-| Key Event 								| KE 				| 														|
-| Key Event Relationship 					| KER 				| 														|
-| Molecular Adverse Outcome Pathways 		| mAOP 				| Metapathway connected events as e.g. WikiPathways pathways |
-| Molecular Initiating Event 				| MIE 				| 														|
-| Quantitative Adverse Outcome Pathway 		| qAOP 				| Reserved for "Leiden" approach on coexpression changes|
-| Stressor 									| 					| 														|
-
-
-## Server-related terms
-
-| **Term** 									| **Abbreviation** 	| **Definition** 										| 
-|-------------------------------------------|-------------------|-------------------------------------------------------|
-| Docker image  							| 					| 														|
-| Secure Shell 								| ssh 				| 														|		
-| Strato 									| 					| 														|
-| VHP server 1 								| 					| 														|
-| VHP server 2 								| 					| 														|
-
-
-## Risk assessment-related terms
-
-<table prefix="rdfs: http://www.w3.org/2000/01/rdf-schema#">
+<table prefix="rdfs: http://www.w3.org/2000/01/rdf-schema# ncit: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl# dc: http://purl.org/dc/elements/1.1/">
   <tr> <!-- the header -->
     <td><b>Term</b></td>
     <td><b>Abbreviation</b></td>
     <td><b>Definition</b></td>
   </tr>
+
+  <tr>
+    <td property="rdfs:label">3 Rs Principle</td>
+    <td property="ncit:C42610">3Rs</td>
+    <td property="dc:description">Replacement, Reduction, Refinement.</td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Bench mark dose</td>
+    <td property="ncit:C42610">BMD</td>
+    <td property="dc:description"></td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Developmental and Reproductive Toxicology</td>
+    <td property="ncit:C42610">DART</td>
+    <td property="dc:description"></td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Developmental Neurotoxicity</td>
+    <td property="ncit:C42610">DNT</td>
+    <td property="dc:description"></td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Embryonic Stem Cell</td>
+    <td property="ncit:C42610">EST</td>
+    <td property="dc:description">Typically combined like: hESTc (human, cardiac).</td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Lowest Observed Adverse Effect Level</td>
+    <td property="ncit:C42610">LOAEL</td>
+    <td property="dc:description"></td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">New Approach Methodology</td>
+    <td property="ncit:C42610">NAM</td>
+    <td property="dc:description"></td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">No Observed Adverse Effect Level</td>
+    <td property="ncit:C42610">NOAEL</td>
+    <td property="dc:description"></td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Teratology</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description">Study of bith defects (literally study of monsters).</td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">The legislation of ‘Registration, Evaluation, Authorisation and Restriction of Chemicals’</td>
+    <td property="ncit:C42610">REACH</td>
+    <td property="dc:description"></td>
+  </tr>
+
+</table>
+
+
+## Adverse Outcome Pathway-related terms
+
+<table prefix="rdfs: http://www.w3.org/2000/01/rdf-schema# ncit: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl# dc: http://purl.org/dc/elements/1.1/">
+  <tr> <!-- the header -->
+    <td><b>Term</b></td>
+    <td><b>Abbreviation</b></td>
+    <td><b>Definition</b></td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Adverse Outcome</td>
+    <td property="ncit:C42610">AO</td>
+    <td property="dc:description"></td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Adverse Outcome Pathway</td>
+    <td property="ncit:C42610">AOP</td>
+    <td property="dc:description"></td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">European Centre for the Validation of Alternative Methods</td>
+    <td property="ncit:C42610">ECVAM</td>
+    <td property="dc:description"></td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">European Chemical Agency</td>
+    <td property="ncit:C42610">ECHA</td>
+    <td property="dc:description">Legislator</td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">European Food Safety Authority</td>
+    <td property="ncit:C42610">EFSA</td>
+    <td property="dc:description">Legislator</td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Key Event</td>
+    <td property="ncit:C42610">KE</td>
+    <td property="dc:description"></td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Key Event Relationship</td>
+    <td property="ncit:C42610">KER</td>
+    <td property="dc:description"></td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Molecular Adverse Outcome Pathways</td>
+    <td property="ncit:C42610">mAOP</td>
+    <td property="dc:description">Metapathway connected events as e.g. WikiPathways pathways.</td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Molecular Initiating Event</td>
+    <td property="ncit:C42610">MIE</td>
+    <td property="dc:description"></td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Quantitative Adverse Outcome Pathway</td>
+    <td property="ncit:C42610">qAOP</td>
+    <td property="dc:description">Reserved for "Leiden" approach on coexpression changes.</td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Stressor</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description"></td>
+  </tr>
+
+</table>
+
+
+## Server-related terms
+
+<table prefix="rdfs: http://www.w3.org/2000/01/rdf-schema# ncit: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl# dc: http://purl.org/dc/elements/1.1/">
+  <tr> <!-- the header -->
+    <td><b>Term</b></td>
+    <td><b>Abbreviation</b></td>
+    <td><b>Definition</b></td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Docker image</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description"></td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Secure Shell</td>
+    <td property="ncit:C42610">ssh</td>
+    <td property="dc:description"></td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Strato</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description"></td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">VHP server 1</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description"></td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">VHP server 2</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description"></td>
+  </tr>
+
+</table>
+
+
+## Risk assessment-related terms
+
+<table prefix="rdfs: http://www.w3.org/2000/01/rdf-schema# ncit: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl# dc: http://purl.org/dc/elements/1.1/">
+  <tr> <!-- the header -->
+    <td><b>Term</b></td>
+    <td><b>Abbreviation</b></td>
+    <td><b>Definition</b></td>
+  </tr>
+
   <tr about="https://vhp4safety.github.io/cloud/glossary#VHP0000001" typeof="owl:Class">
     <td property="rdfs:label">Apical Endpoint</td>
-    <td></td>
-    <td></td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description"></td>
   </tr>
+
   <tr>
-    <td>High Throughput Screening</td>
-    <td>HTS</td>
-    <td></td>
+    <td property="rdfs:label">High Throughput Screening</td>
+    <td property="ncit:C42610">HTS</td>
+    <td property="dc:description"></td>
   </tr>
+
   <tr>
-    <td>Integrated Approaches to Testing and Assessment</td>
-    <td>IATA</td>
-    <td></td>
+    <td property="rdfs:label">Integrated Approaches to Testing and Assessment</td>
+    <td property="ncit:C42610">IATA</td>
+    <td property="dc:description"></td>
   </tr>
+
   <tr>
-    <td>Mode of Action</td>
-    <td>MoA</td>
-    <td></td>
+    <td property="rdfs:label">Mode of Action</td>
+    <td property="ncit:C42610">MoA</td>
+    <td property="dc:description"></td>
   </tr>
+
   <tr>
-    <td></td>
-    <td>NOEL</td>
-    <td></td>
+    <td property="rdfs:label"></td>
+    <td property="ncit:C42610">NOEL</td>
+    <td property="dc:description"></td>
   </tr>
+
 </table>
+
 
 ## Tool/service-related terms
 
-| **Term** 									| **Abbreviation** 	| **Definition** 										| 
-|-------------------------------------------|-------------------|-------------------------------------------------------|
-| Accessible								| 					| 														|
-| Application Programming Interface			| API				| 														|
-| Data stewardship							|					|														|
-| FAIR	 									| 					| 														|
-| Findable 									| 					| 														|
-| Identifier								|					|														|
-| Interoperable								| 					| 														|
-| Metadata									|					|														|
-| Model										|					|														|
-| Ontology 									| 					| 														|
-| Open Data									| 					|														|
-| Physiologically Based (Pharma) Kinetic Modelling | PBPK 		|														|
-| Quantitative Structure Activity Relationships	| QSAR 			| 														|
-| Resource Description Framework			| RDF				| 														|
-| Reusable									| 					| 														|
-| Sysrev									| 					| Ortec's literature reviewe support and  curation documentationn storage system. |
-| 											| DMP 				| 														|
-| 											| IVIVE 			| 														|
+<table prefix="rdfs: http://www.w3.org/2000/01/rdf-schema# ncit: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl# dc: http://purl.org/dc/elements/1.1/">
+  <tr> <!-- the header -->
+    <td><b>Term</b></td>
+    <td><b>Abbreviation</b></td>
+    <td><b>Definition</b></td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Accessible</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description"></td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Application Programming Interface</td>
+    <td property="ncit:C42610">API</td>
+    <td property="dc:description"></td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Data stewardship</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description"></td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">FAIR</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description"></td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Findable</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description"></td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Identifier</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description"></td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Interoperable</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description"></td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Metadata</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description"></td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Model</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description"></td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Ontology</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description"></td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Open Data</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description"></td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Physiologically Based (Pharma) Kinetic Modelling</td>
+    <td property="ncit:C42610">PBPK</td>
+    <td property="dc:description"></td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Quantitative Structure Activity Relationships</td>
+    <td property="ncit:C42610">QSAR</td>
+    <td property="dc:description"></td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Resource Description Framework</td>
+    <td property="ncit:C42610">RDF</td>
+    <td property="dc:description"></td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Reusable</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description"></td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Sysrev</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description">Ortec's literature reviewer support and curation documentationn storage system.</td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label"></td>
+    <td property="ncit:C42610">DMP</td>
+    <td property="dc:description"></td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label"></td>
+    <td property="ncit:C42610">IVIVE</td>
+    <td property="dc:description"></td>
+  </tr>
+
+</table>
+
 
 ## Project-related terms
 
-| **Term** 									| **Abbreviation** 	| **Definition** 										| 
-|-------------------------------------------|-------------------|-------------------------------------------------------|
-| Research Line 1 							| RL1				| Building the Virtual Human Platform					|
-| Research Line 2 							| RL2				| Feeding the Virtual Human Platform														|
-| Research Line 3 							| RL3				| Implementing the Virtual Human Platform														|
-| Work Package 1.1							| WP1.1				| Building the ICT infrastructure for the VHP: objectives to develop the technical infrastructure, setting up a predictive platform, developing analysis workflows, making services and data available and interoperable									|
-| Work Package 1.2							| WP1.2				| In silico toxicokinetics: objectives to define parameters required for PBPK modelling, developing PBK models and providing guidance for in vitro to in vivo extrapolations 									|
-| Work Package 1.3							| WP1.3				| Computational toxicodynamics: objectives to develop QSAR and MIE prediction models, develop qAOPs, testing the platform and generating safety estimates									|
-| Work Package 2.1							| WP2.1				| In vitro models to provide toxicokinetics & toxicodynamics parameters: objectives to verify in vitro models for ADME and local toxicity, obtaining parameters for PBK modelling, test chemicals on iPSC models 									|
-| Work Package 2.2							| WP2.2				| Disease state - Case study chronic kidney disease: objectives to identify critical physiological pathways, develop AOP networks, test toxicity of selected drugs, and assess the safety of selected drugs								|
-| Work Package 2.3							| WP2.3				| Life course exposure - Case study neurodegenerative disease and life course exposure to chemicals: objectives to identify critical physiological pathways, model life time exposure, develop AOP networks, test toxicity and assess the safety of selected chemicals									|
-| Work Package 2.4							| WP2.4				| Age and gender specific safety - Case study Thyroid mediated developmental neurotoxicity: objectives to collect mechanistic physiological data, determine critical pathways, establish quantitative AOP network, identify gender-specific sentitivities and compounds that discriminate, and assess the safety of compound exposure							|
-| Work Package 3.1							| WP3.1				| Technology Assessment of VHP: objectives to perform technology assessment, study and analyse the initiation, development and implementation of VHP, and specify performance criteria 									|
-| Work Package 3.2							| WP3.2				| Acceptance of VHP for safety assessment: objectives to position the VHP in the transition to animal-free safety assessment, raise awareness, investigate uncertainties and acceptance of safety assessments									|
-| Work Package 3.3							| WP3.3				| Training and Education: objectives to promote collaboration, facilitate transferability of methods and models, implementing new teaching modules, promote capacity building and awareness of stakeholders, improve skills regarding risk communication									|
-| Work Package 4							| WP4				| Project Coordination, Impact and Data Management: objectives to ensure that project objectives are achieved, deliverables are completed, manage overall knowledge utilisation, and provide effective and sustainable data management							|
+<table prefix="rdfs: http://www.w3.org/2000/01/rdf-schema# ncit: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl# dc: http://purl.org/dc/elements/1.1/">
+  <tr> <!-- the header -->
+    <td><b>Term</b></td>
+    <td><b>Abbreviation</b></td>
+    <td><b>Definition</b></td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Research Line 1</td>
+    <td property="ncit:C42610">RL1</td>
+    <td property="dc:description">Building the Virtual Human Platform.</td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Research Line 2</td>
+    <td property="ncit:C42610">RL2</td>
+    <td property="dc:description">Feeding the Virtual Human Platform.</td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Research Line 3</td>
+    <td property="ncit:C42610">RL3</td>
+    <td property="dc:description">Implementing the Virtual Human Platform.</td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Work Package 1.1</td>
+    <td property="ncit:C42610">WP1.1</td>
+    <td property="dc:description">Building the ICT infrastructure for the VHP: objectives to develop the technical infrastructure, setting up a predictive platform, developing analysis workflows, making services and data available and interoperable.</td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Work Package 1.2</td>
+    <td property="ncit:C42610">WP1.2</td>
+    <td property="dc:description">In silico toxicokinetics: objectives to define parameters required for PBPK modelling, developing PBK models and providing guidance for in vitro to in vivo extrapolations.</td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Work Package 1.3</td>
+    <td property="ncit:C42610">WP1.3</td>
+    <td property="dc:description">Computational toxicodynamics: objectives to develop QSAR and MIE prediction models, develop qAOPs, testing the platform and generating safety estimates.</td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Work Package 2.1</td>
+    <td property="ncit:C42610">WP2.1</td>
+    <td property="dc:description">In vitro models to provide toxicokinetics & toxicodynamics parameters: objectives to verify in vitro models for ADME and local toxicity, obtaining parameters for PBK modelling, test chemicals on iPSC models.</td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Work Package 2.2</td>
+    <td property="ncit:C42610">WP2.2</td>
+    <td property="dc:description">Disease state - Case study chronic kidney disease: objectives to identify critical physiological pathways, develop AOP networks, test toxicity of selected drugs, and assess the safety of selected drugs.</td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Work Package 2.3</td>
+    <td property="ncit:C42610">WP2.3</td>
+    <td property="dc:description">Life course exposure - Case study neurodegenerative disease and life course exposure to chemicals: objectives to identify critical physiological pathways, model life time exposure, develop AOP networks, test toxicity and assess the safety of selected chemicals.</td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Work Package 2.4</td>
+    <td property="ncit:C42610">WP2.4</td>
+    <td property="dc:description">Age and gender specific safety - Case study Thyroid mediated developmental neurotoxicity: objectives to collect mechanistic physiological data, determine critical pathways, establish quantitative AOP network, identify gender-specific sentitivities and compounds that discriminate, and assess the safety of compound exposure.</td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Work Package 3.1</td>
+    <td property="ncit:C42610">WP3.1</td>
+    <td property="dc:description">Technology Assessment of VHP: objectives to perform technology assessment, study and analyse the initiation, development and implementation of VHP, and specify performance criteria.</td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Work Package 3.2</td>
+    <td property="ncit:C42610">WP3.2</td>
+    <td property="dc:description">Acceptance of VHP for safety assessment: objectives to position the VHP in the transition to animal-free safety assessment, raise awareness, investigate uncertainties and acceptance of safety assessments.</td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Work Package 3.3</td>
+    <td property="ncit:C42610">WP3.3</td>
+    <td property="dc:description">Training and Education: objectives to promote collaboration, facilitate transferability of methods and models, implementing new teaching modules, promote capacity building and awareness of stakeholders, improve skills regarding risk communication.</td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Work Package 4</td>
+    <td property="ncit:C42610">WP4</td>
+    <td property="dc:description">Project Coordination, Impact and Data Management: objectives to ensure that project objectives are achieved, deliverables are completed, manage overall knowledge utilisation, and provide effective and sustainable data management.</td>
+  </tr>
+
+</table>
 
 
 ### Funding
