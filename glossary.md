@@ -312,7 +312,7 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="dc:description"></td>
   </tr>
 
-    <tr>
+  <tr>
     <td property="rdfs:label">Open Data</td>
     <td property="ncit:C42610"></td>
     <td property="dc:description"></td>
