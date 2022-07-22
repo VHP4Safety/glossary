@@ -72,7 +72,11 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="ncit:C42610">NAM</td>
     <td property="dc:description"></td>
   </tr>
-
+  <tr>
+    <td property="rdfs:label">High Throughput Screening</td>
+    <td property="ncit:C42610">HTS</td>
+    <td property="dc:description"></td>
+  </tr>
   <tr>
     <td property="rdfs:label">No Observed Adverse Effect Level</td>
     <td property="ncit:C42610">NOAEL</td>
@@ -86,8 +90,8 @@ Experienced GitHub users are encouraged to submit pull requests.
   </tr>
 
   <tr>
-    <td property="rdfs:label">The legislation of ‘Registration, Evaluation, Authorisation and Restriction of Chemicals’</td>
-    <td property="ncit:C42610">REACH</td>
+    <td property="rdfs:label"></td>
+    <td property="ncit:C42610">NOEL</td>
     <td property="dc:description"></td>
   </tr>
 
@@ -104,57 +108,41 @@ Experienced GitHub users are encouraged to submit pull requests.
   </tr>
 
   <tr>
-    <td property="rdfs:label">Adverse Outcome</td>
-    <td property="ncit:C42610">AO</td>
-    <td property="dc:description"></td>
-  </tr>
-
-  <tr>
     <td property="rdfs:label">Adverse Outcome Pathway</td>
     <td property="ncit:C42610">AOP</td>
-    <td property="dc:description"></td>
+    <td property="dc:description">An AOP describes a sequence of events commencing with initial interaction(s) of a stressor with a biomolecule within an organism that causes a perturbation in its biology (i.e., molecular initiating event, MIE), which can progress through a dependent series of intermediate key events (KEs) and culminate in an adverse outcome (AO) considered relevant to risk assessment or regulatory decision-making. <sup><a href="https://doi.org/10.1787/5jlv1m9d1g32-en">ref</a></sup>  </td>
   </tr>
-
   <tr>
-    <td property="rdfs:label">European Centre for the Validation of Alternative Methods</td>
-    <td property="ncit:C42610">ECVAM</td>
-    <td property="dc:description"></td>
+    <td property="rdfs:label">Molecular Initiating Event</td>
+    <td property="ncit:C42610">MIE</td>
+    <td property="dc:description">A specialised type of key event that represents the initial point of chemical/stressor interaction at the molecular level within the organism that results in a perturbation that starts the AOP.<sup><a href="https://doi.org/10.1787/5jlv1m9d1g32-en">ref</a></sup></td>
   </tr>
-
+  
   <tr>
-    <td property="rdfs:label">European Chemical Agency</td>
-    <td property="ncit:C42610">ECHA</td>
-    <td property="dc:description">Legislator</td>
+    <td property="rdfs:label">Adverse Outcome</td>
+    <td property="ncit:C42610">AO</td>
+    <td property="dc:description">A specialised type of key event that is generally accepted as being of regulatory significance on the basis of correspondence to an established protection goal or equivalence to an apical endpoint in an accepted regulatory guideline toxicity test.<sup><a href="https://doi.org/10.1787/5jlv1m9d1g32-en">ref</a></sup></td>
   </tr>
-
-  <tr>
-    <td property="rdfs:label">European Food Safety Authority</td>
-    <td property="ncit:C42610">EFSA</td>
-    <td property="dc:description">Legislator</td>
-  </tr>
-
   <tr>
     <td property="rdfs:label">Key Event</td>
     <td property="ncit:C42610">KE</td>
-    <td property="dc:description"></td>
+    <td property="dc:description">A change in biological or physiological state that is both measurable and essential to the progression of a defined biological perturbation leading to a specific adverse outcome.<sup><a href="https://doi.org/10.1787/5jlv1m9d1g32-en">ref</a></sup></td>
   </tr>
 
   <tr>
     <td property="rdfs:label">Key Event Relationship</td>
     <td property="ncit:C42610">KER</td>
+    <td property="dc:description">A scientifically-based relationship that connects one key event to another, defines a causal and predictive relationship between the upstream and downstream event, and thereby facilitates inference or extrapolation of the state of the downstream key event from the known, measured, or predicted state of the upstream key event.<sup><a href="https://doi.org/10.1787/5jlv1m9d1g32-en">ref</a></sup></td>
+  </tr>
+  <tr>
+    <td property="rdfs:label">Stressor</td>
+    <td property="ncit:C42610"></td>
     <td property="dc:description"></td>
   </tr>
-
   <tr>
     <td property="rdfs:label">Molecular Adverse Outcome Pathways</td>
     <td property="ncit:C42610">mAOP</td>
-    <td property="dc:description">Metapathway connected events as e.g. WikiPathways pathways.</td>
-  </tr>
-
-  <tr>
-    <td property="rdfs:label">Molecular Initiating Event</td>
-    <td property="ncit:C42610">MIE</td>
-    <td property="dc:description"></td>
+    <td property="dc:description">Metapathway, similar to conventional AOPs, but connected events as e.g. WikiPathways pathways. Their function is to expand KEs with molecular pathways and allow analyses of omics data.</td>
   </tr>
 
   <tr>
@@ -163,11 +151,7 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="dc:description">Reserved for "Leiden" approach on coexpression changes.</td>
   </tr>
 
-  <tr>
-    <td property="rdfs:label">Stressor</td>
-    <td property="ncit:C42610"></td>
-    <td property="dc:description"></td>
-  </tr>
+
 
 </table>
 
@@ -229,11 +213,7 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="dc:description"></td>
   </tr>
 
-  <tr>
-    <td property="rdfs:label">High Throughput Screening</td>
-    <td property="ncit:C42610">HTS</td>
-    <td property="dc:description"></td>
-  </tr>
+
 
   <tr>
     <td property="rdfs:label">Integrated Approaches to Testing and Assessment</td>
@@ -247,12 +227,29 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="dc:description"></td>
   </tr>
 
+
   <tr>
-    <td property="rdfs:label"></td>
-    <td property="ncit:C42610">NOEL</td>
+    <td property="rdfs:label">European Centre for the Validation of Alternative Methods</td>
+    <td property="ncit:C42610">ECVAM</td>
     <td property="dc:description"></td>
   </tr>
 
+  <tr>
+    <td property="rdfs:label">European Chemical Agency</td>
+    <td property="ncit:C42610">ECHA</td>
+    <td property="dc:description">Legislator</td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">European Food Safety Authority</td>
+    <td property="ncit:C42610">EFSA</td>
+    <td property="dc:description">Legislator</td>
+  </tr>
+    <tr>
+    <td property="rdfs:label">The legislation of ‘Registration, Evaluation, Authorisation and Restriction of Chemicals’</td>
+    <td property="ncit:C42610">REACH</td>
+    <td property="dc:description"></td>
+  </tr>
 </table>
 
 
@@ -265,11 +262,7 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td><b>Definition</b></td>
   </tr>
 
-  <tr>
-    <td property="rdfs:label">Accessible</td>
-    <td property="ncit:C42610"></td>
-    <td property="dc:description"></td>
-  </tr>
+
 
   <tr>
     <td property="rdfs:label">Application Programming Interface</td>
@@ -282,75 +275,58 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="ncit:C42610"></td>
     <td property="dc:description"></td>
   </tr>
-
-  <tr>
-    <td property="rdfs:label">FAIR</td>
+ <tr>
+    <td property="rdfs:label">Identifier</td>
     <td property="ncit:C42610"></td>
     <td property="dc:description"></td>
+  </tr>
+  <tr>
+    <td property="rdfs:label">Findable, Accessible, Interoperable, Reusable</td>
+    <td property="ncit:C42610">FAIR</td>
+    <td property="dc:description">The FAIR principles emphasise machine-actionability (i.e., the capacity of computational systems to find, access, interoperate, and reuse data with none or minimal human intervention) because humans increasingly rely on computational support to deal with data as a result of the increase in volume, complexity, and creation speed of data.<sup><a href="https://www.go-fair.org/fair-principles/">ref</a></sup></td>
   </tr>
 
   <tr>
     <td property="rdfs:label">Findable</td>
     <td property="ncit:C42610"></td>
-    <td property="dc:description"></td>
+    <td property="dc:description">Metadata and data should be easy to find for both humans and computers. Machine-readable metadata are essential for automatic discovery of datasets and services.<sup><a href="https://www.go-fair.org/fair-principles/">ref</a></sup></td>
   </tr>
-
   <tr>
-    <td property="rdfs:label">Identifier</td>
+    <td property="rdfs:label">Accessible</td>
     <td property="ncit:C42610"></td>
-    <td property="dc:description"></td>
+    <td property="dc:description">One needs to know how data can be accessed, possibly including authentication and authorisation.<sup><a href="https://www.go-fair.org/fair-principles/">ref</a></sup></td>
   </tr>
-
   <tr>
     <td property="rdfs:label">Interoperable</td>
     <td property="ncit:C42610"></td>
-    <td property="dc:description"></td>
+    <td property="dc:description">To speed up discovery and uncover new insights, research data should be easily combined with other datasets, applications and workflows by humans as well as computer systems.<sup><a href="https://www.go-fair.org/fair-principles/">ref</a></sup></td>
   </tr>
-
+  <tr>
+    <td property="rdfs:label">Reusable</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description">Research data should be ready for future research and future processing, making it self-evident that findings can be replicated and that new research effectively builds on already acquired, previous results.<sup><a href="https://www.go-fair.org/fair-principles/">ref</a></sup></td>
+  </tr>
   <tr>
     <td property="rdfs:label">Metadata</td>
     <td property="ncit:C42610"></td>
     <td property="dc:description"></td>
   </tr>
 
-  <tr>
-    <td property="rdfs:label">Model</td>
-    <td property="ncit:C42610"></td>
-    <td property="dc:description"></td>
-  </tr>
-
-  <tr>
-    <td property="rdfs:label">Ontology</td>
-    <td property="ncit:C42610"></td>
-    <td property="dc:description"></td>
-  </tr>
-
-  <tr>
+    <tr>
     <td property="rdfs:label">Open Data</td>
     <td property="ncit:C42610"></td>
     <td property="dc:description"></td>
   </tr>
 
-  <tr>
-    <td property="rdfs:label">Physiologically Based (Pharma) Kinetic Modelling</td>
-    <td property="ncit:C42610">PBPK</td>
-    <td property="dc:description"></td>
-  </tr>
-
-  <tr>
-    <td property="rdfs:label">Quantitative Structure Activity Relationships</td>
-    <td property="ncit:C42610">QSAR</td>
-    <td property="dc:description"></td>
-  </tr>
 
   <tr>
     <td property="rdfs:label">Resource Description Framework</td>
     <td property="ncit:C42610">RDF</td>
-    <td property="dc:description"></td>
+    <td property="dc:description">A globally-accepted framework for data and knowledge representation that is intended to be read and interpreted by machines.<sup><a href="https://doi.org/10.1038/sdata.2016.18">ref</a></sup></td>
   </tr>
 
   <tr>
-    <td property="rdfs:label">Reusable</td>
+    <td property="rdfs:label">Ontology</td>
     <td property="ncit:C42610"></td>
     <td property="dc:description"></td>
   </tr>
@@ -366,10 +342,26 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="ncit:C42610">DMP</td>
     <td property="dc:description"></td>
   </tr>
-
+  
+  <tr>
+    <td property="rdfs:label">Model</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description"></td>
+  </tr>
+  <tr>
+    <td property="rdfs:label">Physiologically Based (Pharma) Kinetic Modelling</td>
+    <td property="ncit:C42610">PBPK</td>
+    <td property="dc:description"></td>
+  </tr>
   <tr>
     <td property="rdfs:label"></td>
     <td property="ncit:C42610">IVIVE</td>
+    <td property="dc:description"></td>
+  </tr>
+  
+  <tr>
+    <td property="rdfs:label">Quantitative Structure Activity Relationships</td>
+    <td property="ncit:C42610">QSAR</td>
     <td property="dc:description"></td>
   </tr>
 
