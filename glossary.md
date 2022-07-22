@@ -356,12 +356,12 @@ Experienced GitHub users are encouraged to submit pull requests.
   <tr>
     <td property="rdfs:label">Pharmacokinetics</td>
     <td property="ncit:C42610">PK</td>
-    <td property="dc:description"></td>
+    <td property="dc:description">see ADME (these terms are equivalent)</td>
   </tr>
   <tr>
     <td property="rdfs:label">Toxicokinetics</td>
     <td property="ncit:C42610">TK</td>
-    <td property="dc:description"></td>
+    <td property="dc:description">see ADME (these terms are equivalent, although TK is used exclusively for toxic substances)</td>
   </tr>
   <tr>
     <td property="rdfs:label">Physiologically based pharmacokinetic model</td>
@@ -371,17 +371,17 @@ Experienced GitHub users are encouraged to submit pull requests.
     <tr>
     <td property="rdfs:label">Physiologically based toxicokinetic model</td>
     <td property="ncit:C42610">PBTK</td>
-    <td property="dc:description"></td>
+    <td property="dc:description">see PBPK model (these terms are equivalent)</td>
   </tr>
     <tr>
     <td property="rdfs:label">Physiologically based biokinetic model</td>
     <td property="ncit:C42610">PBBK</td>
-    <td property="dc:description"></td>
+    <td property="dc:description">see PBPK model (these terms are equivalent)</td>
   </tr>
     <tr>
     <td property="rdfs:label">Physiologically based kinetic model</td>
     <td property="ncit:C42610">PBK model</td>
-    <td property="dc:description"></td>
+    <td property="dc:description">see PBPK model (these terms are equivalent)</td>
   </tr>
   <tr>
     <td property="rdfs:label">In-vitro-in-vivo extrapolation</td>
