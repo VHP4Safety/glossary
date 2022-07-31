@@ -14,6 +14,16 @@ are encouraged to submit pull requests.
 
 For other issues, suggestions, or problems, please create an issue [here](https://github.com/VHP4Safety/glossary/issues). 
 
+## Extract OWL triples
+
+The OWL ontology is encoded in the Markdown file as HTML+RDFa. With the `extractOWL.groovy` tool this can
+be extracted into a stand-alone OWL files (in Notation3) with:
+
+```shell
+groovy extractOWL.groovy > glossary.owl
+```
+
+In the future, this will be done automatically with an GitHub Action.
 
 ### Funding
 
