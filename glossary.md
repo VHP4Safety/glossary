@@ -14,7 +14,7 @@ This work is licensed under the [CC-BY 4.0 International](https://github.com/VHP
 
 ## DEVELOPMENT VERSION
 
-This glossary is under development.
+This glossary is under development. For example, many definitions do not meet the community standards yet [1].
 
 To make new entry queries, please create an issue [here](https://github.com/VHP4Safety/glossary/issues/new/choose)
 using the [issue template](https://github.com/VHP4Safety/glossary/blob/main/.github/ISSUE_TEMPLATE/ontology-term-request.md).
@@ -516,6 +516,10 @@ Experienced GitHub users are encouraged to submit pull requests.
   </tr>
 
 </table>
+
+### References
+
+1. Michie, S., West, R. & Hastings, J. Creating ontological definitions for use in science. Qeios (2022) doi:[10.32388/YGIF9B.2](https://doi.org/10.32388/YGIF9B.2).
 
 
 ### Funding
