@@ -97,6 +97,59 @@ Experienced GitHub users are encouraged to submit pull requests.
 
 </table>
 
+## Risk assessment-related terms
+
+<table prefix="rdfs: http://www.w3.org/2000/01/rdf-schema# ncit: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl# dc: http://purl.org/dc/elements/1.1/">
+  <tr> <!-- the header -->
+    <td><b>Term</b></td>
+    <td><b>Abbreviation</b></td>
+    <td><b>Definition</b></td>
+  </tr>
+
+  <tr about="https://vhp4safety.github.io/cloud/glossary#VHP0000001" typeof="owl:Class">
+    <td property="rdfs:label">Apical Endpoint</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description"></td>
+  </tr>
+
+
+
+  <tr>
+    <td property="rdfs:label">Integrated Approaches to Testing and Assessment</td>
+    <td property="ncit:C42610">IATA</td>
+    <td property="dc:description"></td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Mode of Action</td>
+    <td property="ncit:C42610">MoA</td>
+    <td property="dc:description"></td>
+  </tr>
+
+
+  <tr>
+    <td property="rdfs:label">European Centre for the Validation of Alternative Methods</td>
+    <td property="ncit:C42610">ECVAM</td>
+    <td property="dc:description"></td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">European Chemical Agency</td>
+    <td property="ncit:C42610">ECHA</td>
+    <td property="dc:description">Legislator</td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">European Food Safety Authority</td>
+    <td property="ncit:C42610">EFSA</td>
+    <td property="dc:description">Legislator</td>
+  </tr>
+    <tr>
+    <td property="rdfs:label">The legislation of ‘Registration, Evaluation, Authorisation and Restriction of Chemicals’</td>
+    <td property="ncit:C42610">REACH</td>
+    <td property="dc:description">Regulation (EC) No 1907/2006 of the European Parliament and of the Council concerning the Registration, Evaluation, Authorisation and Restriction of Chemicals (REACH)<sup><a href="http://data.europa.eu/eli/reg/2006/1907/2022-05-01">ref</a></sup></td>
+  </tr>
+</table>
 
 ## Adverse Outcome Pathway-related terms
 
@@ -144,11 +197,17 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="ncit:C42610">mAOP</td>
     <td property="dc:description">Metapathway, similar to conventional AOPs, but connected events as e.g. WikiPathways pathways. Their function is to expand KEs with molecular pathways and allow analyses of omics data.</td>
   </tr>
-
+  
+ <tr>
+    <td property="rdfs:label">TXG-MAPr R package</td>
+    <td property="ncit:C42610">TXG-MAPr</td>
+    <td property="dc:description">Statistical quantitative AOP approach using known coexpression changes in tissue toxicity.</td>
+  </tr>
+  
   <tr>
     <td property="rdfs:label">Quantitative Adverse Outcome Pathway</td>
     <td property="ncit:C42610">qAOP</td>
-    <td property="dc:description">Reserved for "Leiden" approach on coexpression changes.</td>
+    <td property="dc:description">Quantitative AOPs, "Leiden approach" to connect events using differential equations.</td>
   </tr>
 
 
@@ -222,59 +281,7 @@ Experienced GitHub users are encouraged to submit pull requests.
 </table>
 
 
-## Risk assessment-related terms
 
-<table prefix="rdfs: http://www.w3.org/2000/01/rdf-schema# ncit: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl# dc: http://purl.org/dc/elements/1.1/">
-  <tr> <!-- the header -->
-    <td><b>Term</b></td>
-    <td><b>Abbreviation</b></td>
-    <td><b>Definition</b></td>
-  </tr>
-
-  <tr about="https://vhp4safety.github.io/cloud/glossary#VHP0000001" typeof="owl:Class">
-    <td property="rdfs:label">Apical Endpoint</td>
-    <td property="ncit:C42610"></td>
-    <td property="dc:description"></td>
-  </tr>
-
-
-
-  <tr>
-    <td property="rdfs:label">Integrated Approaches to Testing and Assessment</td>
-    <td property="ncit:C42610">IATA</td>
-    <td property="dc:description"></td>
-  </tr>
-
-  <tr>
-    <td property="rdfs:label">Mode of Action</td>
-    <td property="ncit:C42610">MoA</td>
-    <td property="dc:description"></td>
-  </tr>
-
-
-  <tr>
-    <td property="rdfs:label">European Centre for the Validation of Alternative Methods</td>
-    <td property="ncit:C42610">ECVAM</td>
-    <td property="dc:description"></td>
-  </tr>
-
-  <tr>
-    <td property="rdfs:label">European Chemical Agency</td>
-    <td property="ncit:C42610">ECHA</td>
-    <td property="dc:description">Legislator</td>
-  </tr>
-
-  <tr>
-    <td property="rdfs:label">European Food Safety Authority</td>
-    <td property="ncit:C42610">EFSA</td>
-    <td property="dc:description">Legislator</td>
-  </tr>
-    <tr>
-    <td property="rdfs:label">The legislation of ‘Registration, Evaluation, Authorisation and Restriction of Chemicals’</td>
-    <td property="ncit:C42610">REACH</td>
-    <td property="dc:description">Regulation (EC) No 1907/2006 of the European Parliament and of the Council concerning the Registration, Evaluation, Authorisation and Restriction of Chemicals (REACH)<sup><a href="http://data.europa.eu/eli/reg/2006/1907/2022-05-01">ref</a></sup></td>
-  </tr>
-</table>
 
 
 ## Tool/service-related terms
