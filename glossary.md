@@ -36,11 +36,17 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="ncit:C42610">3Rs</td>
     <td property="dc:description">Replacement, Reduction, Refinement.</td>
   </tr>
-
+  
   <tr>
     <td property="rdfs:label">Bench mark dose</td>
     <td property="ncit:C42610">BMD</td>
-    <td property="dc:description"></td>
+    <td property="dc:description">See Bench mark dose modeling</td>
+  </tr>
+
+  <tr>
+    <td property="rdfs:label">Bench mark dose modeling</td>
+    <td property="ncit:C42610">BMD</td>
+    <td property="dc:description">An approach to determine the toxicological limit values for human health, such as the acceptable daily intake (ADI), of all chemical substances (e.g., food) regardless of type or origin. BMD modeling (possibly in combination with PBK modeling) analyzes in conjunction with multiple test systems and organ systems, to study how exposure variation has on the outcome of an <em>in vitro</em> test system.</td>
   </tr>
 
   <tr>
@@ -66,21 +72,41 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="ncit:C42610">LOAEL</td>
     <td property="dc:description"></td>
   </tr>
+  
+  <tr>
+    <td property="rdfs:label">Monte Carlo Risk Assessment</td>
+    <td property="ncit:C42610">MCRA</td>
+    <td property="dc:description">See Monte Carlo Risk Assessment calculation model.</td>
+  </tr>
+  
+  <tr>
+    <td property="rdfs:label">Monte Carlo Risk Assessment calculation model</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description">A modeling technique for realistically possible calculation of the intake of risk substances by humans, for example via food, where the exposure can also be linked to the hazard, with which a risk assessment can be carried out.</td>
+  </tr>
 
   <tr>
     <td property="rdfs:label">New Approach Methodology</td>
     <td property="ncit:C42610">NAM</td>
     <td property="dc:description"></td>
   </tr>
+  
   <tr>
     <td property="rdfs:label">High Throughput Screening</td>
     <td property="ncit:C42610">HTS</td>
     <td property="dc:description"></td>
   </tr>
+  
   <tr>
     <td property="rdfs:label">No Observed Adverse Effect Level</td>
     <td property="ncit:C42610">NOAEL</td>
     <td property="dc:description"></td>
+  </tr>
+  
+  <tr>
+    <td property="rdfs:label">Read accross</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description">A common approach in the risk assessment in order to examine structural similarities between the source and the target substances when there is a lack of information on their physical-chemical, toxicological properties, or environmental fate.</td>
   </tr>
 
   <tr>
@@ -97,6 +123,7 @@ Experienced GitHub users are encouraged to submit pull requests.
 
 </table>
 
+
 ## Risk assessment-related terms
 
 <table prefix="rdfs: http://www.w3.org/2000/01/rdf-schema# ncit: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl# dc: http://purl.org/dc/elements/1.1/">
@@ -112,8 +139,6 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="dc:description"></td>
   </tr>
 
-
-
   <tr>
     <td property="rdfs:label">Integrated Approaches to Testing and Assessment</td>
     <td property="ncit:C42610">IATA</td>
@@ -125,7 +150,6 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="ncit:C42610">MoA</td>
     <td property="dc:description"></td>
   </tr>
-
 
   <tr>
     <td property="rdfs:label">European Centre for the Validation of Alternative Methods</td>
@@ -144,12 +168,15 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="ncit:C42610">EFSA</td>
     <td property="dc:description">Legislator</td>
   </tr>
-    <tr>
+
+  <tr>
     <td property="rdfs:label">The legislation of ‘Registration, Evaluation, Authorisation and Restriction of Chemicals’</td>
     <td property="ncit:C42610">REACH</td>
     <td property="dc:description">Regulation (EC) No 1907/2006 of the European Parliament and of the Council concerning the Registration, Evaluation, Authorisation and Restriction of Chemicals (REACH)<sup><a href="http://data.europa.eu/eli/reg/2006/1907/2022-05-01">ref</a></sup></td>
   </tr>
+  
 </table>
+
 
 ## Adverse Outcome Pathway-related terms
 
@@ -163,8 +190,9 @@ Experienced GitHub users are encouraged to submit pull requests.
   <tr>
     <td property="rdfs:label">Adverse Outcome Pathway</td>
     <td property="ncit:C42610">AOP</td>
-    <td property="dc:description">An AOP describes a sequence of events commencing with initial interaction(s) of a stressor with a biomolecule within an organism that causes a perturbation in its biology (i.e., molecular initiating event, MIE), which can progress through a dependent series of intermediate key events (KEs) and culminate in an adverse outcome (AO) considered relevant to risk assessment or regulatory decision-making. <sup><a href="https://doi.org/10.1787/5jlv1m9d1g32-en">ref</a></sup>  </td>
+    <td property="dc:description">An AOP describes a sequence of events commencing with initial interaction(s) of a stressor with a biomolecule within an organism that causes a perturbation in its biology (i.e., molecular initiating event, MIE), which can progress through a dependent series of intermediate key events (KEs) and culminate in an adverse outcome (AO) considered relevant to risk assessment or regulatory decision-making. <sup><a href="https://doi.org/10.1787/5jlv1m9d1g32-en">ref</a></sup></td>
   </tr>
+  
   <tr>
     <td property="rdfs:label">Molecular Initiating Event</td>
     <td property="ncit:C42610">MIE</td>
@@ -176,6 +204,7 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="ncit:C42610">AO</td>
     <td property="dc:description">A specialised type of key event that is generally accepted as being of regulatory significance on the basis of correspondence to an established protection goal or equivalence to an apical endpoint in an accepted regulatory guideline toxicity test.<sup><a href="https://doi.org/10.1787/5jlv1m9d1g32-en">ref</a></sup></td>
   </tr>
+  
   <tr>
     <td property="rdfs:label">Key Event</td>
     <td property="ncit:C42610">KE</td>
@@ -187,11 +216,13 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="ncit:C42610">KER</td>
     <td property="dc:description">A scientifically-based relationship that connects one key event to another, defines a causal and predictive relationship between the upstream and downstream event, and thereby facilitates inference or extrapolation of the state of the downstream key event from the known, measured, or predicted state of the upstream key event.<sup><a href="https://doi.org/10.1787/5jlv1m9d1g32-en">ref</a></sup></td>
   </tr>
+  
   <tr>
     <td property="rdfs:label">Stressor</td>
     <td property="ncit:C42610"></td>
     <td property="dc:description"></td>
   </tr>
+  
   <tr>
     <td property="rdfs:label">Molecular Adverse Outcome Pathways</td>
     <td property="ncit:C42610">mAOP</td>
@@ -209,8 +240,6 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="ncit:C42610">qAOP</td>
     <td property="dc:description">Quantitative AOPs, "Leiden approach" to connect events using differential equations.</td>
   </tr>
-
-
 
 </table>
 
@@ -281,9 +310,6 @@ Experienced GitHub users are encouraged to submit pull requests.
 </table>
 
 
-
-
-
 ## Tool/service-related terms
 
 <table prefix="rdfs: http://www.w3.org/2000/01/rdf-schema# ncit: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl# dc: http://purl.org/dc/elements/1.1/">
@@ -292,8 +318,6 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td><b>Abbreviation</b></td>
     <td><b>Definition</b></td>
   </tr>
-
-
 
   <tr>
     <td property="rdfs:label">Application Programming Interface</td>
@@ -306,11 +330,13 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="ncit:C42610"></td>
     <td property="dc:description"></td>
   </tr>
- <tr>
+  
+  <tr>
     <td property="rdfs:label">Identifier</td>
     <td property="ncit:C42610"></td>
     <td property="dc:description"></td>
   </tr>
+  
   <tr>
     <td property="rdfs:label">Findable, Accessible, Interoperable, Reusable</td>
     <td property="ncit:C42610">FAIR</td>
@@ -322,21 +348,25 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="ncit:C42610"></td>
     <td property="dc:description">Metadata and data should be easy to find for both humans and computers. Machine-readable metadata are essential for automatic discovery of datasets and services.<sup><a href="https://www.go-fair.org/fair-principles/">ref</a></sup></td>
   </tr>
+  
   <tr>
     <td property="rdfs:label">Accessible</td>
     <td property="ncit:C42610"></td>
     <td property="dc:description">One needs to know how data can be accessed, possibly including authentication and authorisation.<sup><a href="https://www.go-fair.org/fair-principles/">ref</a></sup></td>
   </tr>
+  
   <tr>
     <td property="rdfs:label">Interoperable</td>
     <td property="ncit:C42610"></td>
     <td property="dc:description">To speed up discovery and uncover new insights, research data should be easily combined with other datasets, applications and workflows by humans as well as computer systems.<sup><a href="https://www.go-fair.org/fair-principles/">ref</a></sup></td>
   </tr>
+  
   <tr>
     <td property="rdfs:label">Reusable</td>
     <td property="ncit:C42610"></td>
     <td property="dc:description">Research data should be ready for future research and future processing, making it self-evident that findings can be replicated and that new research effectively builds on already acquired, previous results.<sup><a href="https://www.go-fair.org/fair-principles/">ref</a></sup></td>
   </tr>
+  
   <tr>
     <td property="rdfs:label">Metadata</td>
     <td property="ncit:C42610"></td>
@@ -348,7 +378,6 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="ncit:C42610"></td>
     <td property="dc:description"></td>
   </tr>
-
 
   <tr>
     <td property="rdfs:label">Resource Description Framework</td>
@@ -377,43 +406,51 @@ Experienced GitHub users are encouraged to submit pull requests.
   <tr>
     <td property="rdfs:label">Model</td>
     <td property="ncit:C42610"></td>
-    <td property="dc:description">A simplified (generally mathematical) representation of a real system (e.g. of system: an organism, an organ, a cell…)</td>
+    <td property="dc:description">A simplified (generally mathematical) representation of a real system (e.g. of system: an organism, an organ, a cell, etc.)</td>
   </tr>
+  
   <tr>
     <td property="rdfs:label"></td>
     <td property="ncit:C42610">ADME</td>
     <td property="dc:description">Absorption, distribution, metabolism, and elimination of a substance (toxic or not) in a living organism, following exposure to this substance</td>
   </tr>
+  
   <tr>
     <td property="rdfs:label">Pharmacokinetics</td>
     <td property="ncit:C42610">PK</td>
     <td property="dc:description">see ADME (these terms are equivalent)</td>
   </tr>
+  
   <tr>
     <td property="rdfs:label">Toxicokinetics</td>
     <td property="ncit:C42610">TK</td>
     <td property="dc:description">see ADME (these terms are equivalent, although TK is used exclusively for toxic substances)</td>
   </tr>
+  
   <tr>
     <td property="rdfs:label">Physiologically based pharmacokinetic model</td>
     <td property="ncit:C42610">PBPK</td>
     <td property="dc:description">Mechanistic representation of ADME processes for a chemical in a living organism, based on physiological and chemical properties</td>
   </tr>
-    <tr>
+  
+  <tr>
     <td property="rdfs:label">Physiologically based toxicokinetic model</td>
     <td property="ncit:C42610">PBTK</td>
     <td property="dc:description">see PBPK model (these terms are equivalent)</td>
   </tr>
-    <tr>
+  
+  <tr>
     <td property="rdfs:label">Physiologically based biokinetic model</td>
     <td property="ncit:C42610">PBBK</td>
     <td property="dc:description">see PBPK model (these terms are equivalent)</td>
   </tr>
-    <tr>
+  
+  <tr>
     <td property="rdfs:label">Physiologically based kinetic model</td>
     <td property="ncit:C42610">PBK model</td>
     <td property="dc:description">see PBPK model (these terms are equivalent)</td>
   </tr>
+  
   <tr>
     <td property="rdfs:label">In-vitro-in-vivo extrapolation</td>
     <td property="ncit:C42610">IVIVE</td>
@@ -465,7 +502,7 @@ Experienced GitHub users are encouraged to submit pull requests.
   <tr>
     <td property="rdfs:label">Work Package 1.2</td>
     <td property="ncit:C42610">WP1.2</td>
-    <td property="dc:description">In silico toxicokinetics: objectives to define parameters required for PBPK modelling, developing PBK models and providing guidance for in vitro to in vivo extrapolations.</td>
+    <td property="dc:description">In silico toxicokinetics: objectives to define parameters required for PBPK modelling, developing PBK models and providing guidance for <em>in vitro</em> to <em>in vivo</em> extrapolations.</td>
   </tr>
 
   <tr>
@@ -477,7 +514,7 @@ Experienced GitHub users are encouraged to submit pull requests.
   <tr>
     <td property="rdfs:label">Work Package 2.1</td>
     <td property="ncit:C42610">WP2.1</td>
-    <td property="dc:description">In vitro models to provide toxicokinetics & toxicodynamics parameters: objectives to verify in vitro models for ADME and local toxicity, obtaining parameters for PBK modelling, test chemicals on iPSC models.</td>
+    <td property="dc:description"><em>In vitro</em> models to provide toxicokinetics & toxicodynamics parameters: objectives to verify <em>in vitro</em> models for ADME and local toxicity, obtaining parameters for PBK modelling, test chemicals on iPSC models.</td>
   </tr>
 
   <tr>
@@ -523,6 +560,7 @@ Experienced GitHub users are encouraged to submit pull requests.
   </tr>
 
 </table>
+
 
 ### References
 
