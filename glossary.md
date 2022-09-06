@@ -34,7 +34,7 @@ Experienced GitHub users are encouraged to submit pull requests.
   <tr>
     <td property="rdfs:label">3 Rs Principle</td>
     <td property="ncit:C42610">3Rs</td>
-    <td property="dc:description">Replacement, Reduction, Refinement.</td>
+    <td property="dc:description">Replacement, Reduction, and Refinement. Used in the context of performing more humane animal research.</td>
   </tr>
   
   <tr>
@@ -70,7 +70,7 @@ Experienced GitHub users are encouraged to submit pull requests.
   <tr>
     <td property="rdfs:label">Lowest Observed Adverse Effect Level</td>
     <td property="ncit:C42610">LOAEL</td>
-    <td property="dc:description"></td>
+    <td property="dc:description">The lowest exposure level of a chemical stressor evaluated in a toxicity test that shows harmful effects on a plant or animal.</td>
   </tr>
   
   <tr>
@@ -100,7 +100,7 @@ Experienced GitHub users are encouraged to submit pull requests.
   <tr>
     <td property="rdfs:label">No Observed Adverse Effect Level</td>
     <td property="ncit:C42610">NOAEL</td>
-    <td property="dc:description"></td>
+    <td property="dc:description">The highest exposure level of a chemical stressor evaluated in a toxicity test that shows no harmful effects on a plant or animal.</td>
   </tr>
   
   <tr>
@@ -154,7 +154,7 @@ Experienced GitHub users are encouraged to submit pull requests.
   <tr>
     <td property="rdfs:label">European Centre for the Validation of Alternative Methods</td>
     <td property="ncit:C42610">ECVAM</td>
-    <td property="dc:description"></td>
+    <td property="dc:description">The EU Reference Laboratory for alternatives to animal testing, located in Ispra, Italy.</td>
   </tr>
 
   <tr>
@@ -370,7 +370,7 @@ Experienced GitHub users are encouraged to submit pull requests.
   <tr>
     <td property="rdfs:label">Metadata</td>
     <td property="ncit:C42610"></td>
-    <td property="dc:description"></td>
+    <td property="dc:description">The data that provide information about one or more aspects of the data that is used to summarize basic information about data that can make tracking and working with specific data easier.</td>
   </tr>
 
   <tr>
@@ -460,7 +460,7 @@ Experienced GitHub users are encouraged to submit pull requests.
   <tr>
     <td property="rdfs:label">Quantitative Structure Activity Relationships</td>
     <td property="ncit:C42610">QSAR</td>
-    <td property="dc:description"></td>
+    <td property="dc:description">Mathematical models that can be used to predict the physicochemical, biological and environmental fate properties of compounds from the knowledge of their chemical structure.</td>
   </tr>
 
 </table>
