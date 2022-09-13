@@ -2,7 +2,7 @@
 
 This webpage includes the glossary  of the terms that are relevant to the [VHP4Safety](https://vhp4safety.nl/) Project.
 
-The (current **development version** of) the glossary can be seen [here](https://github.com/VHP4Safety/glossary/blob/main/glossary.md). 
+The (current **development version** of) the glossary can be seen [here](glossary.md). 
 
 
 ## Meta
