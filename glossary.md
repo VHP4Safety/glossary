@@ -561,6 +561,38 @@ Experienced GitHub users are encouraged to submit pull requests.
 
 </table>
 
+## Organizations
+
+<table prefix="rdfs: http://www.w3.org/2000/01/rdf-schema# ncit: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl# dc: http://purl.org/dc/elements/1.1/">
+  <tr>
+    <td><b>Term</b></td>
+    <td><b>Abbreviation</b></td>
+    <td><b>Definition</b></td>
+  </tr>
+
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000079" typeof="owl:Class">
+    <td property="rdfs:label">European Medicines Agency</td>
+    <td property="ncit:C42610">EMA</td>
+    <td property="dc:description"></td>
+  </tr>
+
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000080" typeof="owl:Class">
+    <td property="rdfs:label"></td>
+    <td property="ncit:C42610">CBG</td>
+    <td property="dc:description"></td>
+  </tr>
+
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000081" typeof="owl:Class">
+    <td property="rdfs:label"></td>
+    <td property="ncit:C42610">ZIN</td>
+    <td property="dc:description"></td>
+  </tr>
+
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000082" typeof="owl:Class">
+    <td property="rdfs:label"></td>
+    <td property="ncit:C42610">CTBG</td>
+    <td property="dc:description"></td>
+  </tr></table>
 
 ### References
 
