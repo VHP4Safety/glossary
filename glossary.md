@@ -325,10 +325,16 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="dc:description"></td>
   </tr>
 
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000083" typeof="owl:Class">
+    <td property="rdfs:label">Data steward</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description">A data steward is an oversight or data governance role within an organization, and is responsible for ensuring the quality and fitness for purpose of the organization's data assets, including the metadata for those data assets. [[source](https://en.wikipedia.org/wiki/Data_steward), license:CC-BY]</td>
+  </tr>
+  
   <tr about="https://vhp4safety.github.io/glossary#VHP0000042" typeof="owl:Class">
     <td property="rdfs:label">Data stewardship</td>
     <td property="ncit:C42610"></td>
-    <td property="dc:description"></td>
+    <td property="dc:description">The work performed by a data steward.</td>
   </tr>
   
   <tr about="https://vhp4safety.github.io/glossary#VHP0000043" typeof="owl:Class">
