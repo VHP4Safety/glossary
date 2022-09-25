@@ -469,6 +469,12 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="dc:description">Mathematical models that can be used to predict the physicochemical, biological and environmental fate properties of compounds from the knowledge of their chemical structure.</td>
   </tr>
 
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000084" typeof="owl:Class">
+    <td property="rdfs:label">Web Ontology Language</td>
+    <td property="ncit:C42610">OWL</td>
+    <td property="dc:description">RDF standard for making ontologies machine readable.</td>
+  </tr>
+
 </table>
 
 
