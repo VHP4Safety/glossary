@@ -25,7 +25,7 @@ be extracted into a stand-alone OWL files (in Notation3) with:
 groovy extractOWL.groovy > glossary.owl
 ```
 
-In the future, this will be done automatically with an GitHub Action.
+This is done by [a GitHub Action](https://github.com/VHP4Safety/glossary/blob/main/.github/workflows/extract.yml).
 
 ### Funding
 
