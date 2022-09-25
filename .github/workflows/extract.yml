@@ -16,6 +16,8 @@ jobs:
         with:
           java-version: 11
           distribution: 'adopt'
+      - name: Install dependencies
+        run: sudo apt install groovy
       - name: Extract OWL
         run: groovy extractOWL.groovy | tee glossary.owl
       - name: Commit OWL file
