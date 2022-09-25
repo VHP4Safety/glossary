@@ -1,3 +1,5 @@
+name: extract-owl
+
 on:
   push:
     branches: [ main ]
@@ -16,3 +18,9 @@ jobs:
           distribution: 'adopt'
       - name: Extract OWL
         run: groovy extractOWL.groovy | tee glossary.owl
+      - name: Commit OWL file
+        run: |
+          git add inchikeys
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "Updated OWL" glossary.owl
