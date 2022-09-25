@@ -3,7 +3,7 @@
 
 This work is licensed under the [CC-BY 4.0 International](https://github.com/VHP4Safety/glossary/blob/main/LICENCE.md). 
 
-<div about="https://vhp4safety.github.io/cloud/glossary#" typeof="owl:Ontology">
+<div about="https://vhp4safety.github.io/glossary/glossary#" typeof="owl:Ontology">
 <p>
   This <span property="dc:title">VHP4Safety Glossary</span> ontology is collected by (in alphabetical order)
   <span property="dc:contributor">Ozan Çınar</span>, <span property="dc:contributor">Marvin Martens</span>,
