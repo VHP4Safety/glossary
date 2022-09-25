@@ -3,8 +3,8 @@ name: extract-owl
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    paths:
+      - glossary.md
 
 jobs:
   build:
