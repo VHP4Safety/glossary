@@ -14,6 +14,5 @@ jobs:
         with:
           java-version: 11
           distribution: 'adopt'
-          cache: groovy
       - name: Extract OWL
         run: groovy extractOWL.groovy | tee glossary.owl
