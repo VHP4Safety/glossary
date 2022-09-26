@@ -172,7 +172,7 @@ Experienced GitHub users are encouraged to submit pull requests.
   <tr about="https://vhp4safety.github.io/glossary#VHP0000022" typeof="owl:Class">
     <td property="rdfs:label">The legislation of ‘Registration, Evaluation, Authorisation and Restriction of Chemicals’</td>
     <td property="ncit:C42610">REACH</td>
-    <td property="dc:description">Regulation (EC) No 1907/2006 of the European Parliament and of the Council concerning the Registration, Evaluation, Authorisation and Restriction of Chemicals (REACH)<sup><a href="http://data.europa.eu/eli/reg/2006/1907/2022-05-01">ref</a></sup></td>
+    <td property="dc:description">Regulation (EC) No 1907/2006 of the European Parliament and of the Council concerning the Registration, Evaluation, Authorisation and Restriction of Chemicals (REACH).<sup><a href="http://data.europa.eu/eli/reg/2006/1907/2022-05-01">ref</a></sup></td>
   </tr>
   
 </table>
@@ -190,7 +190,7 @@ Experienced GitHub users are encouraged to submit pull requests.
   <tr about="https://vhp4safety.github.io/glossary#VHP0000023" typeof="owl:Class">
     <td property="rdfs:label">Adverse Outcome Pathway</td>
     <td property="ncit:C42610">AOP</td>
-    <td property="dc:description">An AOP describes a sequence of events commencing with initial interaction(s) of a stressor with a biomolecule within an organism that causes a perturbation in its biology (i.e., molecular initiating event, MIE), which can progress through a dependent series of intermediate key events (KEs) and culminate in an adverse outcome (AO) considered relevant to risk assessment or regulatory decision-making. <sup><a href="https://doi.org/10.1787/5jlv1m9d1g32-en">ref</a></sup></td>
+    <td property="dc:description">An AOP describes a sequence of events commencing with initial interaction(s) of a stressor with a biomolecule within an organism that causes a perturbation in its biology (i.e., molecular initiating event, MIE), which can progress through a dependent series of intermediate key events (KEs) and culminate in an adverse outcome (AO) considered relevant to risk assessment or regulatory decision-making.<sup><a href="https://doi.org/10.1787/5jlv1m9d1g32-en">ref</a></sup></td>
   </tr>
   
   <tr about="https://vhp4safety.github.io/glossary#VHP0000024" typeof="owl:Class">
@@ -328,7 +328,7 @@ Experienced GitHub users are encouraged to submit pull requests.
   <tr about="https://vhp4safety.github.io/glossary#VHP0000083" typeof="owl:Class">
     <td property="rdfs:label">Data steward</td>
     <td property="ncit:C42610"></td>
-    <td property="dc:description">A data steward is an oversight or data governance role within an organization, and is responsible for ensuring the quality and fitness for purpose of the organization's data assets, including the metadata for those data assets. [[source](https://en.wikipedia.org/wiki/Data_steward), license:CC-BY]</td>
+    <td property="dc:description">A data steward is an oversight or data governance role within an organization, and is responsible for ensuring the quality and fitness for purpose of the organization's data assets, including the metadata for those data assets.<sup><a href="https://en.wikipedia.org/wiki/Data_steward">ref</a></sup></td>
   </tr>
   
   <tr about="https://vhp4safety.github.io/glossary#VHP0000042" typeof="owl:Class">
@@ -416,9 +416,9 @@ Experienced GitHub users are encouraged to submit pull requests.
   </tr>
   
   <tr about="https://vhp4safety.github.io/glossary#VHP0000056" typeof="owl:Class">
-    <td property="rdfs:label"></td>
+    <td property="rdfs:label">Absorption, Distribution, Metabolism, and Excretion</td>
     <td property="ncit:C42610">ADME</td>
-    <td property="dc:description">Absorption, distribution, metabolism, and elimination of a substance (toxic or not) in a living organism, following exposure to this substance</td>
+    <td property="dc:description">Absorption, distribution, metabolism, and excretion of a substance (toxic or not) in a living organism, following exposure to this substance</td>
   </tr>
   
   <tr about="https://vhp4safety.github.io/glossary#VHP0000057" typeof="owl:Class">
