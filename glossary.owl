@@ -81,7 +81,7 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=cd77be85226e991514c3d78a739ed3afdcb3ed8d> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=6262bfe120baf59f3de0fb5acd01e6628695bd72> ;
         <twitter:title>  "VHP4Safety Glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000003>
@@ -107,11 +107,6 @@
         rdfs:label      "Apical Endpoint"@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  ""@en-US .
-
-[ rdf:type                      <http://schema.org/WebPage> ;
-  <http://schema.org/headline>  "VHP4Safety Glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/glossary.html>
-] .
 
 <https://vhp4safety.github.io/glossary#VHP0000057>
         rdf:type        owl:Class ;
@@ -141,7 +136,7 @@
         rdf:type        owl:Class ;
         rdfs:label      "Adverse Outcome Pathway"@en-US ;
         ncit:C42610     "AOP"@en-US ;
-        dc:description  "An AOP describes a sequence of events commencing with initial interaction(s) of a stressor with a biomolecule within an organism that causes a perturbation in its biology (i.e., molecular initiating event, MIE), which can progress through a dependent series of intermediate key events (KEs) and culminate in an adverse outcome (AO) considered relevant to risk assessment or regulatory decision-making. ref"@en-US .
+        dc:description  "An AOP describes a sequence of events commencing with initial interaction(s) of a stressor with a biomolecule within an organism that causes a perturbation in its biology (i.e., molecular initiating event, MIE), which can progress through a dependent series of intermediate key events (KEs) and culminate in an adverse outcome (AO) considered relevant to risk assessment or regulatory decision-making.ref"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000064>
         rdf:type        owl:Class ;
@@ -211,9 +206,9 @@
 
 <https://vhp4safety.github.io/glossary#VHP0000056>
         rdf:type        owl:Class ;
-        rdfs:label      ""@en-US ;
+        rdfs:label      "Absorption, Distribution, Metabolism, and Excretion"@en-US ;
         ncit:C42610     "ADME"@en-US ;
-        dc:description  "Absorption, distribution, metabolism, and elimination of a substance (toxic or not) in a living organism, following exposure to this substance"@en-US .
+        dc:description  "Absorption, distribution, metabolism, and excretion of a substance (toxic or not) in a living organism, following exposure to this substance"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000028>
         rdf:type        owl:Class ;
@@ -237,7 +232,7 @@
         rdf:type        owl:Class ;
         rdfs:label      "The legislation of ‘Registration, Evaluation, Authorisation and Restriction of Chemicals’"@en-US ;
         ncit:C42610     "REACH"@en-US ;
-        dc:description  "Regulation (EC) No 1907/2006 of the European Parliament and of the Council concerning the Registration, Evaluation, Authorisation and Restriction of Chemicals (REACH)ref"@en-US .
+        dc:description  "Regulation (EC) No 1907/2006 of the European Parliament and of the Council concerning the Registration, Evaluation, Authorisation and Restriction of Chemicals (REACH).ref"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000063>
         rdf:type        owl:Class ;
@@ -297,7 +292,7 @@
         rdf:type        owl:Class ;
         rdfs:label      "Data steward"@en-US ;
         ncit:C42610     ""@en-US ;
-        dc:description  "A data steward is an oversight or data governance role within an organization, and is responsible for ensuring the quality and fitness for purpose of the organization's data assets, including the metadata for those data assets. [[source](https://en.wikipedia.org/wiki/Data_steward), license:CC-BY]"@en-US .
+        dc:description  "A data steward is an oversight or data governance role within an organization, and is responsible for ensuring the quality and fitness for purpose of the organization's data assets, including the metadata for those data assets.ref"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000055>
         rdf:type        owl:Class ;
@@ -358,6 +353,11 @@
         rdfs:label      "European Centre for the Validation of Alternative Methods"@en-US ;
         ncit:C42610     "ECVAM"@en-US ;
         dc:description  "The EU Reference Laboratory for alternatives to animal testing, located in Ispra, Italy."@en-US .
+
+[ rdf:type                      <http://schema.org/WebPage> ;
+  <http://schema.org/headline>  "VHP4Safety Glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/glossary.html>
+] .
 
 <https://vhp4safety.github.io/glossary#VHP0000041>
         rdf:type        owl:Class ;
