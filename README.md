@@ -1,4 +1,4 @@
-# Output from the Glossary Task Force
+# Output from the Common Language Task Force
 
 This webpage includes the glossary  of the terms that are relevant to the [VHP4Safety](https://vhp4safety.nl/) Project.
 
