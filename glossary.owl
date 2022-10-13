@@ -81,7 +81,7 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=6262bfe120baf59f3de0fb5acd01e6628695bd72> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=4b6554754042aa3226b2c8598b804e0c2483a819> ;
         <twitter:title>  "VHP4Safety Glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000003>
@@ -107,6 +107,12 @@
         rdfs:label      "Apical Endpoint"@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  ""@en-US .
+
+<https://vhp4safety.github.io/glossary#VHP0000085>
+        rdf:type        owl:Class ;
+        rdfs:label      "European Centre for Ecotoxicology and Toxicology of Chemicals"@en-US ;
+        ncit:C42610     "ECTOC"@en-US ;
+        dc:description  "The European Centre for Ecotoxicology and Toxicology of Chemicals (ECETOC) is a scientific, non-profit, non-commercial and non-governmental association. Established in 1978, ECETOC's main objective is to identify, evaluate, and through such knowledge help industry to minimise any potentially adverse effects on human health and the environment that may arise from the manufacture and use of chemicals, biomaterials and pharmaceuticals. [source:https://en.wikipedia.org/wiki/European_Centre_for_Ecotoxicology_and_Toxicology_of_Chemicals]"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000057>
         rdf:type        owl:Class ;
@@ -354,11 +360,6 @@
         ncit:C42610     "ECVAM"@en-US ;
         dc:description  "The EU Reference Laboratory for alternatives to animal testing, located in Ispra, Italy."@en-US .
 
-[ rdf:type                      <http://schema.org/WebPage> ;
-  <http://schema.org/headline>  "VHP4Safety Glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/glossary.html>
-] .
-
 <https://vhp4safety.github.io/glossary#VHP0000041>
         rdf:type        owl:Class ;
         rdfs:label      "Application Programming Interface"@en-US ;
@@ -478,6 +479,11 @@
         rdfs:label      "Adverse Outcome"@en-US ;
         ncit:C42610     "AO"@en-US ;
         dc:description  "A specialised type of key event that is generally accepted as being of regulatory significance on the basis of correspondence to an established protection goal or equivalence to an apical endpoint in an accepted regulatory guideline toxicity test.ref"@en-US .
+
+[ rdf:type                      <http://schema.org/WebPage> ;
+  <http://schema.org/headline>  "VHP4Safety Glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/glossary.html>
+] .
 
 <https://vhp4safety.github.io/glossary#VHP0000066>
         rdf:type        owl:Class ;
