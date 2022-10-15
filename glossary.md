@@ -627,7 +627,10 @@ Experienced GitHub users are encouraged to submit pull requests.
   <tr about="https://vhp4safety.github.io/glossary#VHP0000085" typeof="owl:Class">
     <td property="rdfs:label">European Centre for Ecotoxicology and Toxicology of Chemicals</td>
     <td property="ncit:C42610">ECTOC</td>
-    <td property="dc:description">The European Centre for Ecotoxicology and Toxicology of Chemicals (ECETOC) is a scientific, non-profit, non-commercial and non-governmental association. Established in 1978, ECETOC's main objective is to identify, evaluate, and through such knowledge help industry to minimise any potentially adverse effects on human health and the environment that may arise from the manufacture and use of chemicals, biomaterials and pharmaceuticals. [source:<a href="Wikipedia">https://en.wikipedia.org/wiki/European_Centre_for_Ecotoxicology_and_Toxicology_of_Chemicals</a>]</td>
+    <td property="dc:description">The European Centre for Ecotoxicology and Toxicology of Chemicals (ECETOC) is a scientific, non-profit, non-commercial and non-governmental
+      association. Established in 1978, ECETOC's main objective is to identify, evaluate, and through such knowledge help industry to minimise any potentially adverse
+      effects on human health and the environment that may arise from the manufacture and use of chemicals, biomaterials and pharmaceuticals.
+      [source:<a href="https://en.wikipedia.org/wiki/European_Centre_for_Ecotoxicology_and_Toxicology_of_Chemicals">Wikipedia</a>]</td>
   </tr>
 
 </table>
