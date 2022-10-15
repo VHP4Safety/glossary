@@ -81,7 +81,7 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=4b6554754042aa3226b2c8598b804e0c2483a819> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=675ec932989bc581c80cabaef8ac640895734039> ;
         <twitter:title>  "VHP4Safety Glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000003>
@@ -112,7 +112,7 @@
         rdf:type        owl:Class ;
         rdfs:label      "European Centre for Ecotoxicology and Toxicology of Chemicals"@en-US ;
         ncit:C42610     "ECTOC"@en-US ;
-        dc:description  "The European Centre for Ecotoxicology and Toxicology of Chemicals (ECETOC) is a scientific, non-profit, non-commercial and non-governmental association. Established in 1978, ECETOC's main objective is to identify, evaluate, and through such knowledge help industry to minimise any potentially adverse effects on human health and the environment that may arise from the manufacture and use of chemicals, biomaterials and pharmaceuticals. [source:https://en.wikipedia.org/wiki/European_Centre_for_Ecotoxicology_and_Toxicology_of_Chemicals]"@en-US .
+        dc:description  "The European Centre for Ecotoxicology and Toxicology of Chemicals (ECETOC) is a scientific, non-profit, non-commercial and non-governmental association. Established in 1978, ECETOC's main objective is to identify, evaluate, and through such knowledge help industry to minimise any potentially adverse effects on human health and the environment that may arise from the manufacture and use of chemicals, biomaterials and pharmaceuticals. [source:Wikipedia]"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000057>
         rdf:type        owl:Class ;
@@ -360,6 +360,12 @@
         ncit:C42610     "ECVAM"@en-US ;
         dc:description  "The EU Reference Laboratory for alternatives to animal testing, located in Ispra, Italy."@en-US .
 
+<https://vhp4safety.github.io/glossary#VHP0000088>
+        rdf:type        owl:Class ;
+        rdfs:label      "Research Line"@en-US ;
+        ncit:C42610     "RL"@en-US ;
+        dc:description  "Formal structure within a project to reach some goal."@en-US .
+
 <https://vhp4safety.github.io/glossary#VHP0000041>
         rdf:type        owl:Class ;
         rdfs:label      "Application Programming Interface"@en-US ;
@@ -443,6 +449,12 @@
         rdfs:label      "Mode of Action"@en-US ;
         ncit:C42610     "MoA"@en-US ;
         dc:description  ""@en-US .
+
+<https://vhp4safety.github.io/glossary#VHP0000087>
+        rdf:type        owl:Class ;
+        rdfs:label      "Work Package"@en-US ;
+        ncit:C42610     "WP"@en-US ;
+        dc:description  "Formal structure within a project to reach some goal."@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000059>
         rdf:type        owl:Class ;
@@ -543,6 +555,12 @@
         rdfs:label      "Integrated Approaches to Testing and Assessment"@en-US ;
         ncit:C42610     "IATA"@en-US ;
         dc:description  ""@en-US .
+
+<https://vhp4safety.github.io/glossary#VHP0000086>
+        rdf:type        owl:Class ;
+        rdfs:label      "Task Force"@en-US ;
+        ncit:C42610     "TF"@en-US ;
+        dc:description  "Cross work package effort to reach some goal."@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000058>
         rdf:type        owl:Class ;
