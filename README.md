@@ -16,9 +16,29 @@ are encouraged to submit pull requests.
 
 For other issues, suggestions, or problems, please create an issue [here](https://github.com/VHP4Safety/glossary/issues). 
 
+## Data format
+
+The Glossary is stored in a [Markdown](https://en.wikipedia.org/wiki/Markdown) file with
+[HTML](https://en.wikipedia.org/wiki/HTML) bits and [RDFa](https://rdfa.info/docs) annotation.
+The Glossary terms are listed in a set of HTML tables, where each row describes a single term.
+Here, we take advantage of the HTML+RDFa standard, and embed the OWL data. Because OWL is
+just RDF, we effectively specify RDF triples:
+
+```html
+<tr about="https://vhp4safety.github.io/glossary#VHP0000086" typeof="owl:Class">
+  <td property="rdfs:label">Task Force</td>
+  <td property="ncit:C42610">TF</td>
+  <td property="dc:description">Cross work package effort to reach some goal.</td>
+</tr>
+```
+
+RDFa uses the HTML attribute `about` to specify of the *subject* and the `property`
+attribute to specify the *predicate*. The `object` can be specified in different ways,
+and the above example shows how the `Literal` is given.
+
 ## Extract OWL triples
 
-The OWL ontology is encoded in the Markdown file as HTML+RDFa. With the `extractOWL.groovy` tool this can
+With the `extractOWL.groovy` tool this can
 be extracted into a stand-alone OWL files (in Notation3) with:
 
 ```shell
