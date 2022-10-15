@@ -487,6 +487,18 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td><b>Definition</b></td>
   </tr>
 
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000086" typeof="owl:Class">
+    <td property="rdfs:label">Task Force</td>
+    <td property="ncit:C42610">TF</td>
+    <td property="dc:description">Cross work package effort to reach some goal.</td>
+  </tr>
+
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000088" typeof="owl:Class">
+    <td property="rdfs:label">Research Line</td>
+    <td property="ncit:C42610">RL</td>
+    <td property="dc:description">Formal structure within a project to reach some goal.</td>
+  </tr>
+
   <tr about="https://vhp4safety.github.io/glossary#VHP0000065" typeof="owl:Class">
     <td property="rdfs:label">Research Line 1</td>
     <td property="ncit:C42610">RL1</td>
@@ -503,6 +515,12 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="rdfs:label">Research Line 3</td>
     <td property="ncit:C42610">RL3</td>
     <td property="dc:description">Implementing the Virtual Human Platform.</td>
+  </tr>
+
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000087" typeof="owl:Class">
+    <td property="rdfs:label">Work Package</td>
+    <td property="ncit:C42610">WP</td>
+    <td property="dc:description">Formal structure within a project to reach some goal.</td>
   </tr>
 
   <tr about="https://vhp4safety.github.io/glossary#VHP0000068" typeof="owl:Class">
