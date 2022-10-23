@@ -193,6 +193,12 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="dc:description">An AOP describes a sequence of events commencing with initial interaction(s) of a stressor with a biomolecule within an organism that causes a perturbation in its biology (i.e., molecular initiating event, MIE), which can progress through a dependent series of intermediate key events (KEs) and culminate in an adverse outcome (AO) considered relevant to risk assessment or regulatory decision-making.<sup><a href="https://doi.org/10.1787/5jlv1m9d1g32-en">ref</a></sup></td>
   </tr>
   
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000089" typeof="owl:Class">
+    <td property="rdfs:label">Bioactivity</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description">The affinity and/or potency of a compound for a protein target.</td>
+  </tr>
+
   <tr about="https://vhp4safety.github.io/glossary#VHP0000024" typeof="owl:Class">
     <td property="rdfs:label">Molecular Initiating Event</td>
     <td property="ncit:C42610">MIE</td>
@@ -373,6 +379,12 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="dc:description">Research data should be ready for future research and future processing, making it self-evident that findings can be replicated and that new research effectively builds on already acquired, previous results.<sup><a href="https://www.go-fair.org/fair-principles/">ref</a></sup></td>
   </tr>
   
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000091" typeof="owl:Class">
+    <td property="rdfs:label">Mathematical Markup Language</td>
+    <td property="ncit:C42610">MathML</td>
+    <td property="dc:description">An Extensible Markup Language (XML) application to encode mathematical notations on the Web to capture their structure and content for their use and re-use.<sup><a href="https://www.w3.org/Math/">ref</a></sup></td>
+  </tr>
+
   <tr about="https://vhp4safety.github.io/glossary#VHP0000049" typeof="owl:Class">
     <td property="rdfs:label">Metadata</td>
     <td property="ncit:C42610"></td>
@@ -383,6 +395,12 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="rdfs:label">Open Data</td>
     <td property="ncit:C42610"></td>
     <td property="dc:description"></td>
+  </tr>
+
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000090" typeof="owl:Class">
+    <td property="rdfs:label">Proteochemometric</td>
+    <td property="ncit:C42610">PCM</td>
+    <td property="dc:description">Mathematical models that can be used to predict the biological properties (mainly bioactivity) of compounds on proteins from the knowledge of their (chemical) structure.</td>
   </tr>
 
   <tr about="https://vhp4safety.github.io/glossary#VHP0000051" typeof="owl:Class">
@@ -473,6 +491,12 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="rdfs:label">Web Ontology Language</td>
     <td property="ncit:C42610">OWL</td>
     <td property="dc:description">RDF standard for making ontologies machine readable.</td>
+  </tr>
+
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000092" typeof="owl:Class">
+    <td property="rdfs:label">Workflow</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description">An orchestrated and repeatable multi-step process to coordinate multiple tasks and their data dependencies.<sup><a href="https://content.iospress.com/articles/data-science/ds190026">ref</a></sup></td>
   </tr>
 
 </table>
