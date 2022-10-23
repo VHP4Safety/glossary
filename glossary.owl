@@ -53,6 +53,11 @@
         ncit:C42610     ""@en-US ;
         dc:description  "A modeling technique for realistically possible calculation of the intake of risk substances by humans, for example via food, where the exposure can also be linked to the hazard, with which a risk assessment can be carried out."@en-US .
 
+[ rdf:type                      <http://schema.org/WebPage> ;
+  <http://schema.org/headline>  "VHP4Safety Glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/glossary.html>
+] .
+
 <https://vhp4safety.github.io/glossary#VHP0000078>
         rdf:type        owl:Class ;
         rdfs:label      "Work Package 4"@en-US ;
@@ -81,7 +86,7 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=675ec932989bc581c80cabaef8ac640895734039> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=2acc52d80b95f9f1799524971ede61992375482b> ;
         <twitter:title>  "VHP4Safety Glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000003>
@@ -143,6 +148,12 @@
         rdfs:label      "Adverse Outcome Pathway"@en-US ;
         ncit:C42610     "AOP"@en-US ;
         dc:description  "An AOP describes a sequence of events commencing with initial interaction(s) of a stressor with a biomolecule within an organism that causes a perturbation in its biology (i.e., molecular initiating event, MIE), which can progress through a dependent series of intermediate key events (KEs) and culminate in an adverse outcome (AO) considered relevant to risk assessment or regulatory decision-making.ref"@en-US .
+
+<https://vhp4safety.github.io/glossary#VHP0000092>
+        rdf:type        owl:Class ;
+        rdfs:label      "Workflow"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "An orchestrated and repeatable multi-step process to coordinate multiple tasks and their data dependencies.ref"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000064>
         rdf:type        owl:Class ;
@@ -240,6 +251,12 @@
         ncit:C42610     "REACH"@en-US ;
         dc:description  "Regulation (EC) No 1907/2006 of the European Parliament and of the Council concerning the Registration, Evaluation, Authorisation and Restriction of Chemicals (REACH).ref"@en-US .
 
+<https://vhp4safety.github.io/glossary#VHP0000091>
+        rdf:type        owl:Class ;
+        rdfs:label      "Mathematical Markup Language"@en-US ;
+        ncit:C42610     "MathML"@en-US ;
+        dc:description  "An Extensible Markup Language (XML) application to encode mathematical notations on the Web to capture their structure and content for their use and re-use.ref"@en-US .
+
 <https://vhp4safety.github.io/glossary#VHP0000063>
         rdf:type        owl:Class ;
         rdfs:label      "In-vitro-in-vivo extrapolation"@en-US ;
@@ -269,6 +286,12 @@
         rdfs:label      "Reusable"@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "Research data should be ready for future research and future processing, making it self-evident that findings can be replicated and that new research effectively builds on already acquired, previous results.ref"@en-US .
+
+<https://vhp4safety.github.io/glossary#VHP0000089>
+        rdf:type        owl:Class ;
+        rdfs:label      "Bioactivity"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "The affinity and/or potency of a compound for a protein target."@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000001>
         rdf:type        owl:Class ;
@@ -323,6 +346,12 @@
         rdfs:label      "European Food Safety Authority"@en-US ;
         ncit:C42610     "EFSA"@en-US ;
         dc:description  "Legislator"@en-US .
+
+<https://vhp4safety.github.io/glossary#VHP0000090>
+        rdf:type        owl:Class ;
+        rdfs:label      "Proteochemometric"@en-US ;
+        ncit:C42610     "PCM"@en-US ;
+        dc:description  "Mathematical models that can be used to predict the biological properties (mainly bioactivity) of compounds on proteins from the knowledge of their (chemical) structure."@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000062>
         rdf:type        owl:Class ;
@@ -491,11 +520,6 @@
         rdfs:label      "Adverse Outcome"@en-US ;
         ncit:C42610     "AO"@en-US ;
         dc:description  "A specialised type of key event that is generally accepted as being of regulatory significance on the basis of correspondence to an established protection goal or equivalence to an apical endpoint in an accepted regulatory guideline toxicity test.ref"@en-US .
-
-[ rdf:type                      <http://schema.org/WebPage> ;
-  <http://schema.org/headline>  "VHP4Safety Glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/glossary.html>
-] .
 
 <https://vhp4safety.github.io/glossary#VHP0000066>
         rdf:type        owl:Class ;
