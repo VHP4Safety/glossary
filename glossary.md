@@ -259,34 +259,46 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td><b>Definition</b></td>
   </tr>
 
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000093" typeof="owl:Class">
+    <td property="rdfs:label">Cloud computing</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description">A computer infrastructure that provides access to data resources, analysis software, and computer power to conduct analyses specific to a use case or research community.<sup><a href="https://www.nature.com/articles/s41597-022-01619-5">ref</a></sup></td>
+  </tr>
+
   <tr about="https://vhp4safety.github.io/glossary#VHP0000032" typeof="owl:Class">
     <td property="rdfs:label">Docker</td>
-    <td property="ncit:C42610">-</td>
+    <td property="ncit:C42610"></td>
     <td property="dc:description">A service to create a virtual computer environment which can include the required software/tools to conduct a scientific work.</td>
   </tr>
 
   <tr about="https://vhp4safety.github.io/glossary#VHP0000033" typeof="owl:Class">
     <td property="rdfs:label">Dockerfile</td>
-    <td property="ncit:C42610">-</td>
+    <td property="ncit:C42610"></td>
     <td property="dc:description">A file that includes the commands to build a Docker image.</td>
   </tr>
 
   <tr about="https://vhp4safety.github.io/glossary#VHP0000034" typeof="owl:Class">
     <td property="rdfs:label">Docker container</td>
-    <td property="ncit:C42610">-</td>
+    <td property="ncit:C42610"></td>
     <td property="dc:description">The virtual environment that has been initiated to run based on its Docker image.</td>
   </tr>
 
   <tr about="https://vhp4safety.github.io/glossary#VHP0000035" typeof="owl:Class">
     <td property="rdfs:label">Docker image</td>
-    <td property="ncit:C42610">-</td>
-    <td property="dc:description">A representative file of a docker container that can run and execute it.</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description">A representative file from which a docker container can be run and executed.</td>
   </tr>
 
   <tr about="https://vhp4safety.github.io/glossary#VHP0000036" typeof="owl:Class">
     <td property="rdfs:label">Kubernetes</td>
     <td property="ncit:C42610">K8s</td>
     <td property="dc:description">A computer tool to orchesterize and manage Docker containers.</td>
+  </tr>
+
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000094" typeof="owl:Class">
+    <td property="rdfs:label">Scalability</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description">The property of a (cloud) infrastructure to be able to handle a growing amount of data and work related to it with additions.<sup><a href="https://dl.acm.org/doi/10.1145/350391.350432">ref</a></sup></td>
   </tr>
 
   <tr about="https://vhp4safety.github.io/glossary#VHP0000037" typeof="owl:Class">
@@ -298,19 +310,25 @@ Experienced GitHub users are encouraged to submit pull requests.
   <tr about="https://vhp4safety.github.io/glossary#VHP0000038" typeof="owl:Class">
     <td property="rdfs:label">Strato</td>
     <td property="ncit:C42610"></td>
-    <td property="dc:description"></td>
+    <td property="dc:description">An internet hosting service provider that supplies the servers where the virtual platform is built.<sup><a href="https://www.strato.nl/">ref</a></sup></td>
   </tr>
 
   <tr about="https://vhp4safety.github.io/glossary#VHP0000039" typeof="owl:Class">
     <td property="rdfs:label">VHP server 1</td>
     <td property="ncit:C42610"></td>
-    <td property="dc:description"></td>
+    <td property="dc:description">The server provided by Strato where the Docker containers used in the project are deployed.</td>
   </tr>
 
   <tr about="https://vhp4safety.github.io/glossary#VHP0000040" typeof="owl:Class">
     <td property="rdfs:label">VHP server 2</td>
     <td property="ncit:C42610"></td>
-    <td property="dc:description"></td>
+    <td property="dc:description">The server provided by Strato where the Kubernetes structure is formed for orchestration of the Docker containers on VHP server 1.</td>
+  </tr>
+
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000095" typeof="owl:Class">
+    <td property="rdfs:label">VHP server 3</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description">The server provided by Strato that is used for experimentation, learning, and testing the work that is carried out on VHP servers 1 and 2.</td>
   </tr>
 
 </table>
