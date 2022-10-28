@@ -35,6 +35,12 @@
         ncit:C42610     "MIE"@en-US ;
         dc:description  "A specialised type of key event that represents the initial point of chemical/stressor interaction at the molecular level within the organism that results in a perturbation that starts the AOP.ref"@en-US .
 
+<https://vhp4safety.github.io/glossary#VHP0000093>
+        rdf:type        owl:Class ;
+        rdfs:label      "Cloud computing"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "A computer infrastructure that provides access to data resources, analysis software, and computer power to conduct analyses specific to a use case or research community.ref"@en-US .
+
 <https://vhp4safety.github.io/glossary#VHP0000065>
         rdf:type        owl:Class ;
         rdfs:label      "Research Line 1"@en-US ;
@@ -53,16 +59,16 @@
         ncit:C42610     ""@en-US ;
         dc:description  "A modeling technique for realistically possible calculation of the intake of risk substances by humans, for example via food, where the exposure can also be linked to the hazard, with which a risk assessment can be carried out."@en-US .
 
-[ rdf:type                      <http://schema.org/WebPage> ;
-  <http://schema.org/headline>  "VHP4Safety Glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/glossary.html>
-] .
-
 <https://vhp4safety.github.io/glossary#VHP0000078>
         rdf:type        owl:Class ;
         rdfs:label      "Work Package 4"@en-US ;
         ncit:C42610     "WP4"@en-US ;
         dc:description  "Project Coordination, Impact and Data Management: objectives to ensure that project objectives are achieved, deliverables are completed, manage overall knowledge utilisation, and provide effective and sustainable data management."@en-US .
+
+[ rdf:type                      <http://schema.org/WebPage> ;
+  <http://schema.org/headline>  "VHP4Safety Glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/glossary.html>
+] .
 
 <https://vhp4safety.github.io/glossary#VHP0000031>
         rdf:type        owl:Class ;
@@ -86,7 +92,7 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=2acc52d80b95f9f1799524971ede61992375482b> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=23aae5579897d48b7574cdb2499a949e1b358440> ;
         <twitter:title>  "VHP4Safety Glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000003>
@@ -266,8 +272,8 @@
 <https://vhp4safety.github.io/glossary#VHP0000035>
         rdf:type        owl:Class ;
         rdfs:label      "Docker image"@en-US ;
-        ncit:C42610     "-"@en-US ;
-        dc:description  "A representative file of a docker container that can run and execute it."@en-US .
+        ncit:C42610     ""@en-US ;
+        dc:description  "A representative file from which a docker container can be run and executed."@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000007>
         rdf:type        owl:Class ;
@@ -362,7 +368,7 @@
 <https://vhp4safety.github.io/glossary#VHP0000034>
         rdf:type        owl:Class ;
         rdfs:label      "Docker container"@en-US ;
-        ncit:C42610     "-"@en-US ;
+        ncit:C42610     ""@en-US ;
         dc:description  "The virtual environment that has been initiated to run based on its Docker image."@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000006>
@@ -425,6 +431,12 @@
         ncit:C42610     "KE"@en-US ;
         dc:description  "A change in biological or physiological state that is both measurable and essential to the progression of a defined biological perturbation leading to a specific adverse outcome.ref"@en-US .
 
+<https://vhp4safety.github.io/glossary#VHP0000095>
+        rdf:type        owl:Class ;
+        rdfs:label      "VHP server 3"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "The server provided by Strato that is used for experimentation, learning, and testing the work that is carried out on VHP servers 1 and 2."@en-US .
+
 <https://vhp4safety.github.io/glossary#VHP0000067>
         rdf:type        owl:Class ;
         rdfs:label      "Research Line 3"@en-US ;
@@ -435,7 +447,7 @@
         rdf:type        owl:Class ;
         rdfs:label      "VHP server 1"@en-US ;
         ncit:C42610     ""@en-US ;
-        dc:description  ""@en-US .
+        dc:description  "The server provided by Strato where the Docker containers used in the project are deployed."@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000020>
         rdf:type        owl:Class ;
@@ -452,7 +464,7 @@
 <https://vhp4safety.github.io/glossary#VHP0000033>
         rdf:type        owl:Class ;
         rdfs:label      "Dockerfile"@en-US ;
-        ncit:C42610     "-"@en-US ;
+        ncit:C42610     ""@en-US ;
         dc:description  "A file that includes the commands to build a Docker image."@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000005>
@@ -495,7 +507,7 @@
         rdf:type        owl:Class ;
         rdfs:label      "VHP server 2"@en-US ;
         ncit:C42610     ""@en-US ;
-        dc:description  ""@en-US .
+        dc:description  "The server provided by Strato where the Kubernetes structure is formed for orchestration of the Docker containers on VHP server 1."@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000012>
         rdf:type        owl:Class ;
@@ -521,6 +533,12 @@
         ncit:C42610     "AO"@en-US ;
         dc:description  "A specialised type of key event that is generally accepted as being of regulatory significance on the basis of correspondence to an established protection goal or equivalence to an apical endpoint in an accepted regulatory guideline toxicity test.ref"@en-US .
 
+<https://vhp4safety.github.io/glossary#VHP0000094>
+        rdf:type        owl:Class ;
+        rdfs:label      "Scalability"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "The property of a (cloud) infrastructure to be able to handle a growing amount of data and work related to it with additions.ref"@en-US .
+
 <https://vhp4safety.github.io/glossary#VHP0000066>
         rdf:type        owl:Class ;
         rdfs:label      "Research Line 2"@en-US ;
@@ -531,7 +549,7 @@
         rdf:type        owl:Class ;
         rdfs:label      "Strato"@en-US ;
         ncit:C42610     ""@en-US ;
-        dc:description  ""@en-US .
+        dc:description  "An internet hosting service provider that supplies the servers where the virtual platform is built.ref"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000079>
         rdf:type        owl:Class ;
@@ -553,7 +571,7 @@
 <https://vhp4safety.github.io/glossary#VHP0000032>
         rdf:type        owl:Class ;
         rdfs:label      "Docker"@en-US ;
-        ncit:C42610     "-"@en-US ;
+        ncit:C42610     ""@en-US ;
         dc:description  "A service to create a virtual computer environment which can include the required software/tools to conduct a scientific work."@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000004>
