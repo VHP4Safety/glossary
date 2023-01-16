@@ -65,11 +65,6 @@
         ncit:C42610     "WP4"@en-US ;
         dc:description  "Project Coordination, Impact and Data Management: objectives to ensure that project objectives are achieved, deliverables are completed, manage overall knowledge utilisation, and provide effective and sustainable data management."@en-US .
 
-[ rdf:type                      <http://schema.org/WebPage> ;
-  <http://schema.org/headline>  "VHP4Safety Glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/glossary.html>
-] .
-
 <https://vhp4safety.github.io/glossary#VHP0000031>
         rdf:type        owl:Class ;
         rdfs:label      "Quantitative Adverse Outcome Pathway"@en-US ;
@@ -77,6 +72,7 @@
         dc:description  "Quantitative AOPs, \"Leiden approach\" to connect events using differential equations."@en-US .
 
 <https://glossary.vhp4safety.nl/glossary>
+        og:description   "Webpage with the VHP4Safety Glossary"@en-US ;
         og:locale        "en_US"@en-US ;
         og:site_name     "glossary"@en-US ;
         og:title         "VHP4Safety Glossary"@en-US ;
@@ -85,6 +81,8 @@
         dct:title        "VHP4Safety Glossary | glossary" ;
         <http://vocab.sindice.net/any23#X-UA-Compatible>
                 "IE=edge"@en-US ;
+        <http://vocab.sindice.net/any23#description>
+                "Webpage with the VHP4Safety Glossary"@en-US ;
         <http://vocab.sindice.net/any23#generator>
                 "Jekyll v3.9.2"@en-US ;
         <http://vocab.sindice.net/any23#twitter:card>
@@ -92,7 +90,7 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=23aae5579897d48b7574cdb2499a949e1b358440> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=0669f8773ee701dd616d04d585bcbf89a07911ca> ;
         <twitter:title>  "VHP4Safety Glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000003>
@@ -160,6 +158,13 @@
         rdfs:label      "Workflow"@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "An orchestrated and repeatable multi-step process to coordinate multiple tasks and their data dependencies.ref"@en-US .
+
+[ rdf:type                      <http://schema.org/WebPage> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "VHP4Safety Glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/glossary.html>
+] .
 
 <https://vhp4safety.github.io/glossary#VHP0000064>
         rdf:type        owl:Class ;
@@ -340,6 +345,12 @@
         rdfs:label      "Key Event Relationship"@en-US ;
         ncit:C42610     "KER"@en-US ;
         dc:description  "A scientifically-based relationship that connects one key event to another, defines a causal and predictive relationship between the upstream and downstream event, and thereby facilitates inference or extrapolation of the state of the downstream key event from the known, measured, or predicted state of the upstream key event.ref"@en-US .
+
+<https://vhp4safety.github.io/glossary#VHP0000096>
+        rdf:type        owl:Class ;
+        rdfs:label      "Technology Readiness Levels"@en-US ;
+        ncit:C42610     "TRL"@en-US ;
+        dc:description  "TRLs are a method for estimating the maturity of technologies during the acquisition phase of a program.ref"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000068>
         rdf:type        owl:Class ;
