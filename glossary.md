@@ -439,6 +439,12 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="dc:description">Ortec's literature reviewer support and curation documentationn storage system.</td>
   </tr>
 
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000096" typeof="owl:Class">
+    <td property="rdfs:label">Technology Readiness Levels</td>
+    <td property="ncit:C42610">TRL</td>
+    <td property="dc:description">TRLs are a method for estimating the maturity of technologies during the acquisition phase of a program.<sup><a href="https://en.wikipedia.org/wiki/Technology_readiness_level">ref</a></sup></td>
+  </tr>
+
   <tr about="https://vhp4safety.github.io/glossary#VHP0000054" typeof="owl:Class">
     <td property="rdfs:label">Data Management Plan</td>
     <td property="ncit:C42610">DMP</td>
