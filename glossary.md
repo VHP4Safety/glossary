@@ -139,18 +139,6 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="dc:description"></td>
   </tr>
 
-  <tr about="https://vhp4safety.github.io/glossary#VHP0000017" typeof="owl:Class">
-    <td property="rdfs:label">Integrated Approaches to Testing and Assessment</td>
-    <td property="ncit:C42610">IATA</td>
-    <td property="dc:description"></td>
-  </tr>
-
-  <tr about="https://vhp4safety.github.io/glossary#VHP0000018" typeof="owl:Class">
-    <td property="rdfs:label">Mode of Action</td>
-    <td property="ncit:C42610">MoA</td>
-    <td property="dc:description"></td>
-  </tr>
-
   <tr about="https://vhp4safety.github.io/glossary#VHP0000019" typeof="owl:Class">
     <td property="rdfs:label">European Centre for the Validation of Alternative Methods</td>
     <td property="ncit:C42610">ECVAM</td>
@@ -167,6 +155,18 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="rdfs:label">European Food Safety Authority</td>
     <td property="ncit:C42610">EFSA</td>
     <td property="dc:description">Legislator</td>
+  </tr>
+
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000017" typeof="owl:Class">
+    <td property="rdfs:label">Integrated Approaches to Testing and Assessment</td>
+    <td property="ncit:C42610">IATA</td>
+    <td property="dc:description"></td>
+  </tr>
+
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000018" typeof="owl:Class">
+    <td property="rdfs:label">Mode of Action</td>
+    <td property="ncit:C42610">MoA</td>
+    <td property="dc:description"></td>
   </tr>
 
   <tr about="https://vhp4safety.github.io/glossary#VHP0000022" typeof="owl:Class">
@@ -187,6 +187,12 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td><b>Definition</b></td>
   </tr>
 
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000025" typeof="owl:Class">
+    <td property="rdfs:label">Adverse Outcome</td>
+    <td property="ncit:C42610">AO</td>
+    <td property="dc:description">A specialised type of key event that is generally accepted as being of regulatory significance on the basis of correspondence to an established protection goal or equivalence to an apical endpoint in an accepted regulatory guideline toxicity test.<sup><a href="https://doi.org/10.1787/5jlv1m9d1g32-en">ref</a></sup></td>
+  </tr>
+
   <tr about="https://vhp4safety.github.io/glossary#VHP0000023" typeof="owl:Class">
     <td property="rdfs:label">Adverse Outcome Pathway</td>
     <td property="ncit:C42610">AOP</td>
@@ -197,18 +203,6 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="rdfs:label">Bioactivity</td>
     <td property="ncit:C42610"></td>
     <td property="dc:description">The affinity and/or potency of a compound for a protein target.</td>
-  </tr>
-
-  <tr about="https://vhp4safety.github.io/glossary#VHP0000024" typeof="owl:Class">
-    <td property="rdfs:label">Molecular Initiating Event</td>
-    <td property="ncit:C42610">MIE</td>
-    <td property="dc:description">A specialised type of key event that represents the initial point of chemical/stressor interaction at the molecular level within the organism that results in a perturbation that starts the AOP.<sup><a href="https://doi.org/10.1787/5jlv1m9d1g32-en">ref</a></sup></td>
-  </tr>
-  
-  <tr about="https://vhp4safety.github.io/glossary#VHP0000025" typeof="owl:Class">
-    <td property="rdfs:label">Adverse Outcome</td>
-    <td property="ncit:C42610">AO</td>
-    <td property="dc:description">A specialised type of key event that is generally accepted as being of regulatory significance on the basis of correspondence to an established protection goal or equivalence to an apical endpoint in an accepted regulatory guideline toxicity test.<sup><a href="https://doi.org/10.1787/5jlv1m9d1g32-en">ref</a></sup></td>
   </tr>
   
   <tr about="https://vhp4safety.github.io/glossary#VHP0000026" typeof="owl:Class">
@@ -223,28 +217,34 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="dc:description">A scientifically-based relationship that connects one key event to another, defines a causal and predictive relationship between the upstream and downstream event, and thereby facilitates inference or extrapolation of the state of the downstream key event from the known, measured, or predicted state of the upstream key event.<sup><a href="https://doi.org/10.1787/5jlv1m9d1g32-en">ref</a></sup></td>
   </tr>
   
-  <tr about="https://vhp4safety.github.io/glossary#VHP0000028" typeof="owl:Class">
-    <td property="rdfs:label">Stressor</td>
-    <td property="ncit:C42610"></td>
-    <td property="dc:description"></td>
-  </tr>
-  
   <tr about="https://vhp4safety.github.io/glossary#VHP0000029" typeof="owl:Class">
     <td property="rdfs:label">Molecular Adverse Outcome Pathways</td>
     <td property="ncit:C42610">mAOP</td>
     <td property="dc:description">Metapathway, similar to conventional AOPs, but connected events as e.g. WikiPathways pathways. Their function is to expand KEs with molecular pathways and allow analyses of omics data.</td>
   </tr>
-  
-  <tr about="https://vhp4safety.github.io/glossary#VHP0000030" typeof="owl:Class">
-    <td property="rdfs:label">TXG-MAPr R package</td>
-    <td property="ncit:C42610">TXG-MAPr</td>
-    <td property="dc:description">Statistical quantitative AOP approach using known coexpression changes in tissue toxicity.</td>
+
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000024" typeof="owl:Class">
+    <td property="rdfs:label">Molecular Initiating Event</td>
+    <td property="ncit:C42610">MIE</td>
+    <td property="dc:description">A specialised type of key event that represents the initial point of chemical/stressor interaction at the molecular level within the organism that results in a perturbation that starts the AOP.<sup><a href="https://doi.org/10.1787/5jlv1m9d1g32-en">ref</a></sup></td>
   </tr>
-  
+
   <tr about="https://vhp4safety.github.io/glossary#VHP0000031" typeof="owl:Class">
     <td property="rdfs:label">Quantitative Adverse Outcome Pathway</td>
     <td property="ncit:C42610">qAOP</td>
     <td property="dc:description">Quantitative AOPs, "Leiden approach" to connect events using differential equations.</td>
+  </tr>
+
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000028" typeof="owl:Class">
+    <td property="rdfs:label">Stressor</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description"></td>
+  </tr>
+    
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000030" typeof="owl:Class">
+    <td property="rdfs:label">TXG-MAPr R package</td>
+    <td property="ncit:C42610">TXG-MAPr</td>
+    <td property="dc:description">Statistical quantitative AOP approach using known coexpression changes in tissue toxicity.</td>
   </tr>
 
 </table>
@@ -349,10 +349,22 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td><b>Definition</b></td>
   </tr>
 
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000056" typeof="owl:Class">
+    <td property="rdfs:label">Absorption, Distribution, Metabolism, and Excretion</td>
+    <td property="ncit:C42610">ADME</td>
+    <td property="dc:description">Absorption, distribution, metabolism, and excretion of a substance (toxic or not) in a living organism, following exposure to this substance</td>
+  </tr>
+
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000046" typeof="owl:Class">
+    <td property="rdfs:label">Accessible</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description">One needs to know how data can be accessed, possibly including authentication and authorisation.<sup><a href="https://www.go-fair.org/fair-principles/">ref</a></sup></td>
+  </tr>
+
   <tr about="https://vhp4safety.github.io/glossary#VHP0000041" typeof="owl:Class">
     <td property="rdfs:label">Application Programming Interface</td>
     <td property="ncit:C42610">API</td>
-    <td property="dc:description"></td>
+    <td property="dc:description">A type of software interface that provides a way for two or more computer programs to communicate with each other.<sup><a href="https://www.igi-global.com/article/application-programming-interface-api-research/232166">ref</a></sup></td>
   </tr>
 
   <tr about="https://vhp4safety.github.io/glossary#VHP0000098" typeof="owl:Class">
@@ -367,46 +379,46 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="dc:description">A data steward is an oversight or data governance role within an organization, and is responsible for ensuring the quality and fitness for purpose of the organization's data assets, including the metadata for those data assets.<sup><a href="https://en.wikipedia.org/wiki/Data_steward">ref</a></sup></td>
   </tr>
   
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000054" typeof="owl:Class">
+    <td property="rdfs:label">Data Management Plan</td>
+    <td property="ncit:C42610">DMP</td>
+    <td property="dc:description"></td>
+  </tr>
+
   <tr about="https://vhp4safety.github.io/glossary#VHP0000042" typeof="owl:Class">
     <td property="rdfs:label">Data stewardship</td>
     <td property="ncit:C42610"></td>
     <td property="dc:description">The work performed by a data steward.</td>
   </tr>
   
-  <tr about="https://vhp4safety.github.io/glossary#VHP0000043" typeof="owl:Class">
-    <td property="rdfs:label">Identifier</td>
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000045" typeof="owl:Class">
+    <td property="rdfs:label">Findable</td>
     <td property="ncit:C42610"></td>
-    <td property="dc:description"></td>
+    <td property="dc:description">Metadata and data should be easy to find for both humans and computers. Machine-readable metadata are essential for automatic discovery of datasets and services.<sup><a href="https://www.go-fair.org/fair-principles/">ref</a></sup></td>
   </tr>
-  
+
   <tr about="https://vhp4safety.github.io/glossary#VHP0000044" typeof="owl:Class">
     <td property="rdfs:label">Findable, Accessible, Interoperable, Reusable</td>
     <td property="ncit:C42610">FAIR</td>
     <td property="dc:description">The FAIR principles emphasise machine-actionability (i.e., the capacity of computational systems to find, access, interoperate, and reuse data with none or minimal human intervention) because humans increasingly rely on computational support to deal with data as a result of the increase in volume, complexity, and creation speed of data.<sup><a href="https://www.go-fair.org/fair-principles/">ref</a></sup></td>
   </tr>
 
-  <tr about="https://vhp4safety.github.io/glossary#VHP0000045" typeof="owl:Class">
-    <td property="rdfs:label">Findable</td>
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000043" typeof="owl:Class">
+    <td property="rdfs:label">Identifier</td>
     <td property="ncit:C42610"></td>
-    <td property="dc:description">Metadata and data should be easy to find for both humans and computers. Machine-readable metadata are essential for automatic discovery of datasets and services.<sup><a href="https://www.go-fair.org/fair-principles/">ref</a></sup></td>
+    <td property="dc:description">The unique identifier for an administered item within a registration authority.<sup><a href="https://stats.oecd.org/glossary/detail.asp?ID=3012">ref</a></sup></td>
   </tr>
-  
-  <tr about="https://vhp4safety.github.io/glossary#VHP0000046" typeof="owl:Class">
-    <td property="rdfs:label">Accessible</td>
-    <td property="ncit:C42610"></td>
-    <td property="dc:description">One needs to know how data can be accessed, possibly including authentication and authorisation.<sup><a href="https://www.go-fair.org/fair-principles/">ref</a></sup></td>
+
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000063" typeof="owl:Class">
+    <td property="rdfs:label">In-vitro-in-vivo extrapolation</td>
+    <td property="ncit:C42610">IVIVE</td>
+    <td property="dc:description"></td>
   </tr>
-  
+      
   <tr about="https://vhp4safety.github.io/glossary#VHP0000047" typeof="owl:Class">
     <td property="rdfs:label">Interoperable</td>
     <td property="ncit:C42610"></td>
     <td property="dc:description">To speed up discovery and uncover new insights, research data should be easily combined with other datasets, applications and workflows by humans as well as computer systems.<sup><a href="https://www.go-fair.org/fair-principles/">ref</a></sup></td>
-  </tr>
-  
-  <tr about="https://vhp4safety.github.io/glossary#VHP0000048" typeof="owl:Class">
-    <td property="rdfs:label">Reusable</td>
-    <td property="ncit:C42610"></td>
-    <td property="dc:description">Research data should be ready for future research and future processing, making it self-evident that findings can be replicated and that new research effectively builds on already acquired, previous results.<sup><a href="https://www.go-fair.org/fair-principles/">ref</a></sup></td>
   </tr>
   
   <tr about="https://vhp4safety.github.io/glossary#VHP0000091" typeof="owl:Class">
@@ -421,10 +433,52 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="dc:description">The data that provide information about one or more aspects of the data that is used to summarize basic information about data that can make tracking and working with specific data easier.</td>
   </tr>
 
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000055" typeof="owl:Class">
+    <td property="rdfs:label">Model</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description">A simplified (generally mathematical) representation of a real system (e.g. of system: an organism, an organ, a cell, etc.)</td>
+  </tr>
+
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000052" typeof="owl:Class">
+    <td property="rdfs:label">Ontology</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description">a formal specification of the conceptualization of a set of phenomena naming and defining the elements of the set along with describing relations between the concepts, data, and entities; a way of showing the properties of a subject area and how they are related, by defining a set of concepts and categories that represent the subject.<sup><a href="https://www.jbe-platform.com/content/journals/10.1075/term.19.2.03sua">ref1</a>,</sup><sup><a href="https://www.oxfordlearnersdictionaries.com/definition/english/ontology?q=ontology">ref2</a></sup></td>
+  </tr>
+
   <tr about="https://vhp4safety.github.io/glossary#VHP0000050" typeof="owl:Class">
     <td property="rdfs:label">Open Data</td>
     <td property="ncit:C42610"></td>
-    <td property="dc:description"></td>
+    <td property="dc:description">A (collection of) data that can be used, studied, and modified without restriction, and which can be copied and redistributed in modified or unmodified form either without restriction, or with restrictions only to ensure that further recipients can also do these things.<sup><a href="https://www.nature.com/articles/npre.2008.1526.1">ref</a></sup></td>
+  </tr>
+
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000057" typeof="owl:Class">
+    <td property="rdfs:label">Pharmacokinetics</td>
+    <td property="ncit:C42610">PK</td>
+    <td property="dc:description">see ADME (these terms are equivalent)</td>
+  </tr>
+  
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000061" typeof="owl:Class">
+    <td property="rdfs:label">Physiologically based biokinetic model</td>
+    <td property="ncit:C42610">PBBK</td>
+    <td property="dc:description">see PBPK model (these terms are equivalent)</td>
+  </tr>
+
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000062" typeof="owl:Class">
+    <td property="rdfs:label">Physiologically based kinetic model</td>
+    <td property="ncit:C42610">PBK model</td>
+    <td property="dc:description">see PBPK model (these terms are equivalent)</td>
+  </tr>
+
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000059" typeof="owl:Class">
+    <td property="rdfs:label">Physiologically based pharmacokinetic model</td>
+    <td property="ncit:C42610">PBPK</td>
+    <td property="dc:description">Mechanistic representation of ADME processes for a chemical in a living organism, based on physiological and chemical properties</td>
+  </tr>
+  
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000060" typeof="owl:Class">
+    <td property="rdfs:label">Physiologically based toxicokinetic model</td>
+    <td property="ncit:C42610">PBTK</td>
+    <td property="dc:description">see PBPK model (these terms are equivalent)</td>
   </tr>
 
   <tr about="https://vhp4safety.github.io/glossary#VHP0000090" typeof="owl:Class">
@@ -433,16 +487,22 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="dc:description">Mathematical models that can be used to predict the biological properties (mainly bioactivity) of compounds on proteins from the knowledge of their (chemical) structure.</td>
   </tr>
 
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000064" typeof="owl:Class">
+    <td property="rdfs:label">Quantitative Structure Activity Relationships</td>
+    <td property="ncit:C42610">QSAR</td>
+    <td property="dc:description">Mathematical models that can be used to predict the physicochemical, biological and environmental fate properties of compounds from the knowledge of their chemical structure.</td>
+  </tr>
+
   <tr about="https://vhp4safety.github.io/glossary#VHP0000051" typeof="owl:Class">
     <td property="rdfs:label">Resource Description Framework</td>
     <td property="ncit:C42610">RDF</td>
     <td property="dc:description">A globally-accepted framework for data and knowledge representation that is intended to be read and interpreted by machines.<sup><a href="https://doi.org/10.1038/sdata.2016.18">ref</a></sup></td>
   </tr>
 
-  <tr about="https://vhp4safety.github.io/glossary#VHP0000052" typeof="owl:Class">
-    <td property="rdfs:label">Ontology</td>
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000048" typeof="owl:Class">
+    <td property="rdfs:label">Reusable</td>
     <td property="ncit:C42610"></td>
-    <td property="dc:description"></td>
+    <td property="dc:description">Research data should be ready for future research and future processing, making it self-evident that findings can be replicated and that new research effectively builds on already acquired, previous results.<sup><a href="https://www.go-fair.org/fair-principles/">ref</a></sup></td>
   </tr>
 
   <tr about="https://vhp4safety.github.io/glossary#VHP0000053" typeof="owl:Class">
@@ -456,73 +516,13 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="ncit:C42610">TRL</td>
     <td property="dc:description">TRLs are a method for estimating the maturity of technologies during the acquisition phase of a program.<sup><a href="https://en.wikipedia.org/wiki/Technology_readiness_level">ref</a></sup></td>
   </tr>
-
-  <tr about="https://vhp4safety.github.io/glossary#VHP0000054" typeof="owl:Class">
-    <td property="rdfs:label">Data Management Plan</td>
-    <td property="ncit:C42610">DMP</td>
-    <td property="dc:description"></td>
-  </tr>
-  
-  <tr about="https://vhp4safety.github.io/glossary#VHP0000055" typeof="owl:Class">
-    <td property="rdfs:label">Model</td>
-    <td property="ncit:C42610"></td>
-    <td property="dc:description">A simplified (generally mathematical) representation of a real system (e.g. of system: an organism, an organ, a cell, etc.)</td>
-  </tr>
-  
-  <tr about="https://vhp4safety.github.io/glossary#VHP0000056" typeof="owl:Class">
-    <td property="rdfs:label">Absorption, Distribution, Metabolism, and Excretion</td>
-    <td property="ncit:C42610">ADME</td>
-    <td property="dc:description">Absorption, distribution, metabolism, and excretion of a substance (toxic or not) in a living organism, following exposure to this substance</td>
-  </tr>
-  
-  <tr about="https://vhp4safety.github.io/glossary#VHP0000057" typeof="owl:Class">
-    <td property="rdfs:label">Pharmacokinetics</td>
-    <td property="ncit:C42610">PK</td>
-    <td property="dc:description">see ADME (these terms are equivalent)</td>
-  </tr>
-  
+      
   <tr about="https://vhp4safety.github.io/glossary#VHP0000058" typeof="owl:Class">
     <td property="rdfs:label">Toxicokinetics</td>
     <td property="ncit:C42610">TK</td>
     <td property="dc:description">see ADME (these terms are equivalent, although TK is used exclusively for toxic substances)</td>
   </tr>
-  
-  <tr about="https://vhp4safety.github.io/glossary#VHP0000059" typeof="owl:Class">
-    <td property="rdfs:label">Physiologically based pharmacokinetic model</td>
-    <td property="ncit:C42610">PBPK</td>
-    <td property="dc:description">Mechanistic representation of ADME processes for a chemical in a living organism, based on physiological and chemical properties</td>
-  </tr>
-  
-  <tr about="https://vhp4safety.github.io/glossary#VHP0000060" typeof="owl:Class">
-    <td property="rdfs:label">Physiologically based toxicokinetic model</td>
-    <td property="ncit:C42610">PBTK</td>
-    <td property="dc:description">see PBPK model (these terms are equivalent)</td>
-  </tr>
-  
-  <tr about="https://vhp4safety.github.io/glossary#VHP0000061" typeof="owl:Class">
-    <td property="rdfs:label">Physiologically based biokinetic model</td>
-    <td property="ncit:C42610">PBBK</td>
-    <td property="dc:description">see PBPK model (these terms are equivalent)</td>
-  </tr>
-  
-  <tr about="https://vhp4safety.github.io/glossary#VHP0000062" typeof="owl:Class">
-    <td property="rdfs:label">Physiologically based kinetic model</td>
-    <td property="ncit:C42610">PBK model</td>
-    <td property="dc:description">see PBPK model (these terms are equivalent)</td>
-  </tr>
-  
-  <tr about="https://vhp4safety.github.io/glossary#VHP0000063" typeof="owl:Class">
-    <td property="rdfs:label">In-vitro-in-vivo extrapolation</td>
-    <td property="ncit:C42610">IVIVE</td>
-    <td property="dc:description"></td>
-  </tr>
-  
-  <tr about="https://vhp4safety.github.io/glossary#VHP0000064" typeof="owl:Class">
-    <td property="rdfs:label">Quantitative Structure Activity Relationships</td>
-    <td property="ncit:C42610">QSAR</td>
-    <td property="dc:description">Mathematical models that can be used to predict the physicochemical, biological and environmental fate properties of compounds from the knowledge of their chemical structure.</td>
-  </tr>
-
+          
   <tr about="https://vhp4safety.github.io/glossary#VHP0000084" typeof="owl:Class">
     <td property="rdfs:label">Web Ontology Language</td>
     <td property="ncit:C42610">OWL</td>
@@ -553,12 +553,6 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td><b>Definition</b></td>
   </tr>
 
-  <tr about="https://vhp4safety.github.io/glossary#VHP0000086" typeof="owl:Class">
-    <td property="rdfs:label">Task Force</td>
-    <td property="ncit:C42610">TF</td>
-    <td property="dc:description">Cross work package effort to reach some goal.</td>
-  </tr>
-
   <tr about="https://vhp4safety.github.io/glossary#VHP0000088" typeof="owl:Class">
     <td property="rdfs:label">Research Line</td>
     <td property="ncit:C42610">RL</td>
@@ -581,6 +575,12 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="rdfs:label">Research Line 3</td>
     <td property="ncit:C42610">RL3</td>
     <td property="dc:description">Implementing the Virtual Human Platform.</td>
+  </tr>
+
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000086" typeof="owl:Class">
+    <td property="rdfs:label">Task Force</td>
+    <td property="ncit:C42610">TF</td>
+    <td property="dc:description">Cross work package effort to reach some goal.</td>
   </tr>
 
   <tr about="https://vhp4safety.github.io/glossary#VHP0000087" typeof="owl:Class">
