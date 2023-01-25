@@ -295,6 +295,12 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="dc:description">A computer tool to orchesterize and manage Docker containers.</td>
   </tr>
 
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000099" typeof="owl:Class">
+    <td property="rdfs:label">Platform</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description">A computer environment where a set of software and tools are hosted and made available for the use of others over the internet.<sup><a href="https://en.wikipedia.org/wiki/Computing_platform">ref</a></sup></td>
+  </tr>
+
   <tr about="https://vhp4safety.github.io/glossary#VHP0000094" typeof="owl:Class">
     <td property="rdfs:label">Scalability</td>
     <td property="ncit:C42610"></td>
@@ -347,6 +353,12 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="rdfs:label">Application Programming Interface</td>
     <td property="ncit:C42610">API</td>
     <td property="dc:description"></td>
+  </tr>
+
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000098" typeof="owl:Class">
+    <td property="rdfs:label">Catalog</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description">A systemic collection of items of the same type.<sup><a href="https://ontobee.org/ontology/SIO?iri=http://semanticscience.org/resource/SIO_001241">ref</a></sup></td>
   </tr>
 
   <tr about="https://vhp4safety.github.io/glossary#VHP0000083" typeof="owl:Class">
@@ -515,6 +527,12 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="rdfs:label">Web Ontology Language</td>
     <td property="ncit:C42610">OWL</td>
     <td property="dc:description">RDF standard for making ontologies machine readable.</td>
+  </tr>
+
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000097" typeof="owl:Class">
+    <td property="rdfs:label">Widget</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description">A small software application that is designed to provide a specific piece of information (such as news, weather, or traffic updates) or a specific function (such as taking notes or controlling another application) on demand.<sup><a href="https://www.merriam-webster.com/dictionary/widget">ref</a></sup></td>
   </tr>
 
   <tr about="https://vhp4safety.github.io/glossary#VHP0000092" typeof="owl:Class">
