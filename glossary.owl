@@ -11,6 +11,12 @@
 @prefix wp:     <http://vocabularies.wikipathways.org/wp#> .
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 
+<https://vhp4safety.github.io/glossary#VHP0000099>
+        rdf:type        owl:Class ;
+        rdfs:label      "Platform"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "A computer environment where a set of software and tools are hosted and made available for the use of others over the internet.ref"@en-US .
+
 <https://vhp4safety.github.io/glossary#VHP0000011>
         rdf:type        owl:Class ;
         rdfs:label      "High Throughput Screening"@en-US ;
@@ -46,6 +52,13 @@
         rdfs:label      "Research Line 1"@en-US ;
         ncit:C42610     "RL1"@en-US ;
         dc:description  "Building the Virtual Human Platform."@en-US .
+
+[ rdf:type                      <http://schema.org/WebPage> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "VHP4Safety Glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/glossary.html>
+] .
 
 <https://vhp4safety.github.io/glossary#VHP0000037>
         rdf:type        owl:Class ;
@@ -90,7 +103,7 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=0669f8773ee701dd616d04d585bcbf89a07911ca> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=1e0f3343a759aa2ced08f22ebc35141e1c86d836> ;
         <twitter:title>  "VHP4Safety Glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000003>
@@ -135,6 +148,12 @@
         ncit:C42610     "mAOP"@en-US ;
         dc:description  "Metapathway, similar to conventional AOPs, but connected events as e.g. WikiPathways pathways. Their function is to expand KEs with molecular pathways and allow analyses of omics data."@en-US .
 
+<https://vhp4safety.github.io/glossary#VHP0000098>
+        rdf:type        owl:Class ;
+        rdfs:label      "Catalog"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "A systemic collection of items of the same type.ref"@en-US .
+
 <https://vhp4safety.github.io/glossary#VHP0000010>
         rdf:type        owl:Class ;
         rdfs:label      "New Approach Methodology"@en-US ;
@@ -158,13 +177,6 @@
         rdfs:label      "Workflow"@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "An orchestrated and repeatable multi-step process to coordinate multiple tasks and their data dependencies.ref"@en-US .
-
-[ rdf:type                      <http://schema.org/WebPage> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "VHP4Safety Glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/glossary.html>
-] .
 
 <https://vhp4safety.github.io/glossary#VHP0000064>
         rdf:type        owl:Class ;
@@ -243,6 +255,12 @@
         rdfs:label      "Stressor"@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  ""@en-US .
+
+<https://vhp4safety.github.io/glossary#VHP0000097>
+        rdf:type        owl:Class ;
+        rdfs:label      "Widget"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "A small software application that is designed to provide a specific piece of information (such as news, weather, or traffic updates) or a specific function (such as taking notes or controlling another application) on demand.ref"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000069>
         rdf:type        owl:Class ;
