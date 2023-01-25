@@ -33,7 +33,7 @@
         rdf:type        owl:Class ;
         rdfs:label      "Ontology"@en-US ;
         ncit:C42610     ""@en-US ;
-        dc:description  ""@en-US .
+        dc:description  "a formal specification of the conceptualization of a set of phenomena naming and defining the elements of the set along with describing relations between the concepts, data, and entities; a way of showing the properties of a subject area and how they are related, by defining a set of concepts and categories that represent the subject.ref1,ref2"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000024>
         rdf:type        owl:Class ;
@@ -52,13 +52,6 @@
         rdfs:label      "Research Line 1"@en-US ;
         ncit:C42610     "RL1"@en-US ;
         dc:description  "Building the Virtual Human Platform."@en-US .
-
-[ rdf:type                      <http://schema.org/WebPage> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "VHP4Safety Glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/glossary.html>
-] .
 
 <https://vhp4safety.github.io/glossary#VHP0000037>
         rdf:type        owl:Class ;
@@ -103,7 +96,7 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=1e0f3343a759aa2ced08f22ebc35141e1c86d836> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=526daab3b781ed46000810f13b0032d0935e153f> ;
         <twitter:title>  "VHP4Safety Glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000003>
@@ -230,7 +223,7 @@
         rdf:type        owl:Class ;
         rdfs:label      "Identifier"@en-US ;
         ncit:C42610     ""@en-US ;
-        dc:description  ""@en-US .
+        dc:description  "The unique identifier for an administered item within a registration authority.ref"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000015>
         rdf:type        owl:Class ;
@@ -272,7 +265,7 @@
         rdf:type        owl:Class ;
         rdfs:label      "Open Data"@en-US ;
         ncit:C42610     ""@en-US ;
-        dc:description  ""@en-US .
+        dc:description  "A (collection of) data that can be used, studied, and modified without restriction, and which can be copied and redistributed in modified or unmodified form either without restriction, or with restrictions only to ensure that further recipients can also do these things.ref"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000022>
         rdf:type        owl:Class ;
@@ -303,6 +296,13 @@
         rdfs:label      "Lowest Observed Adverse Effect Level"@en-US ;
         ncit:C42610     "LOAEL"@en-US ;
         dc:description  "The lowest exposure level of a chemical stressor evaluated in a toxicity test that shows harmful effects on a plant or animal."@en-US .
+
+[ rdf:type                      <http://schema.org/WebPage> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "VHP4Safety Glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/glossary.html>
+] .
 
 <https://vhp4safety.github.io/glossary#VHP0000076>
         rdf:type        owl:Class ;
@@ -434,7 +434,7 @@
         rdf:type        owl:Class ;
         rdfs:label      "Application Programming Interface"@en-US ;
         ncit:C42610     "API"@en-US ;
-        dc:description  ""@en-US .
+        dc:description  "A type of software interface that provides a way for two or more computer programs to communicate with each other.ref"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000013>
         rdf:type        owl:Class ;
