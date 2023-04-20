@@ -90,13 +90,13 @@
         <http://vocab.sindice.net/any23#description>
                 "Webpage with the VHP4Safety Glossary"@en-US ;
         <http://vocab.sindice.net/any23#generator>
-                "Jekyll v3.9.2"@en-US ;
+                "Jekyll v3.9.3"@en-US ;
         <http://vocab.sindice.net/any23#twitter:card>
                 "summary"@en-US ;
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=526daab3b781ed46000810f13b0032d0935e153f> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=febf7ba1939c05a36f15c4ab95cb6c97f235a5f6> ;
         <twitter:title>  "VHP4Safety Glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000003>
@@ -297,13 +297,6 @@
         ncit:C42610     "LOAEL"@en-US ;
         dc:description  "The lowest exposure level of a chemical stressor evaluated in a toxicity test that shows harmful effects on a plant or animal."@en-US .
 
-[ rdf:type                      <http://schema.org/WebPage> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "VHP4Safety Glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/glossary.html>
-] .
-
 <https://vhp4safety.github.io/glossary#VHP0000076>
         rdf:type        owl:Class ;
         rdfs:label      "Work Package 3.2"@en-US ;
@@ -418,6 +411,12 @@
         ncit:C42610     ""@en-US ;
         dc:description  "To speed up discovery and uncover new insights, research data should be easily combined with other datasets, applications and workflows by humans as well as computer systems.ref"@en-US .
 
+<https://vhp4safety.github.io/glossary#VHP0000100>
+        rdf:type        owl:Class ;
+        rdfs:label      "Data modeling"@en-US ;
+        ncit:C42610     "DMP"@en-US ;
+        dc:description  "The process of discovering, analyzing, and scoping data requirements, and then representing and communicating these data requirements in a precise form called the data model. This process is iterative and may include a conceptual, logical, and physical model.ref"@en-US .
+
 <https://vhp4safety.github.io/glossary#VHP0000019>
         rdf:type        owl:Class ;
         rdfs:label      "European Centre for the Validation of Alternative Methods"@en-US ;
@@ -452,7 +451,7 @@
         rdf:type        owl:Class ;
         rdfs:label      "Data Management Plan"@en-US ;
         ncit:C42610     "DMP"@en-US ;
-        dc:description  ""@en-US .
+        dc:description  "Plans to serve to address the what, how, who, and where of data management by formally outlining the roles, responsibilities, and activities for managing data during and after research in alignment with FAIR principles.ref"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000026>
         rdf:type        owl:Class ;
@@ -531,6 +530,13 @@
         rdfs:label      "Physiologically based pharmacokinetic model"@en-US ;
         ncit:C42610     "PBPK"@en-US ;
         dc:description  "Mechanistic representation of ADME processes for a chemical in a living organism, based on physiological and chemical properties"@en-US .
+
+[ rdf:type                      <http://schema.org/WebPage> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "VHP4Safety Glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/glossary.html>
+] .
 
 <https://vhp4safety.github.io/glossary#VHP0000040>
         rdf:type        owl:Class ;
