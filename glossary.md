@@ -382,7 +382,13 @@ Experienced GitHub users are encouraged to submit pull requests.
   <tr about="https://vhp4safety.github.io/glossary#VHP0000054" typeof="owl:Class">
     <td property="rdfs:label">Data Management Plan</td>
     <td property="ncit:C42610">DMP</td>
-    <td property="dc:description"></td>
+    <td property="dc:description">Plans to serve to address the what, how, who, and where of data management by formally outlining the roles, responsibilities, and activities for managing data during and after research in alignment with FAIR principles.<sup><a href="https://doi.org/10.1016/B978-0-08-102295-5.10531-1">ref</a></sup></td>
+  </tr>
+
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000100" typeof="owl:Class">
+    <td property="rdfs:label">Data modeling</td>
+    <td property="ncit:C42610">DMP</td>
+    <td property="dc:description">The process of discovering, analyzing, and scoping data requirements, and then representing and communicating these data requirements in a precise form called the data model. This process is iterative and may include a conceptual, logical, and physical model.<sup><a href="https://www.dama.org/cpages/body-of-knowledge">ref</a></sup></td>
   </tr>
 
   <tr about="https://vhp4safety.github.io/glossary#VHP0000042" typeof="owl:Class">
