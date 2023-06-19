@@ -157,6 +157,18 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="dc:description">Legislator</td>
   </tr>
 
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000104" typeof="owl:Class">
+    <td property="rdfs:label">Exposure Assessment</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description">The process of assessing the magnitude, frequency and duration of exposure of a certain organism to a certain agent; OF the process of assessing the total external (or internal) exposure following one or more exposure/use scenarios that are described in terms of route, extent, frequency and duration of exposure, including exposure via more than one exposure route (aggregated exposure) and exposure to multiple chemicals (cumulative exposure).</td>
+  </tr>
+
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000102" typeof="owl:Class">
+    <td property="rdfs:label">Hazard Assessment</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description">The process of assessing the intrinsic hazard a substance poses to human health and/or the environment. This provides information on potential human health effects such that a safe production and use of a chemical can be assured. Two types can be generally distinguished, i.e. with the purpose to classify the chemical to a certain category of toxicity (mostly qualitative assessment) or to derive an exposure limit, such as a health-based guidance value or product limit, that ensures safe use.</td>
+  </tr>
+
   <tr about="https://vhp4safety.github.io/glossary#VHP0000017" typeof="owl:Class">
     <td property="rdfs:label">Integrated Approaches to Testing and Assessment</td>
     <td property="ncit:C42610">IATA</td>
@@ -173,6 +185,18 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="rdfs:label">The legislation of ‘Registration, Evaluation, Authorisation and Restriction of Chemicals’</td>
     <td property="ncit:C42610">REACH</td>
     <td property="dc:description">Regulation (EC) No 1907/2006 of the European Parliament and of the Council concerning the Registration, Evaluation, Authorisation and Restriction of Chemicals (REACH).<sup><a href="http://data.europa.eu/eli/reg/2006/1907/2022-05-01">ref</a></sup></td>
+  </tr>
+
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000101" typeof="owl:Class">
+    <td property="rdfs:label">Risk Assessment</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description">The process of assessing human health risks in a historic, current or emerging exposure scenario for which a concern has risen.</td>
+  </tr>
+
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000103" typeof="owl:Class">
+    <td property="rdfs:label">Safety Assessment</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description">The overarching term for hazard and risk assessment in toxicology. For pharmaceuticals, this term is generally used for assessments of the safety of a certain application of pharmaceuticals, including the determination of the therapeutic window and risk/benefit analysis.</td>
   </tr>
   
 </table>
