@@ -433,10 +433,16 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="dc:description">The FAIR principles emphasise machine-actionability (i.e., the capacity of computational systems to find, access, interoperate, and reuse data with none or minimal human intervention) because humans increasingly rely on computational support to deal with data as a result of the increase in volume, complexity, and creation speed of data.<sup><a href="https://www.go-fair.org/fair-principles/">ref</a></sup></td>
   </tr>
 
-  <tr about="https://vhp4safety.github.io/glossary#VHP0000043" typeof="owl:Class">
+ <tr about="https://vhp4safety.github.io/glossary#VHP0000043" typeof="owl:Class">
     <td property="rdfs:label">Identifier</td>
     <td property="ncit:C42610"></td>
     <td property="dc:description">The unique identifier for an administered item within a registration authority.<sup><a href="https://stats.oecd.org/glossary/detail.asp?ID=3012">ref</a></sup></td>
+  </tr>
+
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000105" typeof="owl:Class">
+    <td property="rdfs:label">Hackathon</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description">An event in which computer programmers collaborate intensively with one another and sometimes with people in other specialties over a relatively short period of time to create code usually for a new software product or service.<sup><a href="https://www.merriam-webster.com/dictionary/hackathon">ref</a></sup></td>
   </tr>
 
   <tr about="https://vhp4safety.github.io/glossary#VHP0000063" typeof="owl:Class">
@@ -444,13 +450,13 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="ncit:C42610">IVIVE</td>
     <td property="dc:description"></td>
   </tr>
-      
+
   <tr about="https://vhp4safety.github.io/glossary#VHP0000047" typeof="owl:Class">
     <td property="rdfs:label">Interoperable</td>
     <td property="ncit:C42610"></td>
     <td property="dc:description">To speed up discovery and uncover new insights, research data should be easily combined with other datasets, applications and workflows by humans as well as computer systems.<sup><a href="https://www.go-fair.org/fair-principles/">ref</a></sup></td>
   </tr>
-  
+
   <tr about="https://vhp4safety.github.io/glossary#VHP0000091" typeof="owl:Class">
     <td property="rdfs:label">Mathematical Markup Language</td>
     <td property="ncit:C42610">MathML</td>
