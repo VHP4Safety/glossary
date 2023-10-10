@@ -102,7 +102,7 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=79277d6c89ec9224ed3804b4beeab16d864613c5> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=82926f9cebbb064c094898d2d2955f868eda9938> ;
         <twitter:title>  "VHP4Safety Glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000003>
@@ -345,6 +345,13 @@
         ncit:C42610     "WP1.3"@en-US ;
         dc:description  "Computational toxicodynamics: objectives to develop QSAR and MIE prediction models, develop qAOPs, testing the platform and generating safety estimates."@en-US .
 
+[ rdf:type                      <http://schema.org/WebPage> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "VHP4Safety Glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/glossary.html>
+] .
+
 <https://vhp4safety.github.io/glossary#VHP0000042>
         rdf:type        owl:Class ;
         rdfs:label      "Data stewardship"@en-US ;
@@ -386,6 +393,12 @@
         rdfs:label      "Work Package 1.1"@en-US ;
         ncit:C42610     "WP1.1"@en-US ;
         dc:description  "Building the ICT infrastructure for the VHP: objectives to develop the technical infrastructure, setting up a predictive platform, developing analysis workflows, making services and data available and interoperable."@en-US .
+
+<https://vhp4safety.github.io/glossary#VHP0000106>
+        rdf:type        owl:Class ;
+        rdfs:label      "Research Output Management Plan"@en-US ;
+        ncit:C42610     "ROMP"@en-US ;
+        dc:description  "Descriprion of the process of organising and documenting the diverse range of outputs generated during the research lifecycle.ref</tr> </tr> "@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000021>
         rdf:type        owl:Class ;
@@ -458,13 +471,6 @@
         rdfs:label      "Read accross"@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "A common approach in the risk assessment in order to examine structural similarities between the source and the target substances when there is a lack of information on their physical-chemical, toxicological properties, or environmental fate."@en-US .
-
-[ rdf:type                      <http://schema.org/WebPage> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "VHP4Safety Glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/glossary.html>
-] .
 
 <https://vhp4safety.github.io/glossary#VHP0000082>
         rdf:type        owl:Class ;
