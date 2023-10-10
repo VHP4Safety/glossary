@@ -529,6 +529,12 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="dc:description">Mathematical models that can be used to predict the physicochemical, biological and environmental fate properties of compounds from the knowledge of their chemical structure.</td>
   </tr>
 
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000106" typeof="owl:Class">
+    <td property="rdfs:label">Research Output Management Plan</td>
+    <td property="ncit:C42610">ROMP</td>
+    <td property="dc:description">Descriprion of the process of organising and documenting the diverse range of outputs generated during the research lifecycle.<sup><a href="https://doi.org/10.32388/ZNWI7T">ref</a></sup></tr>
+  </tr>
+
   <tr about="https://vhp4safety.github.io/glossary#VHP0000051" typeof="owl:Class">
     <td property="rdfs:label">Resource Description Framework</td>
     <td property="ncit:C42610">RDF</td>
