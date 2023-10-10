@@ -148,7 +148,7 @@ Experienced GitHub users are encouraged to submit pull requests.
   <tr about="https://vhp4safety.github.io/glossary#VHP0000020" typeof="owl:Class">
     <td property="rdfs:label">European Chemical Agency</td>
     <td property="ncit:C42610">ECHA</td>
-    <td property="dc:description">Legislator</td>
+    <td property="dc:description">An agency of the European Union which manages the technical and administrative aspects of the implementation of the European Union regulation called Registration, Evaluation, Authorisation and Restriction of Chemicals.<sup><a href="https://echa.europa.eu/">ref</a></sup></td>
   </tr>
 
   <tr about="https://vhp4safety.github.io/glossary#VHP0000021" typeof="owl:Class">
@@ -475,6 +475,12 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="dc:description">A simplified (generally mathematical) representation of a real system (e.g. of system: an organism, an organ, a cell, etc.)</td>
   </tr>
 
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000107" typeof="owl:Class">
+    <td property="rdfs:label">Module</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description"><em>[Software Component]</em> An individual component (software, dataset or in vitro method description) that is hosted, or linked to in the VHP4Safety platform.<sup><a href="https://www.dictionary.com/browse/module">ref</a></sup></td>
+  </tr>
+
   <tr about="https://vhp4safety.github.io/glossary#VHP0000052" typeof="owl:Class">
     <td property="rdfs:label">Ontology</td>
     <td property="ncit:C42610"></td>
@@ -532,7 +538,7 @@ Experienced GitHub users are encouraged to submit pull requests.
   <tr about="https://vhp4safety.github.io/glossary#VHP0000106" typeof="owl:Class">
     <td property="rdfs:label">Research Output Management Plan</td>
     <td property="ncit:C42610">ROMP</td>
-    <td property="dc:description">Descriprion of the process of organising and documenting the diverse range of outputs generated during the research lifecycle.<sup><a href="https://doi.org/10.32388/ZNWI7T">ref</a></sup></tr>
+    <td property="dc:description">Descriprion of the process of organising and documenting the diverse range of outputs generated during the research lifecycle.<sup><a href="https://doi.org/10.32388/ZNWI7T">ref</a></sup></td>
   </tr>
 
   <tr about="https://vhp4safety.github.io/glossary#VHP0000051" typeof="owl:Class">
