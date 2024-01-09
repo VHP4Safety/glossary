@@ -102,7 +102,7 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=73b6bbe5a776ac57fcc51596c2be88eade70ae56> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=60148a2ed6dd6461ca69e22f3ff36a4125f0314b> ;
         <twitter:title>  "VHP4Safety Glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000003>
@@ -426,7 +426,7 @@
 <https://vhp4safety.github.io/glossary#VHP0000006>
         rdf:type        owl:Class ;
         rdfs:label      "Embryonic Stem Cell"@en-US ;
-        ncit:C42610     "EST"@en-US ;
+        ncit:C42610     "ESC"@en-US ;
         dc:description  "Typically combined like: hESTc (human, cardiac)."@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000075>
@@ -458,6 +458,13 @@
         rdfs:label      "Research Line"@en-US ;
         ncit:C42610     "RL"@en-US ;
         dc:description  "Formal structure within a project to reach some goal."@en-US .
+
+[ rdf:type                      <http://schema.org/WebPage> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "VHP4Safety Glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/glossary.html>
+] .
 
 <https://vhp4safety.github.io/glossary#VHP0000041>
         rdf:type        owl:Class ;
@@ -661,13 +668,6 @@
         rdfs:label      "Findable"@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "Metadata and data should be easy to find for both humans and computers. Machine-readable metadata are essential for automatic discovery of datasets and services.ref"@en-US .
-
-[ rdf:type                      <http://schema.org/WebPage> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "VHP4Safety Glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/glossary.html>
-] .
 
 <https://vhp4safety.github.io/glossary#VHP0000017>
         rdf:type        owl:Class ;
