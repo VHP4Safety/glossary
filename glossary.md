@@ -63,7 +63,7 @@ Experienced GitHub users are encouraged to submit pull requests.
 
   <tr about="https://vhp4safety.github.io/glossary#VHP0000006" typeof="owl:Class">
     <td property="rdfs:label">Embryonic Stem Cell</td>
-    <td property="ncit:C42610">EST</td>
+    <td property="ncit:C42610">ESC</td>
     <td property="dc:description">Typically combined like: hESTc (human, cardiac).</td>
   </tr>
 
