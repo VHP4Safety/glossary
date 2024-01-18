@@ -102,7 +102,7 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=60148a2ed6dd6461ca69e22f3ff36a4125f0314b> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=ab7712b2c620d60e4c156eb1f4af9e150b137e06> ;
         <twitter:title>  "VHP4Safety Glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000003>
@@ -158,6 +158,12 @@
         rdfs:label      "New Approach Methodology"@en-US ;
         ncit:C42610     "NAM"@en-US ;
         dc:description  ""@en-US .
+
+<https://vhp4safety.github.io/glossary#VHP0000108>
+        rdf:type        owl:Class ;
+        rdfs:label      "induced Embryonic Stem Cell"@en-US ;
+        ncit:C42610     "iPSCs"@en-US ;
+        dc:description  "A type of pluripotent stem cell that can be generated directly from adult cells. The process of creating iPSCs involves reprogramming differentiated somatic cells (such as skin or blood cells) by introducing specific genes that reset the cells to a pluripotent state. This reprogramming allows iPSCs to develop into almost any cell type in the body, similarly to hESCs, making them highly valuable for regenerative medicine, disease modelling, and drug discovery."@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000051>
         rdf:type        owl:Class ;
@@ -303,6 +309,13 @@
         ncit:C42610     "IVIVE"@en-US ;
         dc:description  ""@en-US .
 
+[ rdf:type                      <http://schema.org/WebPage> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "VHP4Safety Glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/glossary.html>
+] .
+
 <https://vhp4safety.github.io/glossary#VHP0000035>
         rdf:type        owl:Class ;
         rdfs:label      "Docker image"@en-US ;
@@ -425,9 +438,9 @@
 
 <https://vhp4safety.github.io/glossary#VHP0000006>
         rdf:type        owl:Class ;
-        rdfs:label      "Embryonic Stem Cell"@en-US ;
-        ncit:C42610     "ESC"@en-US ;
-        dc:description  "Typically combined like: hESTc (human, cardiac)."@en-US .
+        rdfs:label      "(human) Embryonic Stem Cell"@en-US ;
+        ncit:C42610     "(h)ESCs"@en-US ;
+        dc:description  "Pluripotent stem cells derived from the inner cell mass of a blastocyst (an early-stage pre-implantation embryo). These cells are characterised by their ability to differentiate into any cell type of the three germ layers: ectoderm, mesoderm, and endoderm. They are also known for their self-renewal capability, meaning they can proliferate indefinitely in culture while maintaining their pluripotency."@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000075>
         rdf:type        owl:Class ;
@@ -458,13 +471,6 @@
         rdfs:label      "Research Line"@en-US ;
         ncit:C42610     "RL"@en-US ;
         dc:description  "Formal structure within a project to reach some goal."@en-US .
-
-[ rdf:type                      <http://schema.org/WebPage> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "VHP4Safety Glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/glossary.html>
-] .
 
 <https://vhp4safety.github.io/glossary#VHP0000041>
         rdf:type        owl:Class ;
