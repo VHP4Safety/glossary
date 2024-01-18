@@ -62,9 +62,15 @@ Experienced GitHub users are encouraged to submit pull requests.
   </tr>
 
   <tr about="https://vhp4safety.github.io/glossary#VHP0000006" typeof="owl:Class">
-    <td property="rdfs:label">Embryonic Stem Cell</td>
-    <td property="ncit:C42610">ESC</td>
-    <td property="dc:description">Typically combined like: hESTc (human, cardiac).</td>
+    <td property="rdfs:label">(human) Embryonic Stem Cell</td>
+    <td property="ncit:C42610">(h)ESCs</td>
+    <td property="dc:description">Pluripotent stem cells derived from the inner cell mass of a blastocyst (an early-stage pre-implantation embryo). These cells are characterised by their ability to differentiate into any cell type of the three germ layers: ectoderm, mesoderm, and endoderm. They are also known for their self-renewal capability, meaning they can proliferate indefinitely in culture while maintaining their pluripotency.</td>
+  </tr>
+
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000108" typeof="owl:Class">
+    <td property="rdfs:label">induced Embryonic Stem Cell</td>
+    <td property="ncit:C42610">iPSCs</td>
+    <td property="dc:description">A type of pluripotent stem cell that can be generated directly from adult cells. The process of creating iPSCs involves reprogramming differentiated somatic cells (such as skin or blood cells) by introducing specific genes that reset the cells to a pluripotent state. This reprogramming allows iPSCs to develop into almost any cell type in the body, similarly to hESCs, making them highly valuable for regenerative medicine, disease modelling, and drug discovery.</td>
   </tr>
 
   <tr about="https://vhp4safety.github.io/glossary#VHP0000007" typeof="owl:Class">
