@@ -570,6 +570,12 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="ncit:C42610">TRL</td>
     <td property="dc:description">TRLs are a method for estimating the maturity of technologies during the acquisition phase of a program.<sup><a href="https://en.wikipedia.org/wiki/Technology_readiness_level">ref</a></sup></td>
   </tr>
+
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000109" typeof="owl:Class">
+    <td property="rdfs:label">Template</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description">A thing that is used as a model for producing other similar examples.<sup><a href="https://www.oxfordlearnersdictionaries.com/definition/english/template">ref</a></sup></td>
+  </tr>
       
   <tr about="https://vhp4safety.github.io/glossary#VHP0000058" typeof="owl:Class">
     <td property="rdfs:label">Toxicokinetics</td>
