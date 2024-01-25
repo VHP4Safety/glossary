@@ -94,7 +94,7 @@ Experienced GitHub users are encouraged to submit pull requests.
   <tr about="https://vhp4safety.github.io/glossary#VHP0000010" typeof="owl:Class">
     <td property="rdfs:label">New Approach Methodology</td>
     <td property="ncit:C42610">NAM</td>
-    <td property="dc:description"></td>
+    <td property="dc:description">A collection of various methods (e.g., high-throughput screening and high-content methods) in a wide set of contexts including <em>in chemico</em> and <em>in vitro</em> to improve knowledge over the toxicokinetic or toxicodynamic attributes of chemical substances, and in turn to improve the chemical safety assessment.<sup><a href="https://echa.europa.eu/documents/10162/22816069/scientific_ws_proceedings_en.pdf/a2087434-0407-4705-9057-95d9c2c2cc57">ref1</a></sup><sup>, </sup><sup><a href="https://doi.org/10.1016/j.yrtph.2022.105261">ref2</a></sup></td>
   </tr>
   
   <tr about="https://vhp4safety.github.io/glossary#VHP0000011" typeof="owl:Class">
