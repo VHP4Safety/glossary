@@ -108,7 +108,7 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=c11adeb64b0c0cdd28b60af65bee828f34906615> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=8a00009993bfc731dc57f9308b818bacd60c0832> ;
         <twitter:title>  "VHP4Safety Glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000003>
@@ -146,6 +146,12 @@
         rdfs:label      "Pharmacokinetics"@en-US ;
         ncit:C42610     "PK"@en-US ;
         dc:description  "see ADME (these terms are equivalent)"@en-US .
+
+<https://vhp4safety.github.io/glossary#VHP0000110>
+        rdf:type        owl:Class ;
+        rdfs:label      "Non-Animal Methodology"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "A collection of methods to evaluate the potential for a chemical to cause systematic toxicity without using tests on animals.ref"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000029>
         rdf:type        owl:Class ;
@@ -519,6 +525,13 @@
         ncit:C42610     ""@en-US ;
         dc:description  "The server provided by Strato where the Docker containers used in the project are deployed."@en-US .
 
+[ rdf:type                      <http://schema.org/WebPage> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "VHP4Safety Glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/glossary.html>
+] .
+
 <https://vhp4safety.github.io/glossary#VHP0000105>
         rdf:type        owl:Class ;
         rdfs:label      "Hackathon"@en-US ;
@@ -578,13 +591,6 @@
         rdfs:label      "Physiologically based pharmacokinetic model"@en-US ;
         ncit:C42610     "PBPK"@en-US ;
         dc:description  "Mechanistic representation of ADME processes for a chemical in a living organism, based on physiological and chemical properties"@en-US .
-
-[ rdf:type                      <http://schema.org/WebPage> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "VHP4Safety Glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/glossary.html>
-] .
 
 <https://vhp4safety.github.io/glossary#VHP0000040>
         rdf:type        owl:Class ;
