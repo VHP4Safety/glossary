@@ -94,13 +94,13 @@ Experienced GitHub users are encouraged to submit pull requests.
   <tr about="https://vhp4safety.github.io/glossary#VHP0000010" typeof="owl:Class">
     <td property="rdfs:label">New Approach Methodology</td>
     <td property="ncit:C42610">NAM</td>
-    <td property="dc:description">A collection of various methods (e.g., high-throughput screening and high-content methods) in a wide set of contexts including <em>in chemico</em> and <em>in vitro</em> to improve knowledge over the toxicokinetic or toxicodynamic attributes of chemical substances, and in turn to improve the chemical safety assessment.<sup><a href="https://echa.europa.eu/documents/10162/22816069/scientific_ws_proceedings_en.pdf/a2087434-0407-4705-9057-95d9c2c2cc57">ref1</a></sup><sup>, </sup><sup><a href="https://doi.org/10.1016/j.yrtph.2022.105261">ref2</a></sup></td>
+    <td property="dc:description">A collection of various methods (e.g., high-throughput screening and high-content methods) in a wide set of contexts including <em>in chemico</em> and <em>in vitro</em> to improve knowledge over the toxicokinetic or toxicodynamic attributes of chemical substances, and in turn to improve the chemical safety assessment (see also Non-Animal Methodology).<sup><a href="https://echa.europa.eu/documents/10162/22816069/scientific_ws_proceedings_en.pdf/a2087434-0407-4705-9057-95d9c2c2cc57">ref1</a></sup><sup>, </sup><sup><a href="https://doi.org/10.1016/j.yrtph.2022.105261">ref2</a></sup></td>
   </tr>
 
   <tr about="https://vhp4safety.github.io/glossary#VHP0000110" typeof="owl:Class">
     <td property="rdfs:label">Non-Animal Methodology</td>
     <td property="ncit:C42610"></td>
-    <td property="dc:description">A collection of methods to evaluate the potential for a chemical to cause systematic toxicity without using tests on animals.<sup><a href="https://doi.org/10.1007/s00204-014-1421-5">ref</a></sup></td>
+    <td property="dc:description">A collection of methods to evaluate the potential for a chemical to cause systematic toxicity without using tests on animals (see also New Approach Methodology).<sup><a href="https://doi.org/10.1007/s00204-014-1421-5">ref</a></sup></td>
   </tr>
   
   <tr about="https://vhp4safety.github.io/glossary#VHP0000011" typeof="owl:Class">
@@ -456,6 +456,12 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="ncit:C42610"></td>
     <td property="dc:description">An event in which computer programmers collaborate intensively with one another and sometimes with people in other specialties over a relatively short period of time to create code usually for a new software product or service.<sup><a href="https://www.merriam-webster.com/dictionary/hackathon">ref</a></sup></td>
   </tr>
+  
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000112" typeof="owl:Class">
+    <td property="rdfs:label">Human-Readable Data</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description">A data or dataset that is in a format that can be naturally read by humans. It usually contrasts with machine-readable data.<sup><a href="https://en.wikipedia.org/wiki/Human-readable_medium_and_data">ref</a></sup></td>
+  </tr>
 
   <tr about="https://vhp4safety.github.io/glossary#VHP0000063" typeof="owl:Class">
     <td property="rdfs:label">In-vitro-in-vivo extrapolation</td>
@@ -467,6 +473,12 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="rdfs:label">Interoperable</td>
     <td property="ncit:C42610"></td>
     <td property="dc:description">To speed up discovery and uncover new insights, research data should be easily combined with other datasets, applications and workflows by humans as well as computer systems.<sup><a href="https://www.go-fair.org/fair-principles/">ref</a></sup></td>
+  </tr>
+
+  <tr about="https://vhp4safety.github.io/glossary#VHP0000111" typeof="owl:Class">
+    <td property="rdfs:label">Machine-Readable Data</td>
+    <td property="ncit:C42610"></td>
+    <td property="dc:description">A data or dataset that is in a format that can be read by a computer. It usually contrasts with human-readable data.<sup><a href="https://en.wikipedia.org/wiki/Machine-readable_medium_and_data">ref</a></sup></td>
   </tr>
 
   <tr about="https://vhp4safety.github.io/glossary#VHP0000091" typeof="owl:Class">
@@ -761,15 +773,14 @@ Experienced GitHub users are encouraged to submit pull requests.
     <td property="ncit:C42610">ECTOC</td>
     <td property="dc:description">The European Centre for Ecotoxicology and Toxicology of Chemicals (ECETOC) is a scientific, non-profit, non-commercial and non-governmental
       association. Established in 1978, ECETOC's main objective is to identify, evaluate, and through such knowledge help industry to minimise any potentially adverse
-      effects on human health and the environment that may arise from the manufacture and use of chemicals, biomaterials and pharmaceuticals.
-      [source:<a href="https://en.wikipedia.org/wiki/European_Centre_for_Ecotoxicology_and_Toxicology_of_Chemicals">Wikipedia</a>]</td>
+      effects on human health and the environment that may arise from the manufacture and use of chemicals, biomaterials and pharmaceuticals.<sup><a href="https://en.wikipedia.org/wiki/European_Centre_for_Ecotoxicology_and_Toxicology_of_Chemicals">ref</a></sup></td>
   </tr>
 
 </table>
 
 ### References
 
-1. Michie, S., West, R. & Hastings, J. Creating ontological definitions for use in science. Qeios (2022) doi:[10.32388/YGIF9B.2](https://doi.org/10.32388/YGIF9B.2).
+1. Michie, S., West, R. & Hastings, J. Creating ontological definitions for use in science. Qeios (2022). DOI: [10.32388/YGIF9B.2](https://doi.org/10.32388/YGIF9B.2).
 
 
 ### Funding
