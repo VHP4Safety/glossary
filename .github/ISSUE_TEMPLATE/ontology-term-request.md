@@ -1,14 +1,16 @@
 ---
 name: Ontology Term Request
 about: Report a term missing in the ontology
-title: "[TERM REQUEST] **add here the label of the term**"
+title: "QSPR"
 labels: categorization
 assignees: ''
 
 ---
 
 **What would be a label for the terms to categorize the entries in the glossary?**
-Labels are used for categorizating the entries in the glossary, e.g., terms that are related to toxicology, adverse outcome pathways, etc. 
+Labels are used for categorizating the entries in the glossary, e.g., terms that are related to toxicology, adverse outcome pathways, etc.
+
+Quantitative Structure Properties Relationships
 
 **What is the definition of the term?**
 A clear and concise definition of what you want to happen.
