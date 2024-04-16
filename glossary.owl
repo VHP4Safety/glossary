@@ -108,7 +108,7 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=c95b62cd0bc961d8feac83439e8431046650bb25> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=cb0eb78aeaf8c1d59503485879b95f708fb2ab94> ;
         <twitter:title>  "VHP4Safety Glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000003>
@@ -662,6 +662,13 @@
         ncit:C42610     "PBTK"@en-US ;
         dc:description  "see PBPK model (these terms are equivalent)"@en-US .
 
+[ rdf:type                      <http://schema.org/WebPage> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "VHP4Safety Glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/glossary.html>
+] .
+
 <https://vhp4safety.github.io/glossary#VHP0000032>
         rdf:type        owl:Class ;
         rdfs:label      "Docker"@en-US ;
@@ -679,13 +686,6 @@
         rdfs:label      "Work Package 2.3"@en-US ;
         ncit:C42610     "WP2.3"@en-US ;
         dc:description  "Life course exposure - Case study neurodegenerative disease and life course exposure to chemicals: objectives to identify critical physiological pathways, model life time exposure, develop AOP networks, test toxicity and assess the safety of selected chemicals."@en-US .
-
-[ rdf:type                      <http://schema.org/WebPage> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "VHP4Safety Glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/glossary.html>
-] .
 
 <https://vhp4safety.github.io/glossary#VHP0000045>
         rdf:type        owl:Class ;
