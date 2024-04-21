@@ -89,28 +89,6 @@
         ncit:C42610     "qAOP"@en-US ;
         dc:description  "Quantitative AOPs, \"Leiden approach\" to connect events using differential equations."@en-US .
 
-<https://glossary.vhp4safety.nl/glossary>
-        og:description   "Webpage with the VHP4Safety Glossary"@en-US ;
-        og:locale        "en_US"@en-US ;
-        og:site_name     "glossary"@en-US ;
-        og:title         "VHP4Safety Glossary"@en-US ;
-        og:type          "website"@en-US ;
-        og:url           "https://glossary.vhp4safety.nl/glossary.html"@en-US ;
-        dct:title        "VHP4Safety Glossary | glossary" ;
-        <http://vocab.sindice.net/any23#X-UA-Compatible>
-                "IE=edge"@en-US ;
-        <http://vocab.sindice.net/any23#description>
-                "Webpage with the VHP4Safety Glossary"@en-US ;
-        <http://vocab.sindice.net/any23#generator>
-                "Jekyll v3.9.5"@en-US ;
-        <http://vocab.sindice.net/any23#twitter:card>
-                "summary"@en-US ;
-        <http://vocab.sindice.net/any23#viewport>
-                "width=device-width, initial-scale=1"@en-US ;
-        <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=9c404cdaba716100379c5f2e87a9465bac62f5e5> ;
-        <twitter:title>  "VHP4Safety Glossary"@en-US .
-
 <https://vhp4safety.github.io/glossary#VHP0000003>
         rdf:type        owl:Class ;
         rdfs:label      "Bench mark dose modeling"@en-US ;
@@ -411,6 +389,14 @@
         ncit:C42610     "WP1.1"@en-US ;
         dc:description  "Building the ICT infrastructure for the VHP: objectives to develop the technical infrastructure, setting up a predictive platform, developing analysis workflows, making services and data available and interoperable."@en-US .
 
+[ rdf:type                      <http://schema.org/WebSite> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "VHP4Safety Glossary" ;
+  <http://schema.org/name>      "glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
+] .
+
 <https://vhp4safety.github.io/glossary#VHP0000106>
         rdf:type        owl:Class ;
         rdfs:label      "Research Output Management Plan"@en-US ;
@@ -482,6 +468,28 @@
         rdfs:label      "Application Programming Interface"@en-US ;
         ncit:C42610     "API"@en-US ;
         dc:description  "A type of software interface that provides a way for two or more computer programs to communicate with each other.ref"@en-US .
+
+<https://glossary.vhp4safety.nl/>
+        og:description   "Webpage with the VHP4Safety Glossary"@en-US ;
+        og:locale        "en_US"@en-US ;
+        og:site_name     "glossary"@en-US ;
+        og:title         "VHP4Safety Glossary"@en-US ;
+        og:type          "website"@en-US ;
+        og:url           "https://glossary.vhp4safety.nl/"@en-US ;
+        dct:title        "VHP4Safety Glossary | glossary" ;
+        <http://vocab.sindice.net/any23#X-UA-Compatible>
+                "IE=edge"@en-US ;
+        <http://vocab.sindice.net/any23#description>
+                "Webpage with the VHP4Safety Glossary"@en-US ;
+        <http://vocab.sindice.net/any23#generator>
+                "Jekyll v3.9.5"@en-US ;
+        <http://vocab.sindice.net/any23#twitter:card>
+                "summary"@en-US ;
+        <http://vocab.sindice.net/any23#viewport>
+                "width=device-width, initial-scale=1"@en-US ;
+        <http://www.w3.org/1999/xhtml/vocab#stylesheet>
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=2b6e0ecf602198ae6183d8f25da49974b3a29c37> ;
+        <twitter:title>  "VHP4Safety Glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000013>
         rdf:type        owl:Class ;
@@ -632,13 +640,6 @@
         rdfs:label      "Research Line 2"@en-US ;
         ncit:C42610     "RL2"@en-US ;
         dc:description  "Feeding the Virtual Human Platform."@en-US .
-
-[ rdf:type                      <http://schema.org/WebPage> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "VHP4Safety Glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/glossary.html>
-] .
 
 <https://vhp4safety.github.io/glossary#VHP0000038>
         rdf:type        owl:Class ;
