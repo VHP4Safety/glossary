@@ -19,7 +19,8 @@ This glossary is under development. For example, many definitions do not meet th
 To make new entry queries, please create an issue [here](https://github.com/VHP4Safety/glossary/issues/new/choose)
 using the [issue template](https://github.com/VHP4Safety/glossary/blob/main/.github/ISSUE_TEMPLATE/ontology-term-request.md).
 For other issues, suggestions, or problems, please create an issue [here](https://github.com/VHP4Safety/glossary/issues). 
-Experienced GitHub users are encouraged to submit pull requests.
+Experienced GitHub users are encouraged to submit pull requests. More information can be found in the project
+[README](README.md).
 
 
 ## Toxicology in General
