@@ -2,7 +2,7 @@
 
 This webpage includes the glossary  of the terms that are relevant to the [VHP4Safety](https://vhp4safety.nl/) Project.
 
-The (current **development version** of) the glossary can be found [here](glossary.md). The [OWL version](glossary.owl)
+The (current **development version** of) the glossary can be found [here](index.md). The [OWL version](glossary.owl)
 is also available.
 
 ## Metadata

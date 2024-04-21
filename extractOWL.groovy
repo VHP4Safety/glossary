@@ -11,7 +11,7 @@ import org.apache.any23.writer.NTriplesWriter
 workspaceRoot = "../ws"
 rdf = new net.bioclipse.managers.RDFManager(workspaceRoot);
 
-url = "https://vhp4safety.github.io/glossary/glossary"
+url = "https://vhp4safety.github.io/glossary/"
 
 Any23 runner = new Any23();
 runner.setHTTPUserAgent("test-user-agent");
