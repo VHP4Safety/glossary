@@ -13,7 +13,7 @@ body:
     attributes:
       label: Label
       description: What would be a label for the terms to categorize the entries in the glossary?
-      placeholder: e.g., Quantitative Structure Properties Relationships
+      placeholder: e.g., Lowest Observed Adverse Effect Level
     validations:
       required: true
   - type: markdown
@@ -26,6 +26,7 @@ body:
     attributes:
       label: Definition
       description: What is the definition of the term?
+      placeholder: e.g., 	The lowest exposure level of a chemical stressor evaluated in a toxicity test that shows harmful effects on a plant or animal.
     validations:
       required: true
   - type: markdown
@@ -34,13 +35,17 @@ body:
         A clear and concise definition of what you want to happen.
 
   - type: input
+    id: acronym
+    attributes:
+      label: Acronym
+      description: What is the definition of the term?
+      placeholder: e.g., 	LOAEL
+
+  - type: input
     id: ontology
     attributes:
       label: Ontology
       description: Is there an ontology that has this term?
-      placeholder: e.g., Quantitative Structure Properties Relationships
-    validations:
-      required: true
   - type: markdown
     attributes:
       value: |
