@@ -1,6 +1,6 @@
 name: Ontology Term Request
 description: Report a term missing in the ontology
-title: "[TERM] Please add this glossary term"
+title: "[TERM REQUEST] Please add this glossary term"
 labels: ["categorization"]
 body:
   - type: markdown
