@@ -11,7 +11,7 @@ This work is licensed under the [CC-BY 4.0 International](https://github.com/VHP
 
 ## New content?
 
-To make new entry queries, please create an issue [here](https://github.com/VHP4Safety/glossary/issues/new/choose) using the [issue template](https://github.com/VHP4Safety/glossary/blob/main/.github/ISSUE_TEMPLATE/ontology-term-request.md). Experienced GitHub users
+To make new entry queries, please create an issue [here](https://github.com/VHP4Safety/glossary/issues/new/choose) using the [issue template]([https://github.com/VHP4Safety/glossary/blob/main/.github/ISSUE_TEMPLATE/ontology-term-request.md](https://github.com/VHP4Safety/glossary/issues/new?assignees=&labels=categorization&projects=&template=ontology-term-request.yml&title=%5BTERM+REQUEST%5D+Please+add+this+glossary+term)). Experienced GitHub users
 are encouraged to submit pull requests.
 
 For other issues, suggestions, or problems, please create an issue [here](https://github.com/VHP4Safety/glossary/issues). 
