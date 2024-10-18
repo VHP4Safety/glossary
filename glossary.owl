@@ -13,7 +13,7 @@
 
 <https://vhp4safety.github.io/glossary#VHP0000099>
         rdf:type        owl:Class ;
-        rdfs:label      "Platform"@en-US ;
+        rdfs:label      "Platform "@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "A computer environment where a set of software and tools are hosted and made available for the use of others over the internet.ref"@en-US .
 
@@ -25,31 +25,31 @@
 
 <https://vhp4safety.github.io/glossary#VHP0000080>
         rdf:type        owl:Class ;
-        rdfs:label      ""@en-US ;
+        rdfs:label      " "@en-US ;
         ncit:C42610     "CBG"@en-US ;
         dc:description  ""@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000109>
         rdf:type        owl:Class ;
-        rdfs:label      "Template"@en-US ;
+        rdfs:label      "Template "@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "A thing that is used as a model for producing other similar examples.ref"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000052>
         rdf:type        owl:Class ;
-        rdfs:label      "Ontology"@en-US ;
+        rdfs:label      "Ontology "@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "a formal specification of the conceptualization of a set of phenomena naming and defining the elements of the set along with describing relations between the concepts, data, and entities; a way of showing the properties of a subject area and how they are related, by defining a set of concepts and categories that represent the subject.ref1,ref2"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000024>
         rdf:type        owl:Class ;
-        rdfs:label      "Molecular Initiating Event"@en-US ;
+        rdfs:label      "Molecular Initiating Event "@en-US ;
         ncit:C42610     "MIE"@en-US ;
         dc:description  "A specialised type of key event that represents the initial point of chemical/stressor interaction at the molecular level within the organism that results in a perturbation that starts the AOP.ref"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000093>
         rdf:type        owl:Class ;
-        rdfs:label      "Cloud computing"@en-US ;
+        rdfs:label      "Cloud computing "@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "A computer infrastructure that provides access to data resources, analysis software, and computer power to conduct analyses specific to a use case or research community.ref"@en-US .
 
@@ -61,7 +61,7 @@
 
 <https://vhp4safety.github.io/glossary#VHP0000037>
         rdf:type        owl:Class ;
-        rdfs:label      "Secure Shell"@en-US ;
+        rdfs:label      "Secure Shell "@en-US ;
         ncit:C42610     "ssh"@en-US ;
         dc:description  "A network protocol to access a network service remotely and securely."@en-US .
 
@@ -83,15 +83,21 @@
         ncit:C42610     ""@en-US ;
         dc:description  "The overarching term for hazard and risk assessment in toxicology. For pharmaceuticals, this term is generally used for assessments of the safety of a certain application of pharmaceuticals, including the determination of the therapeutic window and risk/benefit analysis."@en-US .
 
+<https://vhp4safety.github.io/glossary#VHP0000116>
+        rdf:type        owl:Class ;
+        rdfs:label      "Adapter"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "A framework to fine-tune (large language) models by adding a small number of external parameters without the need of the entire (large language) model.ref1, ref2 "@en-US .
+
 <https://vhp4safety.github.io/glossary#VHP0000031>
         rdf:type        owl:Class ;
-        rdfs:label      "Quantitative Adverse Outcome Pathway"@en-US ;
+        rdfs:label      "Quantitative Adverse Outcome Pathway "@en-US ;
         ncit:C42610     "qAOP"@en-US ;
         dc:description  "Quantitative AOPs, \"Leiden approach\" to connect events using differential equations."@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000003>
         rdf:type        owl:Class ;
-        rdfs:label      "Bench mark dose modeling"@en-US ;
+        rdfs:label      "Benchmark dose modeling"@en-US ;
         ncit:C42610     "BMD"@en-US ;
         dc:description  "An approach to determine the toxicological limit values for human health, such as the acceptable daily intake (ADI), of all chemical substances (e.g., food) regardless of type or origin. BMD modeling (possibly in combination with PBK modeling) analyzes in conjunction with multiple test systems and organ systems, to study how exposure variation has on the outcome of an in vitro test system."@en-US .
 
@@ -103,7 +109,7 @@
 
 <https://vhp4safety.github.io/glossary#VHP0000044>
         rdf:type        owl:Class ;
-        rdfs:label      "Findable, Accessible, Interoperable, Reusable"@en-US ;
+        rdfs:label      "Findable, Accessible, Interoperable, Reusable "@en-US ;
         ncit:C42610     "FAIR"@en-US ;
         dc:description  "The FAIR principles emphasise machine-actionability (i.e., the capacity of computational systems to find, access, interoperate, and reuse data with none or minimal human intervention) because humans increasingly rely on computational support to deal with data as a result of the increase in volume, complexity, and creation speed of data.ref"@en-US .
 
@@ -121,7 +127,7 @@
 
 <https://vhp4safety.github.io/glossary#VHP0000057>
         rdf:type        owl:Class ;
-        rdfs:label      "Pharmacokinetics"@en-US ;
+        rdfs:label      "Pharmacokinetics "@en-US ;
         ncit:C42610     "PK"@en-US ;
         dc:description  "see ADME (these terms are equivalent)"@en-US .
 
@@ -133,13 +139,13 @@
 
 <https://vhp4safety.github.io/glossary#VHP0000029>
         rdf:type        owl:Class ;
-        rdfs:label      "Molecular Adverse Outcome Pathways"@en-US ;
+        rdfs:label      "Molecular Adverse Outcome Pathways "@en-US ;
         ncit:C42610     "mAOP"@en-US ;
         dc:description  "Metapathway, similar to conventional AOPs, but connected events as e.g. WikiPathways pathways. Their function is to expand KEs with molecular pathways and allow analyses of omics data."@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000098>
         rdf:type        owl:Class ;
-        rdfs:label      "Catalog"@en-US ;
+        rdfs:label      "Catalog "@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "A systemic collection of items of the same type.ref"@en-US .
 
@@ -157,31 +163,31 @@
 
 <https://vhp4safety.github.io/glossary#VHP0000051>
         rdf:type        owl:Class ;
-        rdfs:label      "Resource Description Framework"@en-US ;
+        rdfs:label      "Resource Description Framework "@en-US ;
         ncit:C42610     "RDF"@en-US ;
         dc:description  "A globally-accepted framework for data and knowledge representation that is intended to be read and interpreted by machines.ref"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000023>
         rdf:type        owl:Class ;
-        rdfs:label      "Adverse Outcome Pathway"@en-US ;
+        rdfs:label      "Adverse Outcome Pathway "@en-US ;
         ncit:C42610     "AOP"@en-US ;
         dc:description  "An AOP describes a sequence of events commencing with initial interaction(s) of a stressor with a biomolecule within an organism that causes a perturbation in its biology (i.e., molecular initiating event, MIE), which can progress through a dependent series of intermediate key events (KEs) and culminate in an adverse outcome (AO) considered relevant to risk assessment or regulatory decision-making.ref"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000092>
         rdf:type        owl:Class ;
-        rdfs:label      "Workflow"@en-US ;
+        rdfs:label      "Workflow "@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "An orchestrated and repeatable multi-step process to coordinate multiple tasks and their data dependencies.ref"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000064>
         rdf:type        owl:Class ;
-        rdfs:label      "Quantitative Structure Activity Relationships"@en-US ;
+        rdfs:label      "Quantitative Structure Activity Relationships "@en-US ;
         ncit:C42610     "QSAR"@en-US ;
         dc:description  "Mathematical models that can be used to predict the physicochemical, biological and environmental fate properties of compounds from the knowledge of their chemical structure."@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000036>
         rdf:type        owl:Class ;
-        rdfs:label      "Kubernetes"@en-US ;
+        rdfs:label      "Kubernetes "@en-US ;
         ncit:C42610     "K8s"@en-US ;
         dc:description  "A computer tool to orchesterize and manage Docker containers."@en-US .
 
@@ -199,7 +205,7 @@
 
 <https://vhp4safety.github.io/glossary#VHP0000049>
         rdf:type        owl:Class ;
-        rdfs:label      "Metadata"@en-US ;
+        rdfs:label      "Metadata "@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "The data that provide information about one or more aspects of the data that is used to summarize basic information about data that can make tracking and working with specific data easier."@en-US .
 
@@ -209,17 +215,23 @@
         ncit:C42610     ""@en-US ;
         dc:description  "The process of assessing the intrinsic hazard a substance poses to human health and/or the environment. This provides information on potential human health effects such that a safe production and use of a chemical can be assured. Two types can be generally distinguished, i.e. with the purpose to classify the chemical to a certain category of toxicity (mostly qualitative assessment) or to derive an exposure limit, such as a health-based guidance value or product limit, that ensures safe use."@en-US .
 
+<https://vhp4safety.github.io/glossary#VHP0000115>
+        rdf:type        owl:Class ;
+        rdfs:label      "Large Language Model "@en-US ;
+        ncit:C42610     "LLM"@en-US ;
+        dc:description  "A large language model is a computational model capable of language generation or other natural language processing tasks.ref"@en-US .
+
 <https://vhp4safety.github.io/glossary#VHP0000030>
         rdf:type        owl:Class ;
-        rdfs:label      "TXG-MAPr R package"@en-US ;
+        rdfs:label      "TXG-MAPr R package "@en-US ;
         ncit:C42610     "TXG-MAPr"@en-US ;
         dc:description  "Statistical quantitative AOP approach using known coexpression changes in tissue toxicity."@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000002>
         rdf:type        owl:Class ;
-        rdfs:label      "Bench mark dose"@en-US ;
+        rdfs:label      "Benchmark dose"@en-US ;
         ncit:C42610     "BMD"@en-US ;
-        dc:description  "See Bench mark dose modeling"@en-US .
+        dc:description  "See Benchmark dose modeling"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000071>
         rdf:type        owl:Class ;
@@ -229,37 +241,37 @@
 
 <https://vhp4safety.github.io/glossary#VHP0000043>
         rdf:type        owl:Class ;
-        rdfs:label      "Identifier"@en-US ;
+        rdfs:label      "Identifier "@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "The unique identifier for an administered item within a registration authority.ref"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000015>
         rdf:type        owl:Class ;
-        rdfs:label      ""@en-US ;
+        rdfs:label      " "@en-US ;
         ncit:C42610     "NOEL"@en-US ;
         dc:description  ""@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000084>
         rdf:type        owl:Class ;
-        rdfs:label      "Web Ontology Language"@en-US ;
+        rdfs:label      "Web Ontology Language "@en-US ;
         ncit:C42610     "OWL"@en-US ;
         dc:description  "RDF standard for making ontologies machine readable."@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000056>
         rdf:type        owl:Class ;
-        rdfs:label      "Absorption, Distribution, Metabolism, and Excretion"@en-US ;
+        rdfs:label      "Absorption, Distribution, Metabolism, and Excretion "@en-US ;
         ncit:C42610     "ADME"@en-US ;
         dc:description  "Absorption, distribution, metabolism, and excretion of a substance (toxic or not) in a living organism, following exposure to this substance"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000028>
         rdf:type        owl:Class ;
-        rdfs:label      "Stressor"@en-US ;
+        rdfs:label      "Stressor "@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  ""@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000097>
         rdf:type        owl:Class ;
-        rdfs:label      "Widget"@en-US ;
+        rdfs:label      "Widget "@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "A small software application that is designed to provide a specific piece of information (such as news, weather, or traffic updates) or a specific function (such as taking notes or controlling another application) on demand.ref"@en-US .
 
@@ -271,13 +283,13 @@
 
 <https://vhp4safety.github.io/glossary#VHP0000107>
         rdf:type        owl:Class ;
-        rdfs:label      "Module"@en-US ;
+        rdfs:label      "Module "@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "[Software Component] An individual component (software, dataset or in vitro method description) that is hosted, or linked to in the VHP4Safety platform.ref"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000050>
         rdf:type        owl:Class ;
-        rdfs:label      "Open Data"@en-US ;
+        rdfs:label      "Open Data "@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "A (collection of) data that can be used, studied, and modified without restriction, and which can be copied and redistributed in modified or unmodified form either without restriction, or with restrictions only to ensure that further recipients can also do these things.ref"@en-US .
 
@@ -289,19 +301,19 @@
 
 <https://vhp4safety.github.io/glossary#VHP0000091>
         rdf:type        owl:Class ;
-        rdfs:label      "Mathematical Markup Language"@en-US ;
+        rdfs:label      "Mathematical Markup Language "@en-US ;
         ncit:C42610     "MathML"@en-US ;
         dc:description  "An Extensible Markup Language (XML) application to encode mathematical notations on the Web to capture their structure and content for their use and re-use.ref"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000063>
         rdf:type        owl:Class ;
-        rdfs:label      "In-vitro-in-vivo extrapolation"@en-US ;
+        rdfs:label      "In-vitro-in-vivo extrapolation "@en-US ;
         ncit:C42610     "IVIVE"@en-US ;
         dc:description  ""@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000035>
         rdf:type        owl:Class ;
-        rdfs:label      "Docker image"@en-US ;
+        rdfs:label      "Docker image "@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "A representative file from which a docker container can be run and executed."@en-US .
 
@@ -319,7 +331,7 @@
 
 <https://vhp4safety.github.io/glossary#VHP0000048>
         rdf:type        owl:Class ;
-        rdfs:label      "Reusable"@en-US ;
+        rdfs:label      "Reusable "@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "Research data should be ready for future research and future processing, making it self-evident that findings can be replicated and that new research effectively builds on already acquired, previous results.ref"@en-US .
 
@@ -331,9 +343,15 @@
 
 <https://vhp4safety.github.io/glossary#VHP0000089>
         rdf:type        owl:Class ;
-        rdfs:label      "Bioactivity"@en-US ;
+        rdfs:label      "Bioactivity "@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "The affinity and/or potency of a compound for a protein target."@en-US .
+
+<https://vhp4safety.github.io/glossary#VHP0000114>
+        rdf:type        owl:Class ;
+        rdfs:label      "Incident Postmortem"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "A framework for learning from incidents and turning problems into progress by bringing people together to discuss the details of the incident to explore why it happened, its impact, the actions that can be taken to mitigate and resolve it, and the actions to prevent it happen again.ref"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000001>
         rdf:type        owl:Class ;
@@ -349,7 +367,7 @@
 
 <https://vhp4safety.github.io/glossary#VHP0000042>
         rdf:type        owl:Class ;
-        rdfs:label      "Data stewardship"@en-US ;
+        rdfs:label      "Data stewardship "@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "The work performed by a data steward."@en-US .
 
@@ -361,25 +379,25 @@
 
 <https://vhp4safety.github.io/glossary#VHP0000083>
         rdf:type        owl:Class ;
-        rdfs:label      "Data steward"@en-US ;
+        rdfs:label      "Data steward "@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "A data steward is an oversight or data governance role within an organization, and is responsible for ensuring the quality and fitness for purpose of the organization's data assets, including the metadata for those data assets.ref"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000055>
         rdf:type        owl:Class ;
-        rdfs:label      "Model"@en-US ;
+        rdfs:label      "Model "@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "A simplified (generally mathematical) representation of a real system (e.g. of system: an organism, an organ, a cell, etc.)"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000027>
         rdf:type        owl:Class ;
-        rdfs:label      "Key Event Relationship"@en-US ;
+        rdfs:label      "Key Event Relationship "@en-US ;
         ncit:C42610     "KER"@en-US ;
         dc:description  "A scientifically-based relationship that connects one key event to another, defines a causal and predictive relationship between the upstream and downstream event, and thereby facilitates inference or extrapolation of the state of the downstream key event from the known, measured, or predicted state of the upstream key event.ref"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000096>
         rdf:type        owl:Class ;
-        rdfs:label      "Technology Readiness Levels"@en-US ;
+        rdfs:label      "Technology Readiness Levels "@en-US ;
         ncit:C42610     "TRL"@en-US ;
         dc:description  "TRLs are a method for estimating the maturity of technologies during the acquisition phase of a program.ref"@en-US .
 
@@ -389,17 +407,9 @@
         ncit:C42610     "WP1.1"@en-US ;
         dc:description  "Building the ICT infrastructure for the VHP: objectives to develop the technical infrastructure, setting up a predictive platform, developing analysis workflows, making services and data available and interoperable."@en-US .
 
-[ rdf:type                      <http://schema.org/WebSite> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "VHP4Safety Glossary" ;
-  <http://schema.org/name>      "glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
-] .
-
 <https://vhp4safety.github.io/glossary#VHP0000106>
         rdf:type        owl:Class ;
-        rdfs:label      "Research Output Management Plan"@en-US ;
+        rdfs:label      "Research Output Management Plan "@en-US ;
         ncit:C42610     "ROMP"@en-US ;
         dc:description  "Descriprion of the process of organising and documenting the diverse range of outputs generated during the research lifecycle.ref"@en-US .
 
@@ -411,19 +421,19 @@
 
 <https://vhp4safety.github.io/glossary#VHP0000090>
         rdf:type        owl:Class ;
-        rdfs:label      "Proteochemometric"@en-US ;
+        rdfs:label      "Proteochemometric "@en-US ;
         ncit:C42610     "PCM"@en-US ;
         dc:description  "Mathematical models that can be used to predict the biological properties (mainly bioactivity) of compounds on proteins from the knowledge of their (chemical) structure."@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000062>
         rdf:type        owl:Class ;
-        rdfs:label      "Physiologically based kinetic model"@en-US ;
+        rdfs:label      "Physiologically based kinetic model "@en-US ;
         ncit:C42610     "PBK model"@en-US ;
         dc:description  "see PBPK model (these terms are equivalent)"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000034>
         rdf:type        owl:Class ;
-        rdfs:label      "Docker container"@en-US ;
+        rdfs:label      "Docker container "@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "The virtual environment that has been initiated to run based on its Docker image."@en-US .
 
@@ -435,19 +445,19 @@
 
 <https://vhp4safety.github.io/glossary#VHP0000075>
         rdf:type        owl:Class ;
-        rdfs:label      "Work Package 3.1"@en-US ;
+        rdfs:label      "Work Package 3.1 "@en-US ;
         ncit:C42610     "WP3.1"@en-US ;
         dc:description  "Technology Assessment of VHP: objectives to perform technology assessment, study and analyse the initiation, development and implementation of VHP, and specify performance criteria."@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000047>
         rdf:type        owl:Class ;
-        rdfs:label      "Interoperable"@en-US ;
+        rdfs:label      "Interoperable "@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "To speed up discovery and uncover new insights, research data should be easily combined with other datasets, applications and workflows by humans as well as computer systems.ref"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000100>
         rdf:type        owl:Class ;
-        rdfs:label      "Data modeling"@en-US ;
+        rdfs:label      "Data modeling "@en-US ;
         ncit:C42610     "DMP"@en-US ;
         dc:description  "The process of discovering, analyzing, and scoping data requirements, and then representing and communicating these data requirements in a precise form called the data model. This process is iterative and may include a conceptual, logical, and physical model.ref"@en-US .
 
@@ -463,9 +473,15 @@
         ncit:C42610     "RL"@en-US ;
         dc:description  "Formal structure within a project to reach some goal."@en-US .
 
+<https://vhp4safety.github.io/glossary#VHP0000113>
+        rdf:type        owl:Class ;
+        rdfs:label      "Stakeholder"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "A person or a group of people who hold(s) a stake and/or can influence decision-making on a specific issue."@en-US .
+
 <https://vhp4safety.github.io/glossary#VHP0000041>
         rdf:type        owl:Class ;
-        rdfs:label      "Application Programming Interface"@en-US ;
+        rdfs:label      "Application Programming Interface "@en-US ;
         ncit:C42610     "API"@en-US ;
         dc:description  "A type of software interface that provides a way for two or more computer programs to communicate with each other.ref"@en-US .
 
@@ -482,13 +498,13 @@
         <http://vocab.sindice.net/any23#description>
                 "Webpage with the VHP4Safety Glossary"@en-US ;
         <http://vocab.sindice.net/any23#generator>
-                "Jekyll v3.9.5"@en-US ;
+                "Jekyll v3.10.0"@en-US ;
         <http://vocab.sindice.net/any23#twitter:card>
                 "summary"@en-US ;
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=2b6e0ecf602198ae6183d8f25da49974b3a29c37> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=1a92aac0724449ede2c6779dfa0dc66b69bb76de> ;
         <twitter:title>  "VHP4Safety Glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000013>
@@ -499,25 +515,25 @@
 
 <https://vhp4safety.github.io/glossary#VHP0000082>
         rdf:type        owl:Class ;
-        rdfs:label      ""@en-US ;
+        rdfs:label      " "@en-US ;
         ncit:C42610     "CTBG"@en-US ;
         dc:description  ""@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000054>
         rdf:type        owl:Class ;
-        rdfs:label      "Data Management Plan"@en-US ;
+        rdfs:label      "Data Management Plan "@en-US ;
         ncit:C42610     "DMP"@en-US ;
         dc:description  "Plans to serve to address the what, how, who, and where of data management by formally outlining the roles, responsibilities, and activities for managing data during and after research in alignment with FAIR principles.ref"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000026>
         rdf:type        owl:Class ;
-        rdfs:label      "Key Event"@en-US ;
+        rdfs:label      "Key Event "@en-US ;
         ncit:C42610     "KE"@en-US ;
         dc:description  "A change in biological or physiological state that is both measurable and essential to the progression of a defined biological perturbation leading to a specific adverse outcome.ref"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000095>
         rdf:type        owl:Class ;
-        rdfs:label      "VHP server 3"@en-US ;
+        rdfs:label      "VHP server 3 "@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "The server provided by Strato that is used for experimentation, learning, and testing the work that is carried out on VHP servers 1 and 2."@en-US .
 
@@ -529,13 +545,13 @@
 
 <https://vhp4safety.github.io/glossary#VHP0000039>
         rdf:type        owl:Class ;
-        rdfs:label      "VHP server 1"@en-US ;
+        rdfs:label      "VHP server 1 "@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "The server provided by Strato where the Docker containers used in the project are deployed."@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000105>
         rdf:type        owl:Class ;
-        rdfs:label      "Hackathon"@en-US ;
+        rdfs:label      "Hackathon "@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "An event in which computer programmers collaborate intensively with one another and sometimes with people in other specialties over a relatively short period of time to create code usually for a new software product or service.ref"@en-US .
 
@@ -545,15 +561,21 @@
         ncit:C42610     "ECHA"@en-US ;
         dc:description  "An agency of the European Union which manages the technical and administrative aspects of the implementation of the European Union regulation called Registration, Evaluation, Authorisation and Restriction of Chemicals.ref"@en-US .
 
+<https://vhp4safety.github.io/glossary#VHP0000118>
+        rdf:type        owl:Class ;
+        rdfs:label      "Natural Language Processing"@en-US ;
+        ncit:C42610     "NLP"@en-US ;
+        dc:description  "A multidisciplinary scientific field that focuses on the interaction between computers and human (natural) languages, enabling machines to understand, interpret, and generate human language in a meaningful way.ref1, ref2 "@en-US .
+
 <https://vhp4safety.github.io/glossary#VHP0000061>
         rdf:type        owl:Class ;
-        rdfs:label      "Physiologically based biokinetic model"@en-US ;
+        rdfs:label      "Physiologically based biokinetic model "@en-US ;
         ncit:C42610     "PBBK"@en-US ;
         dc:description  "see PBPK model (these terms are equivalent)"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000033>
         rdf:type        owl:Class ;
-        rdfs:label      "Dockerfile"@en-US ;
+        rdfs:label      "Dockerfile "@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "A file that includes the commands to build a Docker image."@en-US .
 
@@ -571,7 +593,7 @@
 
 <https://vhp4safety.github.io/glossary#VHP0000046>
         rdf:type        owl:Class ;
-        rdfs:label      "Accessible"@en-US ;
+        rdfs:label      "Accessible "@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "One needs to know how data can be accessed, possibly including authentication and authorisation.ref"@en-US .
 
@@ -589,19 +611,19 @@
 
 <https://vhp4safety.github.io/glossary#VHP0000059>
         rdf:type        owl:Class ;
-        rdfs:label      "Physiologically based pharmacokinetic model"@en-US ;
+        rdfs:label      "Physiologically based pharmacokinetic model "@en-US ;
         ncit:C42610     "PBPK"@en-US ;
         dc:description  "Mechanistic representation of ADME processes for a chemical in a living organism, based on physiological and chemical properties"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000112>
         rdf:type        owl:Class ;
-        rdfs:label      "Human-Readable Data"@en-US ;
+        rdfs:label      "Human-Readable Data "@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "A data or dataset that is in a format that can be naturally read by humans. It usually contrasts with machine-readable data.ref"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000040>
         rdf:type        owl:Class ;
-        rdfs:label      "VHP server 2"@en-US ;
+        rdfs:label      "VHP server 2 "@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "The server provided by Strato where the Kubernetes structure is formed for orchestration of the Docker containers on VHP server 1."@en-US .
 
@@ -613,25 +635,25 @@
 
 <https://vhp4safety.github.io/glossary#VHP0000081>
         rdf:type        owl:Class ;
-        rdfs:label      ""@en-US ;
+        rdfs:label      " "@en-US ;
         ncit:C42610     "ZIN"@en-US ;
         dc:description  ""@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000053>
         rdf:type        owl:Class ;
-        rdfs:label      "Sysrev"@en-US ;
+        rdfs:label      "Sysrev "@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "Ortec's literature reviewer support and curation documentationn storage system."@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000025>
         rdf:type        owl:Class ;
-        rdfs:label      "Adverse Outcome"@en-US ;
+        rdfs:label      "Adverse Outcome "@en-US ;
         ncit:C42610     "AO"@en-US ;
         dc:description  "A specialised type of key event that is generally accepted as being of regulatory significance on the basis of correspondence to an established protection goal or equivalence to an apical endpoint in an accepted regulatory guideline toxicity test.ref"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000094>
         rdf:type        owl:Class ;
-        rdfs:label      "Scalability"@en-US ;
+        rdfs:label      "Scalability "@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "The property of a (cloud) infrastructure to be able to handle a growing amount of data and work related to it with additions.ref"@en-US .
 
@@ -643,7 +665,7 @@
 
 <https://vhp4safety.github.io/glossary#VHP0000038>
         rdf:type        owl:Class ;
-        rdfs:label      "Strato"@en-US ;
+        rdfs:label      "Strato "@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "An internet hosting service provider that supplies the servers where the virtual platform is built.ref"@en-US .
 
@@ -658,21 +680,35 @@
         dct:contributor  "Egon Willighagen"@en-US , "Marvin Martens"@en-US , "Ozan Çınar"@en-US ;
         dct:title        "VHP4Safety Glossary"@en-US .
 
+[ rdf:type                      <http://schema.org/WebSite> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "VHP4Safety Glossary" ;
+  <http://schema.org/name>      "glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
+] .
+
 <https://vhp4safety.github.io/glossary#VHP0000104>
         rdf:type        owl:Class ;
         rdfs:label      "Exposure Assessment"@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "The process of assessing the magnitude, frequency and duration of exposure of a certain organism to a certain agent; OF the process of assessing the total external (or internal) exposure following one or more exposure/use scenarios that are described in terms of route, extent, frequency and duration of exposure, including exposure via more than one exposure route (aggregated exposure) and exposure to multiple chemicals (cumulative exposure)."@en-US .
 
+<https://vhp4safety.github.io/glossary#VHP0000117>
+        rdf:type        owl:Class ;
+        rdfs:label      "Knowledge Graphs"@en-US ;
+        ncit:C42610     "KGs"@en-US ;
+        dc:description  "An organized and graphical representation of real world obejcts and their relationships, represented mostly as nodes and edges, respectively to store data entities and their interrelations. See also Resource Description Framework.ref1, ref2 "@en-US .
+
 <https://vhp4safety.github.io/glossary#VHP0000060>
         rdf:type        owl:Class ;
-        rdfs:label      "Physiologically based toxicokinetic model"@en-US ;
+        rdfs:label      "Physiologically based toxicokinetic model "@en-US ;
         ncit:C42610     "PBTK"@en-US ;
         dc:description  "see PBPK model (these terms are equivalent)"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000032>
         rdf:type        owl:Class ;
-        rdfs:label      "Docker"@en-US ;
+        rdfs:label      "Docker "@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "A service to create a virtual computer environment which can include the required software/tools to conduct a scientific work."@en-US .
 
@@ -690,7 +726,7 @@
 
 <https://vhp4safety.github.io/glossary#VHP0000045>
         rdf:type        owl:Class ;
-        rdfs:label      "Findable"@en-US ;
+        rdfs:label      "Findable "@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "Metadata and data should be easy to find for both humans and computers. Machine-readable metadata are essential for automatic discovery of datasets and services.ref"@en-US .
 
@@ -708,13 +744,13 @@
 
 <https://vhp4safety.github.io/glossary#VHP0000058>
         rdf:type        owl:Class ;
-        rdfs:label      "Toxicokinetics"@en-US ;
+        rdfs:label      "Toxicokinetics "@en-US ;
         ncit:C42610     "TK"@en-US ;
         dc:description  "see ADME (these terms are equivalent, although TK is used exclusively for toxic substances)"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000111>
         rdf:type        owl:Class ;
-        rdfs:label      "Machine-Readable Data"@en-US ;
+        rdfs:label      "Machine-Readable Data "@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "A data or dataset that is in a format that can be read by a computer. It usually contrasts with human-readable data.ref"@en-US .
 
