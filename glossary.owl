@@ -17,6 +17,12 @@
         ncit:C42610     ""@en-US ;
         dc:description  "A computer environment where a set of software and tools are hosted and made available for the use of others over the internet.ref"@en-US .
 
+<https://vhp4safety.github.io/glossary#VHP0000124>
+        rdf:type        owl:Class ;
+        rdfs:label      "SCRUM Board"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "The documentation of the tasks in the backlog, tasks in the current sprint, the user stories, the epics and the completed tasks when working in SCRUM. Usually shared and edited through GitHub Projects, Notion or similar tools."@en-US .
+
 <https://vhp4safety.github.io/glossary#VHP0000011>
         rdf:type        owl:Class ;
         rdfs:label      "High Throughput Screening"@en-US ;
@@ -101,6 +107,12 @@
         ncit:C42610     "BMD"@en-US ;
         dc:description  "An approach to determine the toxicological limit values for human health, such as the acceptable daily intake (ADI), of all chemical substances (e.g., food) regardless of type or origin. BMD modeling (possibly in combination with PBK modeling) analyzes in conjunction with multiple test systems and organ systems, to study how exposure variation has on the outcome of an in vitro test system."@en-US .
 
+<https://vhp4safety.github.io/glossary#VHP0000129>
+        rdf:type        owl:Class ;
+        rdfs:label      "Epic"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "A long-term goal or general feature of the final product. Epics are broken down into user stories, whereas user stories are broken down into tasks. By completing tasks in each sprint, the epic will gradually be reached."@en-US .
+
 <https://vhp4safety.github.io/glossary#VHP0000072>
         rdf:type        owl:Class ;
         rdfs:label      "Work Package 2.2"@en-US ;
@@ -148,6 +160,12 @@
         rdfs:label      "Catalog "@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "A systemic collection of items of the same type.ref"@en-US .
+
+<https://vhp4safety.github.io/glossary#VHP0000123>
+        rdf:type        owl:Class ;
+        rdfs:label      "Product Owner"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "A key role in SCRUM method for people who have a clear view of the long term goals of the project and the expertise of the team members. People with this role review the epics and user stories and prioritize the tasks in the backlog."@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000010>
         rdf:type        owl:Class ;
@@ -209,6 +227,12 @@
         ncit:C42610     ""@en-US ;
         dc:description  "The data that provide information about one or more aspects of the data that is used to summarize basic information about data that can make tracking and working with specific data easier."@en-US .
 
+<https://vhp4safety.github.io/glossary#VHP0000130>
+        rdf:type        owl:Class ;
+        rdfs:label      "Definition of Done"@en-US ;
+        ncit:C42610     "DoD"@en-US ;
+        dc:description  "A shared understanding among the team of when a task is considered as \"done\". It ensures work is completed to a certain standard before it is accepted. This might include specific documentation, review by another team member or discussion during the Sprint Review."@en-US .
+
 <https://vhp4safety.github.io/glossary#VHP0000102>
         rdf:type        owl:Class ;
         rdfs:label      "Hazard Assessment"@en-US ;
@@ -232,6 +256,12 @@
         rdfs:label      "Benchmark dose"@en-US ;
         ncit:C42610     "BMD"@en-US ;
         dc:description  "See Benchmark dose modeling"@en-US .
+
+<https://vhp4safety.github.io/glossary#VHP0000128>
+        rdf:type        owl:Class ;
+        rdfs:label      "User Story"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "A simple, clear description of a desired feature or functionality from the perspective of the end user. Typically follows the format: \"As as [user], I want [feature], so that [benefit].\". Each task in the backlog should be contributing to as user story, each user story should be contributing to an epic."@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000071>
         rdf:type        owl:Class ;
@@ -280,6 +310,12 @@
         rdfs:label      "Work Package 1.2"@en-US ;
         ncit:C42610     "WP1.2"@en-US ;
         dc:description  "In silico toxicokinetics: objectives to define parameters required for PBPK modelling, developing PBK models and providing guidance for in vitro to in vivo extrapolations."@en-US .
+
+<https://vhp4safety.github.io/glossary#VHP0000122>
+        rdf:type        owl:Class ;
+        rdfs:label      "SCRUM Master"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "A person with the role in the SCRUM method who ensures the team follows the scrum practices and that the backlog, sprint, user stories and epics are clear."@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000107>
         rdf:type        owl:Class ;
@@ -359,6 +395,12 @@
         ncit:C42610     "3Rs"@en-US ;
         dc:description  "Replacement, Reduction, and Refinement. Used in the context of performing more humane animal research."@en-US .
 
+<https://vhp4safety.github.io/glossary#VHP0000127>
+        rdf:type        owl:Class ;
+        rdfs:label      "Sprint Retrospective"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "A meeting after the Sprint Review where the team reflects on the process of sprint that was reviewed. It focuses on the aspects of the last sprint that went well or bad, and how the team can improve their work in the next sprint."@en-US .
+
 <https://vhp4safety.github.io/glossary#VHP0000070>
         rdf:type        owl:Class ;
         rdfs:label      "Work Package 1.3"@en-US ;
@@ -407,6 +449,20 @@
         ncit:C42610     "WP1.1"@en-US ;
         dc:description  "Building the ICT infrastructure for the VHP: objectives to develop the technical infrastructure, setting up a predictive platform, developing analysis workflows, making services and data available and interoperable."@en-US .
 
+<https://vhp4safety.github.io/glossary#VHP0000121>
+        rdf:type        owl:Class ;
+        rdfs:label      "Backlog"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "A prioritized list of all the tasks the team still wants to complete, used in the SCRUM method of working. Each added task is clearly described and preferably linked to an epic and a user story. At the beginning of a sprint, tasks will be selected from the backlog and assigned to teammember to be completed before the end of that sprint."@en-US .
+
+[ rdf:type                      <http://schema.org/WebSite> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "VHP4Safety Glossary" ;
+  <http://schema.org/name>      "glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
+] .
+
 <https://vhp4safety.github.io/glossary#VHP0000106>
         rdf:type        owl:Class ;
         rdfs:label      "Research Output Management Plan "@en-US ;
@@ -424,6 +480,12 @@
         rdfs:label      "Proteochemometric "@en-US ;
         ncit:C42610     "PCM"@en-US ;
         dc:description  "Mathematical models that can be used to predict the biological properties (mainly bioactivity) of compounds on proteins from the knowledge of their (chemical) structure."@en-US .
+
+<https://vhp4safety.github.io/glossary#VHP0000119>
+        rdf:type        owl:Class ;
+        rdfs:label      "SCRUM"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "An agile way of working as a development team that uses time-boxed iterations called sprints to focus on fully executing smaller increments of a larger product. It includes clear bite-sized tasks, regular discussions and collaborative review. It tackles issues such as vague long term goals, poor teamwork and inefficient timespending."@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000062>
         rdf:type        owl:Class ;
@@ -479,6 +541,12 @@
         ncit:C42610     ""@en-US ;
         dc:description  "A person or a group of people who hold(s) a stake and/or can influence decision-making on a specific issue."@en-US .
 
+<https://vhp4safety.github.io/glossary#VHP0000126>
+        rdf:type        owl:Class ;
+        rdfs:label      "Sprint Review"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "A meeting at the end of a sprint where the team presents their work and discuss any issues. The goal is to review the completed tasks and adapt the backlog accordingly. This meeting can be combined with the Sprint Retrospective."@en-US .
+
 <https://vhp4safety.github.io/glossary#VHP0000041>
         rdf:type        owl:Class ;
         rdfs:label      "Application Programming Interface "@en-US ;
@@ -504,7 +572,7 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=1a92aac0724449ede2c6779dfa0dc66b69bb76de> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=e09ca729ef24f305b0581908e06f2c48290793cf> ;
         <twitter:title>  "VHP4Safety Glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000013>
@@ -542,6 +610,12 @@
         rdfs:label      "Research Line 3"@en-US ;
         ncit:C42610     "RL3"@en-US ;
         dc:description  "Implementing the Virtual Human Platform."@en-US .
+
+<https://vhp4safety.github.io/glossary#VHP0000120>
+        rdf:type        owl:Class ;
+        rdfs:label      "Sprint"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "A fixed time-box, usually 1-4 weeks, used in the SCRUM method of working. Per sprint, each teammember works on selected tasks which they can (likely) finish within the sprint. Each sprint has meetings to plan the sprint, review the finished tasks and reflect to improve productivity."@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000039>
         rdf:type        owl:Class ;
@@ -621,6 +695,12 @@
         ncit:C42610     ""@en-US ;
         dc:description  "A data or dataset that is in a format that can be naturally read by humans. It usually contrasts with machine-readable data.ref"@en-US .
 
+<https://vhp4safety.github.io/glossary#VHP0000125>
+        rdf:type        owl:Class ;
+        rdfs:label      "Sprint Planning"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "A meeting at the beginning of each sprint where the team selects tasks from the backlog to work on during that sprint. The team will also assign members to each task and discuss how they plan on completing them."@en-US .
+
 <https://vhp4safety.github.io/glossary#VHP0000040>
         rdf:type        owl:Class ;
         rdfs:label      "VHP server 2 "@en-US ;
@@ -679,14 +759,6 @@
         rdf:type         owl:Ontology ;
         dct:contributor  "Egon Willighagen"@en-US , "Marvin Martens"@en-US , "Ozan Çınar"@en-US ;
         dct:title        "VHP4Safety Glossary"@en-US .
-
-[ rdf:type                      <http://schema.org/WebSite> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "VHP4Safety Glossary" ;
-  <http://schema.org/name>      "glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
-] .
 
 <https://vhp4safety.github.io/glossary#VHP0000104>
         rdf:type        owl:Class ;
