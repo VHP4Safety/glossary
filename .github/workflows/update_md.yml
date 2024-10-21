@@ -34,4 +34,4 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git commit -m "Updated glossary page" index.md
-        git push origin "HEAD:${{ github.ref_name }}"
+        git push origin "HEAD:refs/heads/${{ github.head_ref }}"
