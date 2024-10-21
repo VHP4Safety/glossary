@@ -1,6 +1,5 @@
 import os
 import pandas as pd
-import re
 import logging
 
 # Configure logging
@@ -17,18 +16,18 @@ prefixes = {
 }
 
 # Define paths
-input_file = "index.md"
+template_file = ".github/index.md"
 output_file = "index.md"
 template_dir = "templates"
 
 sections = {
-    "Toxicology in General": "toxicology.tsv",
-    "Risk assessment-related terms": "risk_assessment.tsv",
-    "Adverse Outcome Pathway-related terms": "adverse_outcome.tsv",
-    "Server-related terms": "server.tsv",
-    "Tool/service-related terms": "tools.tsv",
-    "Project-related terms": "projects.tsv",
-    "Organizations": "organizations.tsv",
+    "toxicology": "toxicology.tsv",
+    "risk_assessment": "risk_assessment.tsv",
+    "adverse-outcome": "adverse_outcome.tsv",
+    "server": "server.tsv",
+    "tools": "tools.tsv",
+    "projects": "projects.tsv",
+    "organizations": "organizations.tsv",
 }
 
 SVG_ICON = (
@@ -56,7 +55,7 @@ def create_rdfa_table(tsv_file_path):
         )
         df.drop("ref", axis=1, inplace=True)
 
-    terms_set = set(df["Term"].str.strip().tolist())  # Collect terms for removal
+    terms_set = set(df["Term"].str.strip().tolist())
 
     table_html = (
         f'<table prefix="{" ".join([f"{k}: <{v}>" for k, v in prefixes.items()])}">\n'
@@ -111,7 +110,6 @@ def create_rdfa_table(tsv_file_path):
 
 
 def add_superscripts(definition, refs):
-    # Ensure definition is a string
     if pd.isna(definition):
         definition = ""
     else:
@@ -131,86 +129,34 @@ def add_superscripts(definition, refs):
     return f"{definition} {refs_html.strip()}" if refs_html else definition
 
 
-def update_markdown_file(input_file, output_file, sections):
+def update_markdown_file(template_file, output_file, sections):
     try:
-        with open(input_file, "r", encoding="utf-8") as f:
+        with open(template_file, "r", encoding="utf-8") as f:
             content = f.read()
-        logging.info(f"Loaded content from {input_file}")
+        logging.info(f"Loaded content from {template_file}")
     except Exception as e:
-        logging.error(f"Failed to read {input_file}: {e}")
+        logging.error(f"Failed to read {template_file}: {e}")
         return
 
-    tables_updated = False
-    terms_to_remove = set()  # Initialize a set for terms to remove
-
-    for section_title, tsv_file in sections.items():
-        logging.info(f"Processing section: {section_title}")
+    for placeholder, tsv_file in sections.items():
         tsv_path = os.path.join(template_dir, tsv_file)
-
         if not os.path.exists(tsv_path):
             logging.warning(f"TSV file not found: {tsv_path}")
             continue
 
-        table_html, terms = create_rdfa_table(tsv_path)
-        terms_to_remove.update(terms)  # Add terms to remove from this section
-
+        table_html, _ = create_rdfa_table(tsv_path)
         if not table_html:
-            logging.warning(f"No table generated for section: {section_title}")
             continue
 
-        pattern = re.compile(rf"(##\s*{re.escape(section_title)}\s*\n)", re.IGNORECASE)
-        match = pattern.search(content)
+        content = content.replace(f"${{{placeholder}}}", table_html)
+        logging.info(f"Replaced content for placeholder: {placeholder}")
 
-        if match:
-            section_header = match.group(1)
-            section_start = match.end()
-
-            next_section_match = re.search(r"(##\s)", content[section_start:])
-            if next_section_match:
-                section_end = section_start + next_section_match.start()
-            else:
-                section_end = len(content)
-
-            before_section = content[:section_start]
-            after_section = content[section_end:]
-            new_section = f"{table_html}\n"
-
-            content = before_section + new_section + after_section
-            tables_updated = True
-            logging.info(f"Updated section: {section_title}")
-        else:
-            logging.error(f"Section not found in markdown: {section_title}")
-
-    # Remove terms that are not in the new TSV files
-    for section_title in sections.keys():
-        section_pattern = rf"(##\s*{re.escape(section_title)}\s*\n)(.*?)</table>\s*\n"
-        match = re.search(section_pattern, content, re.DOTALL)
-
-        if match:
-            existing_table = match.group(2)
-            existing_terms = re.findall(
-                r'<span property="rdfs:label">(.*?)<\/span>', existing_table
-            )
-            existing_terms = set(existing_terms)
-
-            # Identify terms to remove
-            terms_to_keep = existing_terms.intersection(terms_to_remove)
-            content = re.sub(existing_table, "", content)  # Remove the existing table
-            content = re.sub(
-                rf"(##\s*{re.escape(section_title)}\s*\n)",
-                f"## {section_title}\n{table_html}\n",
-                content,
-            )  # Add the new table
-
-    if tables_updated:
-        try:
-            with open(output_file, "w", encoding="utf-8") as f:
-                f.write(content)
-            logging.info(f"Updated content written to {output_file}")
-        except Exception as e:
-            logging.error(f"Failed to write to {output_file}: {e}")
-    else:
-        logging.info("No tables were updated.")
+    try:
+        with open(output_file, "w", encoding="utf-8") as f:
+            f.write(content)
+        logging.info(f"Updated content written to {output_file}")
+    except Exception as e:
+        logging.error(f"Failed to write to {output_file}: {e}")
 
 
-update_markdown_file(input_file, output_file, sections)
+update_markdown_file(template_file, output_file, sections)
