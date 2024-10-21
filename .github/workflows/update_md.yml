@@ -3,38 +3,45 @@ on:
   workflow_dispatch:
   pull_request:
   push:
-    branches: [ main ]
     paths:
       - templates/*
+
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-      with:
-        fetch-depth: 0  # Ensure full history is fetched for pull to work correctly
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: 3
-    - name: Install dependencies
-      run: |
-        pip install --upgrade pip
-        pip install wheel setuptools pip --upgrade
-        pip install pandas
-    - name: Extract template data
-      run: |
-        python templateToMarkdown.py
-    - name: Check for changes
-      id: check_changes
-      run: |
-        git diff --exit-code || echo "CHANGES_DETECTED=true" >> $GITHUB_ENV
-    - name: Commit and push changes
-      if: env.CHANGES_DETECTED == 'true'
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git pull origin "${{ github.head_ref }}" --rebase  # Pull the latest changes with rebase
-        git commit -m "Updated glossary page" index.md
-        git push origin "HEAD:refs/heads/${{ github.head_ref }}"
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Fetch full history for a proper pull
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install wheel setuptools pip --upgrade
+          pip install pandas
+
+      - name: Extract template data
+        run: |
+          python templateToMarkdown.py
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git diff --exit-code index.md || echo "CHANGES_DETECTED=true" >> $GITHUB_ENV
+
+      - name: Commit and push changes
+        if: env.CHANGES_DETECTED == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add index.md
+          git commit -m "Updated glossary page"
+          # Attempt to pull with rebase, but proceed without push if it fails.
+          git pull --rebase origin "${{ github.head_ref }}" || exit 0
+          git push origin "HEAD:${{ github.head_ref }}"
