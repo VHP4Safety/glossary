@@ -1,0 +1,14 @@
+ID	Term	Abbreviation	Definition	ref
+VHP0000093	Cloud computing		A computer infrastructure that provides access to data resources, analysis software, and computer power to conduct analyses specific to a use case or research community.	https://www.nature.com/articles/s41597-022-01619-5
+VHP0000032	Docker		A service to create a virtual computer environment which can include the required software/tools to conduct a scientific work.	
+VHP0000033	Dockerfile		A file that includes the commands to build a Docker image.	
+VHP0000034	Docker container		The virtual environment that has been initiated to run based on its Docker image.	
+VHP0000035	Docker image		A representative file from which a docker container can be run and executed.	
+VHP0000036	Kubernetes	K8s	A computer tool to orchesterize and manage Docker containers.	
+VHP0000099	Platform		A computer environment where a set of software and tools are hosted and made available for the use of others over the internet.	https://en.wikipedia.org/wiki/Computing_platform
+VHP0000094	Scalability		The property of a (cloud) infrastructure to be able to handle a growing amount of data and work related to it with additions.	https://dl.acm.org/doi/10.1145/350391.350432
+VHP0000037	Secure Shell	ssh	A network protocol to access a network service remotely and securely.	
+VHP0000038	Strato		An internet hosting service provider that supplies the servers where the virtual platform is built.	https://www.strato.nl/
+VHP0000039	VHP server 1		The server provided by Strato where the Docker containers used in the project are deployed.	
+VHP0000040	VHP server 2		The server provided by Strato where the Kubernetes structure is formed for orchestration of the Docker containers on VHP server 1.	
+VHP0000095	VHP server 3		The server provided by Strato that is used for experimentation, learning, and testing the work that is carried out on VHP servers 1 and 2.
