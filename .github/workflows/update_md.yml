@@ -20,7 +20,7 @@ jobs:
       run: |
         pip install --upgrade pip
         pip install wheel setuptools pip --upgrade
-        pip install -r requirements.txt
+        pip install pandas
     - name: Extract template data
       run: |
         python templateToMarkdown.py
