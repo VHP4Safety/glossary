@@ -25,18 +25,13 @@ jobs:
       run: |
         python templateToMarkdown.py
     - name: Check for changes
-    
+      id: check_changes
       run: |
-        git diff --exit-code || echo "Changes detected"
-    - name: Commit index file
-      if: ${{ steps.Check_for_changes.outcome == 'failure' }}
+        git diff --exit-code || echo "CHANGES_DETECTED=true" >> $GITHUB_ENV
+    - name: Commit and push changes
+      if: env.CHANGES_DETECTED == 'true'
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git commit -m "Updated glossary page" index.md
-    - name: Push changes
-      if: ${{ steps.Check_for_changes.outcome == 'failure' }}
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.head_ref }}
+        git push origin ${{ github.head_ref }}
