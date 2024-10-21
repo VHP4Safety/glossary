@@ -12,20 +12,36 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
+
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
         python-version: 3
+
     - name: Install dependencies
       run: |
         pip install --upgrade pip
         pip install wheel setuptools pip --upgrade
+
+    - name: Extract template data
+      run: |
+        python templateToMarkdown.py
+
+    - name: Check for changes
+      id: check_changes
+      run: |
+        if git diff --quiet; then echo "no_changes=true" >> $GITHUB_ENV; else echo "no_changes=false" >> $GITHUB_ENV; fi
+
     - name: Commit index file
+      if: env.no_changes == 'false'
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git commit -m "Updated glossary page" index.md
+        git add index.md
+        git commit -m "Updated glossary page"
+
     - name: Push changes
+      if: env.no_changes == 'false'
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
