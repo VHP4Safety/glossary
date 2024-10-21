@@ -1,10 +1,11 @@
 name: extract-owl
 
 on:
+  workflow_run:
+    workflows: ["update_md"]
+    types:
+      - completed
   workflow_dispatch:
-  push:
-    paths:
-      - index.md
 
 jobs:
   build:
