@@ -42,6 +42,5 @@ jobs:
           git config --local user.name "GitHub Action"
           git add index.md
           git commit -m "Updated glossary page"
-          # Attempt to pull with rebase, but proceed without push if it fails.
-          git pull --rebase origin "${{ github.head_ref }}" || exit 0
-          git push origin "HEAD:${{ github.head_ref }}"
+          git pull --rebase
+          git push
