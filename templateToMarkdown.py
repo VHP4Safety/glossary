@@ -30,7 +30,7 @@ sections = {
     "organizations": "organizations.tsv",
 }
 
-# Clickable svg 
+# Clickable svg
 SVG_ICON = (
     '<svg xmlns="http://www.w3.org/2000/svg" height="12" width="15" viewBox="0 0 640 512">'
     '<path d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4 10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4-6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"/>'
@@ -58,14 +58,16 @@ def create_rdfa_table(tsv_file_path):
 
     terms_set = set(df["Term"].str.strip().tolist())
 
+    # Adjusted prefix formatting
     table_html = (
-        f'<table prefix="{" ".join([f"{k}: <{v}>" for k, v in prefixes.items()])}">\n'
+        f'<table prefix="{" ".join([f"{k}: {v}" for k, v in prefixes.items()])}">\n'
     )
 
+    # Adjusted headers to use <td> with <b>
     headers = [header for header in df.columns if header != "ID"]
     table_html += (
         "  <tr>\n"
-        + "".join([f"    <th>{header}</th>\n" for header in headers])
+        + "".join([f"    <td><b>{header}</b></td>\n" for header in headers])
         + "  </tr>\n"
     )
 
@@ -82,27 +84,22 @@ def create_rdfa_table(tsv_file_path):
 
         term_cell_content = (
             f'<span property="rdfs:label">{term_value}</span> '
-            f'<a href="https://glossary.vhp4safety.nl/#{row_id}">{SVG_ICON}</a>'
+            f'<a href="https://vhp4safety.github.io/glossary#{row_id}">{SVG_ICON}</a>'
         )
         table_html += f"    <td>{term_cell_content}</td>\n"
 
-        for header in headers[1:]:  # Skip the first column (Term)
+        for header in headers[1:]: 
             cell_value = (
                 row[header] if header in row and not pd.isna(row[header]) else ""
             )
             cell_value = str(cell_value).strip()
 
-            property_attr = ""
             if header.lower() == "abbreviation":
-                property_attr = ' property="ncit:C42610"'
-                cell_content = f"<span{property_attr}>{cell_value}</span>"
+                table_html += f'    <td property="ncit:C42610">{cell_value}</td>\n'
             elif header.lower() == "definition":
-                property_attr = ' property="dc:description"'
-                cell_content = f"<span{property_attr}>{cell_value}</span>"
+                table_html += f'    <td property="dc:description">{cell_value}</td>\n'
             else:
-                cell_content = cell_value
-
-            table_html += f"    <td>{cell_content}</td>\n"
+                table_html += f"    <td>{cell_value}</td>\n"
 
         table_html += "  </tr>\n"
 
