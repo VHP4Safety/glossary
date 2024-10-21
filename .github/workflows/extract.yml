@@ -3,7 +3,6 @@ name: extract-owl
 on:
   workflow_dispatch:
   push:
-    branches: [ main ]
     paths:
       - index.md
 
