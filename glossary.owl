@@ -576,7 +576,7 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=07dc80c5fc3f5c6416400b4eac2cfb74b172625a> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=5453d915b9507a065b301ce10d0b7668997338f0> ;
         <twitter:title>  "VHP4Safety Glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000013>
@@ -596,14 +596,6 @@
         rdfs:label      "Data Management Plan"@en-US ;
         ncit:C42610     "DMP"@en-US ;
         dc:description  "Plans to serve to address the what, how, who, and where of data management by formally outlining the roles, responsibilities, and activities for managing data during and after research in alignment with FAIR principles. "@en-US .
-
-[ rdf:type                      <http://schema.org/WebSite> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "VHP4Safety Glossary" ;
-  <http://schema.org/name>      "glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
-] .
 
 <https://vhp4safety.github.io/glossary#VHP0000026>
         rdf:type        owl:Class ;
@@ -664,6 +656,14 @@
         rdfs:label      "Dockerfile"@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "A file that includes the commands to build a Docker image."@en-US .
+
+[ rdf:type                      <http://schema.org/WebSite> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "VHP4Safety Glossary" ;
+  <http://schema.org/name>      "glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
+] .
 
 <https://vhp4safety.github.io/glossary#VHP0000005>
         rdf:type        owl:Class ;
