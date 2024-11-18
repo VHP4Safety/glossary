@@ -29,6 +29,12 @@
         ncit:C42610     "HTS"@en-US ;
         dc:description  ""@en-US .
 
+<https://vhp4safety.github.io/glossary#VHP0000137>
+        rdf:type        owl:Class ;
+        rdfs:label      "Prompt Engineering"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "The process of designing and refining prompts to achieve desired outputs from a model, often used to maximize performance in specific tasks."@en-US .
+
 <https://vhp4safety.github.io/glossary#VHP0000080>
         rdf:type        owl:Class ;
         rdfs:label      "nan"@en-US ;
@@ -185,6 +191,12 @@
         ncit:C42610     "NAM"@en-US ;
         dc:description  "A collection of various methods (e.g., high-throughput screening and high-content methods) in a wide set of contexts includingin chemicoandin vitroto improve knowledge over the toxicokinetic or toxicodynamic attributes of chemical substances, and in turn to improve the chemical safety assessment (see also Non-Animal Methodology).  "@en-US .
 
+<https://vhp4safety.github.io/glossary#VHP0000136>
+        rdf:type        owl:Class ;
+        rdfs:label      "Token"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "The basic unit of text processed by a language model, which can be a word, part of a word, or even a single character, depending on the model’s tokenizer."@en-US .
+
 <https://vhp4safety.github.io/glossary#VHP0000108>
         rdf:type        owl:Class ;
         rdfs:label      "induced Embryonic Stem Cell"@en-US ;
@@ -329,6 +341,12 @@
         ncit:C42610     ""@en-US ;
         dc:description  "A person with the role in the SCRUM method who ensures the team follows the scrum practices and that the backlog, sprint, user stories and epics are clear."@en-US .
 
+<https://vhp4safety.github.io/glossary#VHP0000135>
+        rdf:type        owl:Class ;
+        rdfs:label      "Multimodal Model"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "A model capable of processing and generating responses from multiple types of data, such as text, images, and audio."@en-US .
+
 <https://vhp4safety.github.io/glossary#VHP0000107>
         rdf:type        owl:Class ;
         rdfs:label      "Module"@en-US ;
@@ -376,6 +394,14 @@
         rdfs:label      "Work Package 3.2"@en-US ;
         ncit:C42610     "WP3.2"@en-US ;
         dc:description  "Acceptance of VHP for safety assessment: objectives to position the VHP in the transition to animal-free safety assessment, raise awareness, investigate uncertainties and acceptance of safety assessments."@en-US .
+
+[ rdf:type                      <http://schema.org/WebSite> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "VHP4Safety Glossary" ;
+  <http://schema.org/name>      "glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
+] .
 
 <https://vhp4safety.github.io/glossary#VHP0000048>
         rdf:type        owl:Class ;
@@ -466,6 +492,12 @@
         rdfs:label      "Backlog"@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "A prioritized list of all the tasks the team still wants to complete, used in the SCRUM method of working. Each added task is clearly described and preferably linked to an epic and a user story. At the beginning of a sprint, tasks will be selected from the backlog and assigned to teammember to be completed before the end of that sprint."@en-US .
+
+<https://vhp4safety.github.io/glossary#VHP0000134>
+        rdf:type        owl:Class ;
+        rdfs:label      "Agent"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "A software entity that uses a language model to autonomously perform specific tasks by interpreting prompts, interacting with data or systems, and generating results."@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000106>
         rdf:type        owl:Class ;
@@ -576,7 +608,7 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=5453d915b9507a065b301ce10d0b7668997338f0> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=ab360ee99361c766c7a63abdc422719cb539c54c> ;
         <twitter:title>  "VHP4Safety Glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000013>
@@ -584,6 +616,12 @@
         rdfs:label      "Read accross"@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "A common approach in the risk assessment in order to examine structural similarities between the source and the target substances when there is a lack of information on their physical-chemical, toxicological properties, or environmental fate."@en-US .
+
+<https://vhp4safety.github.io/glossary#VHP0000139>
+        rdf:type        owl:Class ;
+        rdfs:label      "Retrieval-Augmented Generation"@en-US ;
+        ncit:C42610     "RAG"@en-US ;
+        dc:description  "A technique that combines retrieval systems (e.g., search engines or databases) with generation models like LLMs. The retrieval system provides relevant context or data, which the generation model then uses to create accurate and context-aware responses."@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000082>
         rdf:type        owl:Class ;
@@ -627,6 +665,12 @@
         ncit:C42610     ""@en-US ;
         dc:description  "The server provided by Strato where the Docker containers used in the project are deployed."@en-US .
 
+<https://vhp4safety.github.io/glossary#VHP0000133>
+        rdf:type        owl:Class ;
+        rdfs:label      "Prompt"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "An input provided to a model to guide its output or action. Prompts can take various forms, such as text, images, audio, or structured data, depending on the capabilities of the model."@en-US .
+
 <https://vhp4safety.github.io/glossary#VHP0000105>
         rdf:type        owl:Class ;
         rdfs:label      "Hackathon"@en-US ;
@@ -656,14 +700,6 @@
         rdfs:label      "Dockerfile"@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "A file that includes the commands to build a Docker image."@en-US .
-
-[ rdf:type                      <http://schema.org/WebSite> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "VHP4Safety Glossary" ;
-  <http://schema.org/name>      "glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
-] .
 
 <https://vhp4safety.github.io/glossary#VHP0000005>
         rdf:type        owl:Class ;
@@ -701,6 +737,12 @@
         ncit:C42610     "PBPK"@en-US ;
         dc:description  "Mechanistic representation of ADME processes for a chemical in a living organism, based on physiological and chemical properties"@en-US .
 
+<https://vhp4safety.github.io/glossary#VHP0000140>
+        rdf:type        owl:Class ;
+        rdfs:label      "Explainability"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "The ability to interpret and understand the output of an LLM, including why certain predictions or answers were generated."@en-US .
+
 <https://vhp4safety.github.io/glossary#VHP0000112>
         rdf:type        owl:Class ;
         rdfs:label      "Human-Readable Data"@en-US ;
@@ -724,6 +766,12 @@
         rdfs:label      "No Observed Adverse Effect Level"@en-US ;
         ncit:C42610     "NOAEL"@en-US ;
         dc:description  "The highest exposure level of a chemical stressor evaluated in a toxicity test that shows no harmful effects on a plant or animal."@en-US .
+
+<https://vhp4safety.github.io/glossary#VHP0000138>
+        rdf:type        owl:Class ;
+        rdfs:label      "Fine-Tuning"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "The process of training a pre-existing language model on a smaller, domain-specific dataset to improve its performance on specific tasks or for specific industries."@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000081>
         rdf:type        owl:Class ;
@@ -771,6 +819,12 @@
         rdf:type         owl:Ontology ;
         dct:contributor  "Egon Willighagen"@en-US , "Marvin Martens"@en-US , "Ozan Çınar"@en-US ;
         dct:title        "VHP4Safety Glossary"@en-US .
+
+<https://vhp4safety.github.io/glossary#VHP0000132>
+        rdf:type        owl:Class ;
+        rdfs:label      "Blood Brain Barrier"@en-US ;
+        ncit:C42610     "BBB"@en-US ;
+        dc:description  "A tissue to protect the brain and spinal cord from both toxic and pathogenic agents in the blood. It is formed by extensive tight junctions between vascular epithelial cells, which are polarized into luminal (blood-facing) and abluminal (brain-facing) plasma membrane domains."@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000104>
         rdf:type        owl:Class ;
