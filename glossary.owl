@@ -425,25 +425,17 @@
         ncit:C42610     ""@en-US ;
         dc:description  "A framework for learning from incidents and turning problems into progress by bringing people together to discuss the details of the incident to explore why it happened, its impact, the actions that can be taken to mitigate and resolve it, and the actions to prevent it happen again. "@en-US .
 
-<https://vhp4safety.github.io/glossary#VHP0000127>
-        rdf:type        owl:Class ;
-        rdfs:label      "Sprint Retrospective"@en-US ;
-        ncit:C42610     ""@en-US ;
-        dc:description  "A meeting after the Sprint Review where the team reflects on the process of sprint that was reviewed. It focuses on the aspects of the last sprint that went well or bad, and how the team can improve their work in the next sprint."@en-US .
-
 <https://vhp4safety.github.io/glossary#VHP0000001>
         rdf:type        owl:Class ;
         rdfs:label      "3 Rs Principle"@en-US ;
         ncit:C42610     "3Rs"@en-US ;
         dc:description  "Replacement, Reduction, and Refinement. Used in the context of performing more humane animal research."@en-US .
 
-[ rdf:type                      <http://schema.org/WebSite> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "VHP4Safety Glossary" ;
-  <http://schema.org/name>      "glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
-] .
+<https://vhp4safety.github.io/glossary#VHP0000127>
+        rdf:type        owl:Class ;
+        rdfs:label      "Sprint Retrospective"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "A meeting after the Sprint Review where the team reflects on the process of sprint that was reviewed. It focuses on the aspects of the last sprint that went well or bad, and how the team can improve their work in the next sprint."@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000070>
         rdf:type        owl:Class ;
@@ -620,7 +612,7 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=48b47495dcf0b234e3ebf3e1eb66b5f45a2c6260> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=582d72414726ec69d4b899097e0c23fe7450b959> ;
         <twitter:title>  "VHP4Safety Glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000013>
@@ -766,6 +758,14 @@
         rdfs:label      "Sprint Planning"@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "A meeting at the beginning of each sprint where the team selects tasks from the backlog to work on during that sprint. The team will also assign members to each task and discuss how they plan on completing them."@en-US .
+
+[ rdf:type                      <http://schema.org/WebSite> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "VHP4Safety Glossary" ;
+  <http://schema.org/name>      "glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
+] .
 
 <https://vhp4safety.github.io/glossary#VHP0000040>
         rdf:type        owl:Class ;
