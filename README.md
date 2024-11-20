@@ -18,8 +18,11 @@ For other issues, suggestions, or problems, please create an issue [here](https:
 
 ## Data format
 
-The Glossary is stored in a [Markdown](https://en.wikipedia.org/wiki/Markdown) file with
+The Glossary is mainly presented under https://glossary.vhp4safety.nl/ in the HTML rendering of a [Markdown](https://en.wikipedia.org/wiki/Markdown) file with
 [HTML](https://en.wikipedia.org/wiki/HTML) bits and [RDFa](https://rdfa.info/docs) annotation.
+
+New terms are added under the adequate template in [/templates](/templates), and the Markdown gets updated automatically via a GitHub action.
+
 The Glossary terms are listed in a set of HTML tables, where each row describes a single term.
 Here, we take advantage of the HTML+RDFa standard, and embed the OWL data. Because OWL is
 just RDF, we effectively specify RDF triples:
