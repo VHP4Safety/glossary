@@ -401,14 +401,6 @@
         ncit:C42610     ""@en-US ;
         dc:description  "Research data should be ready for future research and future processing, making it self-evident that findings can be replicated and that new research effectively builds on already acquired, previous results. "@en-US .
 
-[ rdf:type                      <http://schema.org/WebSite> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "VHP4Safety Glossary" ;
-  <http://schema.org/name>      "glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
-] .
-
 <https://vhp4safety.github.io/glossary#VHP0000101>
         rdf:type        owl:Class ;
         rdfs:label      "Risk Assessment"@en-US ;
@@ -535,6 +527,14 @@
         ncit:C42610     "PBK model"@en-US ;
         dc:description  "see PBPK model (these terms are equivalent)"@en-US .
 
+[ rdf:type                      <http://schema.org/WebSite> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "VHP4Safety Glossary" ;
+  <http://schema.org/name>      "glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
+] .
+
 <https://vhp4safety.github.io/glossary#VHP0000034>
         rdf:type        owl:Class ;
         rdfs:label      "Docker container"@en-US ;
@@ -620,7 +620,7 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=06f00af2d2276e11c35b64428c1c294bc0854a26> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=1c82a194046090091fb0b89a988e825bf1b661cf> ;
         <twitter:title>  "VHP4Safety Glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000013>
