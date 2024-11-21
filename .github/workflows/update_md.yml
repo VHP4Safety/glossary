@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - templates/*
+      - .github/*
 
 jobs:
   test:
