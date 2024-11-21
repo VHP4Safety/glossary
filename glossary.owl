@@ -71,25 +71,17 @@
         ncit:C42610     "RL1"@en-US ;
         dc:description  "Building the Virtual Human Platform."@en-US .
 
-<https://vhp4safety.github.io/glossary#VHP00000789>
-        rdf:type        owl:Class ;
-        rdfs:label      "User"@en-US ;
-        ncit:C42610     ""@en-US ;
-        dc:description  ""@en-US .
-
 <https://vhp4safety.github.io/glossary#VHP0000037>
         rdf:type        owl:Class ;
         rdfs:label      "Secure Shell"@en-US ;
         ncit:C42610     "ssh"@en-US ;
         dc:description  "A network protocol to access a network service remotely and securely."@en-US .
 
-[ rdf:type                      <http://schema.org/WebSite> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "VHP4Safety Glossary" ;
-  <http://schema.org/name>      "glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
-] .
+<https://vhp4safety.github.io/glossary#VHP00000789>
+        rdf:type        owl:Class ;
+        rdfs:label      "User"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  ""@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000009>
         rdf:type        owl:Class ;
@@ -499,6 +491,14 @@
         ncit:C42610     ""@en-US ;
         dc:description  "A prioritized list of all the tasks the team still wants to complete, used in the SCRUM method of working. Each added task is clearly described and preferably linked to an epic and a user story. At the beginning of a sprint, tasks will be selected from the backlog and assigned to teammember to be completed before the end of that sprint."@en-US .
 
+[ rdf:type                      <http://schema.org/WebSite> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "VHP4Safety Glossary" ;
+  <http://schema.org/name>      "glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
+] .
+
 <https://vhp4safety.github.io/glossary#VHP0000134>
         rdf:type        owl:Class ;
         rdfs:label      "Agent"@en-US ;
@@ -620,7 +620,7 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=a70917a819b37e65df321ff6292e88db5e1213bc> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=6619c8cad1f999967241602e9670c0fade5ceb1a> ;
         <twitter:title>  "VHP4Safety Glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000013>
