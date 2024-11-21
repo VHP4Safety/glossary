@@ -11,4 +11,5 @@ VHP0000037	Secure Shell	ssh	A network protocol to access a network service remot
 VHP0000038	Strato		An internet hosting service provider that supplies the servers where the virtual platform is built.	https://www.strato.nl/
 VHP0000039	VHP server 1		The server provided by Strato where the Docker containers used in the project are deployed.	
 VHP0000040	VHP server 2		The server provided by Strato where the Kubernetes structure is formed for orchestration of the Docker containers on VHP server 1.	  
-VHP0000095	VHP server 3		The server provided by Strato that is used for experimentation, learning, and testing the work that is carried out on VHP servers 1 and 2.
+VHP0000095	VHP server 3		The server provided by Strato that is used for experimentation, learning, and testing the work that is carried out on VHP servers 1 and 2.	
+
