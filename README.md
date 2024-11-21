@@ -40,11 +40,11 @@ attribute to specify the *predicate*. The `object` can be specified in different
 and the above example shows how the `Literal` is given.
 
 ### Adding new sections
-To add any new section or edit the text in index.md, we won't use the actual index.md but a template under [.github/index.md](https://github.com/VHP4Safety/glossary/blob/patch_templates/.github/index.md).
+To add any new section or edit the text in index.md, we won't use the actual index.md but add a new template under [.github/index.md](https://github.com/VHP4Safety/glossary/blob/patch_templates/.github/index.md). After adding the table with the right columns:
 
 - Go to [.github/index.md](.github/index.md) and add the section header and placeholder (see below):
 https://github.com/VHP4Safety/glossary/blob/43df60015ffecee6c3aa3d01376aee0044e4503c/.github/index.md?plain=1#L26-L28
-- Go to the [script](templateToMarkdown.py) and add the section name under `sections`:
+- Go to the [script](templateToMarkdown.py) and add the {placeholder, filename} key-value pair (e.g., `{'chemicals', 'chemicals.tsv',}`:
 https://github.com/VHP4Safety/glossary/blob/43df60015ffecee6c3aa3d01376aee0044e4503c/templateToMarkdown.py#L23-L32
 
 ## Extract OWL triples
