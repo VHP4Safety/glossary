@@ -28,6 +28,7 @@ sections = {
     "tools": "tools.tsv",
     "projects": "projects.tsv",
     "organizations": "organizations.tsv",
+    "chemicals": "chemicals.tsv",
 }
 
 # Clickable svg
