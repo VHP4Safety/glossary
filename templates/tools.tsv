@@ -1,7 +1,7 @@
 ID	Term	Abbreviation	Definition	ref
 VHP0000046	Accessible		One needs to know how data can be accessed, possibly including authentication and authorisation.	https://www.go-fair.org/fair-principles/
 VHP0000116	Adapter		A framework to fine-tune (large language) models by adding a small number of external parameters without the need of the entire (large language) model.	https://arxiv.org/pdf/1902.00751,https://arxiv.org/abs/2304.01933
-VHP0000134		A software entity that uses a language model to autonomously perform specific tasks by interpreting prompts, interacting with data or systems, and generating results.
+VHP0000134	Agent		A software entity that uses a language model to autonomously perform specific tasks by interpreting prompts, interacting with data or systems, and generating results.
 VHP0000041	Application Programming Interface	API	A type of software interface that provides a way for two or more computer programs to communicate with each other.	https://www.igi-global.com/article/application-programming-interface-api-research/232166
 VHP0000142	Atomic Site of Metabolism	SOM	The atomic site in a molecule which is prone to metabolism by Cytochrome P450s (or other enzymes) as referred in the <a href="https://cloud.vhp4safety.nl/service/sombie.html">SOM Prediction</a> tool.	
 VHP0000121	Backlog		A prioritized list of all the tasks the team still wants to complete, used in the SCRUM method of working. Each added task is clearly described and preferably linked to an epic and a user story. At the beginning of a sprint, tasks will be selected from the backlog and assigned to teammember to be completed before the end of that sprint.	
@@ -39,7 +39,7 @@ VHP0000062	Physiologically based kinetic model	PBK model	see PBPK model (these t
 VHP0000059	Physiologically based pharmacokinetic model	PBPK	Mechanistic representation of ADME processes for a chemical in a living organism, based on physiological and chemical properties	
 VHP0000060	Physiologically based toxicokinetic model	PBTK	see PBPK model (these terms are equivalent)	
 VHP0000123	Product Owner		A key role in SCRUM method for people who have a clear view of the long term goals of the project and the expertise of the team members. People with this role review the epics and user stories and prioritize the tasks in the backlog.	
-VHP0000133	Pompt		An input provided to a model to guide its output or action. Prompts can take various forms, such as text, images, audio, or structured data, depending on the capabilities of the model.	
+VHP0000133	Prompt		An input provided to a model to guide its output or action. Prompts can take various forms, such as text, images, audio, or structured data, depending on the capabilities of the model.	
 VHP0000137	Pompt Engineering		The process of designing and refining prompts to achieve desired outputs from a model, often used to maximize performance in specific tasks.	
 VHP0000090	Proteochemometric	PCM	Mathematical models that can be used to predict the biological properties (mainly bioactivity) of compounds on proteins from the knowledge of their (chemical) structure.	
 VHP0000064	Quantitative Structure Activity Relationships	QSAR	Mathematical models that can be used to predict the physicochemical, biological and environmental fate properties of compounds from the knowledge of their chemical structure.	
