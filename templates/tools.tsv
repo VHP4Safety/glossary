@@ -40,7 +40,7 @@ VHP0000059	Physiologically based pharmacokinetic model	PBPK	Mechanistic represen
 VHP0000060	Physiologically based toxicokinetic model	PBTK	see PBPK model (these terms are equivalent)	
 VHP0000123	Product Owner		A key role in SCRUM method for people who have a clear view of the long term goals of the project and the expertise of the team members. People with this role review the epics and user stories and prioritize the tasks in the backlog.	
 VHP0000133	Prompt		An input provided to a model to guide its output or action. Prompts can take various forms, such as text, images, audio, or structured data, depending on the capabilities of the model.	
-VHP0000137	Pompt Engineering		The process of designing and refining prompts to achieve desired outputs from a model, often used to maximize performance in specific tasks.	
+VHP0000137	Prompt Engineering		The process of designing and refining prompts to achieve desired outputs from a model, often used to maximize performance in specific tasks.	
 VHP0000090	Proteochemometric	PCM	Mathematical models that can be used to predict the biological properties (mainly bioactivity) of compounds on proteins from the knowledge of their (chemical) structure.	
 VHP0000064	Quantitative Structure Activity Relationships	QSAR	Mathematical models that can be used to predict the physicochemical, biological and environmental fate properties of compounds from the knowledge of their chemical structure.	
 VHP0000106	Research Output Management Plan	ROMP	Descriprion of the process of organising and documenting the diverse range of outputs generated during the research lifecycle.	https://doi.org/10.32388/ZNWI7T
