@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - templates/*
+      - .github/*
 
 jobs:
   test:
@@ -36,7 +37,7 @@ jobs:
           git diff --exit-code index.md || echo "CHANGES_DETECTED=true" >> $GITHUB_ENV
 
       - name: Commit and push changes
-        if: env.CHANGES_DETECTED == 'true'
+        if: env.CHANGES_DETECTED == 'true' && github.event_name != 'pull_request'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"

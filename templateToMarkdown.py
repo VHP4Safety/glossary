@@ -28,6 +28,7 @@ sections = {
     "tools": "tools.tsv",
     "projects": "projects.tsv",
     "organizations": "organizations.tsv",
+    "chemicals": "chemicals.tsv",
 }
 
 # Clickable svg
@@ -136,7 +137,7 @@ def update_markdown_file(template_file, output_file, sections):
         logging.error(f"Failed to read {template_file}: {e}")
         return
 
-    for placeholder, tsv_file in sections.items():
+    for table_type, tsv_file in sections.items():
         tsv_path = os.path.join(template_dir, tsv_file)
         if not os.path.exists(tsv_path):
             logging.warning(f"TSV file not found: {tsv_path}")
@@ -145,9 +146,8 @@ def update_markdown_file(template_file, output_file, sections):
         table_html, _ = create_rdfa_table(tsv_path)
         if not table_html:
             continue
-
-        content = content.replace(f"${{{placeholder}}}", table_html)
-        logging.info(f"Replaced content for placeholder: {placeholder}")
+        content = content.replace(f"${{{table_type}}}", table_html)
+        logging.info(f"Replaced content for table_type: {table_type}")
 
     try:
         with open(output_file, "w", encoding="utf-8") as f:

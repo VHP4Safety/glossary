@@ -17,10 +17,15 @@ This work is licensed under the [CC-BY 4.0 International](https://github.com/VHP
 This glossary is under development. For example, many definitions do not meet the community standards yet [1].
 
 To make new entry queries, please create an issue [here](https://github.com/VHP4Safety/glossary/issues/new/choose)
-using the [issue template](https://github.com/VHP4Safety/glossary/blob/main/.github/ISSUE_TEMPLATE/ontology-term-request.md).
+using the [issue template](https://github.com/VHP4Safety/glossary/issues/new?assignees=&labels=categorization&projects=&template=ontology-term-request.yml&title=%5BTERM+REQUEST%5D+Please+add+this+glossary+term).
 For other issues, suggestions, or problems, please create an issue [here](https://github.com/VHP4Safety/glossary/issues). 
 Experienced GitHub users are encouraged to submit pull requests. More information can be found in the project
 [README](README.md).
+
+
+## Chemicals
+
+${chemicals}
 
 
 ## Toxicology in General
@@ -53,6 +58,8 @@ ${projects}
 
 ${organizations}
 
+
+
 ## References
 
 1. Michie, S., West, R. & Hastings, J. Creating ontological definitions for use in science. Qeios (2022). DOI: [10.32388/YGIF9B.2](https://doi.org/10.32388/YGIF9B.2).
@@ -65,3 +72,4 @@ VHP4Safety – the Virtual Human Platform for safety assessment project
 research program ‘Research along Routes by Consortia (ORC)’, which is funded by the Netherlands Organization
 for Scientific Research (NWO). The project started on June 1, 2021 with a budget of over 10 million Euros
 and will last for the duration of 5 years. 
+

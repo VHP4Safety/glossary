@@ -18,8 +18,11 @@ For other issues, suggestions, or problems, please create an issue [here](https:
 
 ## Data format
 
-The Glossary is stored in a [Markdown](https://en.wikipedia.org/wiki/Markdown) file with
+The Glossary is mainly presented under https://glossary.vhp4safety.nl/ in the HTML rendering of a [Markdown](https://en.wikipedia.org/wiki/Markdown) file with
 [HTML](https://en.wikipedia.org/wiki/HTML) bits and [RDFa](https://rdfa.info/docs) annotation.
+
+New terms are added under the adequate template in [/templates](/templates), and the Markdown gets updated automatically via a GitHub action.
+
 The Glossary terms are listed in a set of HTML tables, where each row describes a single term.
 Here, we take advantage of the HTML+RDFa standard, and embed the OWL data. Because OWL is
 just RDF, we effectively specify RDF triples:
@@ -35,6 +38,14 @@ just RDF, we effectively specify RDF triples:
 RDFa uses the HTML attribute `about` to specify of the *subject* and the `property`
 attribute to specify the *predicate*. The `object` can be specified in different ways,
 and the above example shows how the `Literal` is given.
+
+### Adding new sections
+To add any new section or edit the text in index.md, we won't use the actual index.md but add a new template under [.github/index.md](https://github.com/VHP4Safety/glossary/blob/patch_templates/.github/index.md). After adding the table with the right columns:
+
+- Go to [.github/index.md](.github/index.md) and add the section header and placeholder (see below):
+https://github.com/VHP4Safety/glossary/blob/43df60015ffecee6c3aa3d01376aee0044e4503c/.github/index.md?plain=1#L26-L28
+- Go to the [script](templateToMarkdown.py) and add the {placeholder, filename} key-value pair (e.g., `{'chemicals', 'chemicals.tsv',}`:
+https://github.com/VHP4Safety/glossary/blob/43df60015ffecee6c3aa3d01376aee0044e4503c/templateToMarkdown.py#L23-L32
 
 ## Extract OWL triples
 

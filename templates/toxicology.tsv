@@ -2,6 +2,7 @@ ID	Term	Abbreviation	Definition	ref
 VHP0000001	3 Rs Principle	3Rs	Replacement, Reduction, and Refinement. Used in the context of performing more humane animal research.	
 VHP0000002	Benchmark dose	BMD	See Benchmark dose modeling	
 VHP0000003	Benchmark dose modeling	BMD	An approach to determine the toxicological limit values for human health, such as the acceptable daily intake (ADI), of all chemical substances (e.g., food) regardless of type or origin. BMD modeling (possibly in combination with PBK modeling) analyzes in conjunction with multiple test systems and organ systems, to study how exposure variation has on the outcome of anin vitrotest system.	
+VHP0000132	Blood Brain Barrier	BBB	A tissue to protect the brain and spinal cord from both toxic and pathogenic agents in the blood. It is formed by extensive tight junctions between vascular epithelial cells, which are polarized into luminal (blood-facing) and abluminal (brain-facing) plasma membrane domains.	
 VHP0000004	Developmental and Reproductive Toxicology	DART		
 VHP0000005	Developmental Neurotoxicity	DNT		
 VHP0000006	(human) Embryonic Stem Cell	(h)ESCs	Pluripotent stem cells derived from the inner cell mass of a blastocyst (an early-stage pre-implantation embryo). These cells are characterised by their ability to differentiate into any cell type of the three germ layers: ectoderm, mesoderm, and endoderm. They are also known for their self-renewal capability, meaning they can proliferate indefinitely in culture while maintaining their pluripotency.	
