@@ -185,6 +185,14 @@
         ncit:C42610     ""@en-US ;
         dc:description  "A key role in SCRUM method for people who have a clear view of the long term goals of the project and the expertise of the team members. People with this role review the epics and user stories and prioritize the tasks in the backlog."@en-US .
 
+[ rdf:type                      <http://schema.org/WebSite> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "VHP4Safety Glossary" ;
+  <http://schema.org/name>      "glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
+] .
+
 <https://vhp4safety.github.io/glossary#VHP0000010>
         rdf:type        owl:Class ;
         rdfs:label      "New Approach Methodology"@en-US ;
