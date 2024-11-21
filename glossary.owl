@@ -185,14 +185,6 @@
         ncit:C42610     ""@en-US ;
         dc:description  "A key role in SCRUM method for people who have a clear view of the long term goals of the project and the expertise of the team members. People with this role review the epics and user stories and prioritize the tasks in the backlog."@en-US .
 
-[ rdf:type                      <http://schema.org/WebSite> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "VHP4Safety Glossary" ;
-  <http://schema.org/name>      "glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
-] .
-
 <https://vhp4safety.github.io/glossary#VHP0000010>
         rdf:type        owl:Class ;
         rdfs:label      "New Approach Methodology"@en-US ;
@@ -565,14 +557,6 @@
         ncit:C42610     "DMP"@en-US ;
         dc:description  "The process of discovering, analyzing, and scoping data requirements, and then representing and communicating these data requirements in a precise form called the data model. This process is iterative and may include a conceptual, logical, and physical model. "@en-US .
 
-[ rdf:type                      <http://schema.org/WebSite> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "VHP4Safety Glossary" ;
-  <http://schema.org/name>      "glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
-] .
-
 <https://vhp4safety.github.io/glossary#VHP0000019>
         rdf:type        owl:Class ;
         rdfs:label      "European Centre for the Validation of Alternative Methods"@en-US ;
@@ -596,6 +580,14 @@
         rdfs:label      "Stakeholder"@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "A person or a group of people who hold(s) a stake and/or can influence decision-making on a specific issue."@en-US .
+
+[ rdf:type                      <http://schema.org/WebSite> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "VHP4Safety Glossary" ;
+  <http://schema.org/name>      "glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
+] .
 
 <https://vhp4safety.github.io/glossary#VHP0000126>
         rdf:type        owl:Class ;
@@ -628,7 +620,7 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=cc75dd1fef2bb1c358b6ae4886c4e761fc16a1d4> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=582f269b0a800949a88c1b6f1d532266b5d4e3c6> ;
         <twitter:title>  "VHP4Safety Glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000013>
@@ -869,14 +861,6 @@
         rdfs:label      "Docker"@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "A service to create a virtual computer environment which can include the required software/tools to conduct a scientific work."@en-US .
-
-[ rdf:type                      <http://schema.org/WebSite> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "VHP4Safety Glossary" ;
-  <http://schema.org/name>      "glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
-] .
 
 <https://vhp4safety.github.io/glossary#VHP0000004>
         rdf:type        owl:Class ;
