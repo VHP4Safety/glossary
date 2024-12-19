@@ -202,14 +202,6 @@
         ncit:C42610     ""@en-US ;
         dc:description  "chemical compound, InChIKey ITPDYQOUSLNIHG-UHFFFAOYSA-N, CAS registry number 19774-82-4 "@en-US .
 
-[ rdf:type                      <http://schema.org/WebSite> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "VHP4Safety Glossary" ;
-  <http://schema.org/name>      "glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
-] .
-
 <https://vhp4safety.github.io/glossary#VHP0000123>
         rdf:type        owl:Class ;
         rdfs:label      "Product Owner"@en-US ;
@@ -431,6 +423,14 @@
         rdfs:label      "European Food Safety Authority"@en-US ;
         ncit:C42610     "EFSA"@en-US ;
         dc:description  "Legislator"@en-US .
+
+[ rdf:type                      <http://schema.org/WebSite> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "VHP4Safety Glossary" ;
+  <http://schema.org/name>      "glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
+] .
 
 <https://vhp4safety.github.io/glossary#VHP0000142>
         rdf:type        owl:Class ;
@@ -828,6 +828,12 @@
         ncit:C42610     ""@en-US ;
         dc:description  "chemical compound "@en-US .
 
+<https://vhp4safety.github.io/glossary#VHP0000143>
+        rdf:type        owl:Class ;
+        rdfs:label      "pCHEMBL"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "A value that allows a number of roughly comparable measures of half-maximal response concentration/potency/affinity to be compared on a negative logarithmic scale. "@en-US .
+
 <https://vhp4safety.github.io/glossary#VHP0000122>
         rdf:type        owl:Class ;
         rdfs:label      "SCRUM Master"@en-US ;
@@ -895,7 +901,7 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=241336bf11cf77bf63616cab9032b5625ee85e53> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=0c9b05ddd371bd274185c528d32ccde25a2bc1c7> ;
         <twitter:title>  "VHP4Safety Glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000109>
