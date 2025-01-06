@@ -61,7 +61,7 @@ def create_rdfa_table(tsv_file_path):
 
     def encode_smiles(smiles):
         encoded_smiles = urllib.parse.quote(smiles.encode('utf-8'))
-        url = "https://cdkdepict.cloud.vhp4safety.nl/depict/bot/svg?w=-1&h=-1&abbr=on&hdisp=bridgehead&showtitle=false&zoom=1.6&annotate=none&r=0&smi="
+        url = "https://cdkdepict.cloud.vhp4safety.nl/depict/bot/svg?w=-1&h=-1&abbr=off&hdisp=bridgehead&showtitle=false&zoom=1.6&annotate=cip&r=0&smi="
         image_html = f'<a href="{url + encoded_smiles}"><img src="{url + encoded_smiles}" alt="Chemical Structure"></a>'
         return image_html
 
