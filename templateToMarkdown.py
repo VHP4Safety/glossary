@@ -1,6 +1,7 @@
 import os
 import pandas as pd
 import logging
+import urllib.parse
 
 # Configure logging
 logging.basicConfig(
@@ -56,6 +57,18 @@ def create_rdfa_table(tsv_file_path):
             lambda row: add_superscripts(row["Definition"], row["ref"]), axis=1
         )
         df.drop("ref", axis=1, inplace=True)
+
+
+    def encode_smiles(smiles):
+        encoded_smiles = urllib.parse.quote(smiles.encode('utf-8'))
+        url = "https://cdkdepict.cloud.vhp4safety.nl/depict/bot/svg?w=-1&h=-1&abbr=on&hdisp=bridgehead&showtitle=false&zoom=1.25&annotate=none&r=0&smi="
+        image_html = f'<a href="{url + encoded_smiles}"><img src="{url + encoded_smiles}" alt="Chemical Structure"></a>'
+        return image_html
+
+    if "SMILES" in df.columns:
+        df["Chemical structure"] = df.apply(
+            lambda row: encode_smiles(row["SMILES"]) if isinstance(row["SMILES"], str) else "", axis=1
+        )
 
     terms_set = set(df["Term"].str.strip().tolist())
 
