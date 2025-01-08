@@ -6,7 +6,7 @@ This work is licensed under the [CC-BY 4.0 International](https://github.com/VHP
 <div about="https://vhp4safety.github.io/glossary/glossary#" typeof="owl:Ontology">
 <p>
   This <span property="dc:title">VHP4Safety Glossary</span> ontology is collected by (in alphabetical order)
-  <span property="dc:contributor">Ozan Çınar</span>, <span property="dc:contributor">Marvin Martens</span>,
+  <span property="dc:contributor">Ozan Çınar</span>, <span property="dc:contributor">Marvin Martens</span>, <span property="dc:contributor">Javier Millán Acosta</span>,
   <span property="dc:contributor">Egon Willighagen</span>, and others from the VHP4Safety project.
 </p>
 </div>
