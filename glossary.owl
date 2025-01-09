@@ -346,6 +346,14 @@
         ncit:C42610     "DNT"@en-US ;
         dc:description  ""@en-US .
 
+[ rdf:type                      <http://schema.org/WebSite> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "VHP4Safety Glossary" ;
+  <http://schema.org/name>      "glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
+] .
+
 <https://vhp4safety.github.io/glossary#VHP0000126>
         rdf:type        owl:Class ;
         rdfs:label      "Sprint Review"@en-US ;
@@ -484,14 +492,6 @@
         ncit:C42610     "TBBPA"@en-US ;
         dc:description  "chemical compound, InChIKey VEORPZCZECFIRK-UHFFFAOYSA-N, CAS registry number 79-94-7 "@en-US .
 
-[ rdf:type                      <http://schema.org/WebSite> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "VHP4Safety Glossary" ;
-  <http://schema.org/name>      "glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
-] .
-
 <https://vhp4safety.github.io/glossary#VHP0000129>
         rdf:type        owl:Class ;
         rdfs:label      "Epic"@en-US ;
@@ -575,6 +575,12 @@
         rdfs:label      "PBDE-99"@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "chemical compound, InChIKey WHPVYXDFIXRKLN-UHFFFAOYSA-N, CAS registry number 60348-60-9 "@en-US .
+
+<https://vhp4safety.github.io/glossary#VHP0000145>
+        rdf:type        owl:Class ;
+        rdfs:label      "Compound Wiki ID"@en-US ;
+        ncit:C42610     "Identifier used by the VHP4Safety Compound Wiki (see [compoundcloud.wikibase.cloud/wiki/Item:Q1](https://compoundcloud.wikibase.cloud/wiki/Item:Q1) where Q1 is the Compound Wiki ID for aflatoxin B1)."@en-US ;
+        dc:description  ""@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000124>
         rdf:type        owl:Class ;
@@ -907,7 +913,7 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=1627410284648d1ab146c3c5b87e7cc0969321c7> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=333992d6f35ce65437641636bf4f60f7d44fb1f8> ;
         <twitter:title>  "VHP4Safety Glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000109>
