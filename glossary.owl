@@ -394,6 +394,14 @@
         ncit:C42610     ""@en-US ;
         dc:description  "A common approach in the risk assessment in order to examine structural similarities between the source and the target substances when there is a lack of information on their physical-chemical, toxicological properties, or environmental fate."@en-US .
 
+[ rdf:type                      <http://schema.org/WebSite> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "VHP4Safety Glossary" ;
+  <http://schema.org/name>      "glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
+] .
+
 <https://vhp4safety.github.io/glossary#Q1880>
         rdf:type        owl:Class ;
         rdfs:label      "lesinurad"@en-US ;
