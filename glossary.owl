@@ -125,6 +125,14 @@
         ncit:C42610     "PK"@en-US ;
         dc:description  "see ADME (these terms are equivalent)"@en-US .
 
+[ rdf:type                      <http://schema.org/WebSite> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "VHP4Safety Glossary" ;
+  <http://schema.org/name>      "glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
+] .
+
 <https://vhp4safety.github.io/glossary#VHP0000036>
         rdf:type        owl:Class ;
         rdfs:label      "Kubernetes"@en-US ;
@@ -327,14 +335,6 @@
         rdfs:label      "Work Package 1.1"@en-US ;
         ncit:C42610     "WP1.1"@en-US ;
         dc:description  "Building the ICT infrastructure for the VHP: objectives to develop the technical infrastructure, setting up a predictive platform, developing analysis workflows, making services and data available and interoperable."@en-US .
-
-[ rdf:type                      <http://schema.org/WebSite> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "VHP4Safety Glossary" ;
-  <http://schema.org/name>      "glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
-] .
 
 <https://vhp4safety.github.io/glossary#VHP0000047>
         rdf:type        owl:Class ;
@@ -913,7 +913,7 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=cb2e42108c71f9be55e696829f874c8f7c803f50> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=b7ec1e477a8c6d2c7db946a655f8d74cbbe6fb8e> ;
         <twitter:title>  "VHP4Safety Glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000109>
