@@ -105,7 +105,7 @@
         rdf:type        owl:Class ;
         rdfs:label      "User Story"@en-US ;
         ncit:C42610     ""@en-US ;
-        dc:description  "A simple, clear description of a desired feature or functionality from the perspective of the end user. Typically follows the format: \"As as [user], I want [feature], so that [benefit].\". Each task in the backlog should be contributing to as user story, each user story should be contributing to an epic."@en-US .
+        dc:description  "A simple, clear description of a desired feature or functionality from the perspective of the end user. Typically follows the format: 'As as [user], I want [feature], so that [benefit].'. Each task in the backlog should be contributing to as user story, each user story should be contributing to an epic."@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000107>
         rdf:type        owl:Class ;
@@ -142,14 +142,6 @@
         rdfs:label      "nan"@en-US ;
         ncit:C42610     "NOEL"@en-US ;
         dc:description  ""@en-US .
-
-[ rdf:type                      <http://schema.org/WebSite> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "VHP4Safety Glossary" ;
-  <http://schema.org/name>      "glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
-] .
 
 <https://vhp4safety.github.io/glossary/glossary#>
         rdf:type         owl:Ontology ;
@@ -460,7 +452,7 @@
         rdf:type        owl:Class ;
         rdfs:label      "Atomic Site of Metabolism"@en-US ;
         ncit:C42610     "SOM"@en-US ;
-        dc:description  "The atomic site in a molecule which is prone to metabolism by Cytochrome P450s (or other enzymes) as referred in the <a href=\"\";https://cloud.vhp4safety.nl/service/sombie.html\"\";>SOM Prediction</a> tool."@en-US .
+        dc:description  "The atomic site in a molecule which is prone to metabolism by Cytochrome P450s (or other enzymes) as referred in the SOM Prediction tool."@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000121>
         rdf:type        owl:Class ;
@@ -604,7 +596,7 @@
         rdf:type        owl:Class ;
         rdfs:label      "Compound Wiki ID"@en-US ;
         ncit:C42610     ""@en-US ;
-        dc:description  "Identifier used by the VHP4Safety Compound Wiki (see <a href=\"\"https://compoundcloud.wikibase.cloud/wiki/Item:Q1\"\">compoundcloud.wikibase.cloud/wiki/Item:Q1</a> where Q1 is the Compound Wiki ID for aflatoxin B1)."@en-US .
+        dc:description  "Identifier used by the VHP4Safety Compound Wiki (see compoundcloud.wikibase.cloud/wiki/Item:Q1 where Q1 is the Compound Wiki ID for aflatoxin B1)."@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000124>
         rdf:type        owl:Class ;
@@ -882,6 +874,14 @@
         ncit:C42610     ""@en-US ;
         dc:description  "A person with the role in the SCRUM method who ensures the team follows the scrum practices and that the backlog, sprint, user stories and epics are clear."@en-US .
 
+[ rdf:type                      <http://schema.org/WebSite> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "VHP4Safety Glossary" ;
+  <http://schema.org/name>      "glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
+] .
+
 <https://vhp4safety.github.io/glossary#VHP0000101>
         rdf:type        owl:Class ;
         rdfs:label      "Risk Assessment"@en-US ;
@@ -922,7 +922,7 @@
         rdf:type        owl:Class ;
         rdfs:label      "Definition of Done"@en-US ;
         ncit:C42610     "DoD"@en-US ;
-        dc:description  "A shared understanding among the team of when a task is considered as \"done\". It ensures work is completed to a certain standard before it is accepted. This might include specific documentation, review by another team member or discussion during the Sprint Review."@en-US .
+        dc:description  "A shared understanding among the team of when a task is considered as 'done'. It ensures work is completed to a certain standard before it is accepted. This might include specific documentation, review by another team member or discussion during the Sprint Review."@en-US .
 
 <https://glossary.vhp4safety.nl/>
         og:description   "Webpage with the VHP4Safety Glossary"@en-US ;
@@ -943,7 +943,7 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=4be2515da493a1c189b65b36020bb4b409fb8a8d> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=f4513c5483f13fe3338e2bcd48d3b6e1e0b9457d> ;
         <twitter:title>  "VHP4Safety Glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000109>
