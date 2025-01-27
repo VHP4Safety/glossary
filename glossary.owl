@@ -23,6 +23,12 @@
         ncit:C42610     ""@en-US ;
         dc:description  "A data or dataset that is in a format that can be naturally read by humans. It usually contrasts with machine-readable data. "@en-US .
 
+<https://vhp4safety.github.io/glossary#Q2062>
+        rdf:type        owl:Class ;
+        rdfs:label      "Silibinin"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "mixture "@en-US .
+
 <https://vhp4safety.github.io/glossary#VHP0000083>
         rdf:type        owl:Class ;
         rdfs:label      "Data steward"@en-US ;
@@ -394,14 +400,6 @@
         ncit:C42610     ""@en-US ;
         dc:description  "A common approach in the risk assessment in order to examine structural similarities between the source and the target substances when there is a lack of information on their physical-chemical, toxicological properties, or environmental fate."@en-US .
 
-[ rdf:type                      <http://schema.org/WebSite> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "VHP4Safety Glossary" ;
-  <http://schema.org/name>      "glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
-] .
-
 <https://vhp4safety.github.io/glossary#Q1880>
         rdf:type        owl:Class ;
         rdfs:label      "lesinurad"@en-US ;
@@ -527,6 +525,14 @@
         rdfs:label      "European Medicines Agency"@en-US ;
         ncit:C42610     "EMA"@en-US ;
         dc:description  ""@en-US .
+
+[ rdf:type                      <http://schema.org/WebSite> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "VHP4Safety Glossary" ;
+  <http://schema.org/name>      "glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
+] .
 
 <https://vhp4safety.github.io/glossary#VHP0000058>
         rdf:type        owl:Class ;
@@ -671,6 +677,12 @@
         rdfs:label      "Machine-Readable Data"@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "A data or dataset that is in a format that can be read by a computer. It usually contrasts with human-readable data. "@en-US .
+
+<https://vhp4safety.github.io/glossary#Q2061>
+        rdf:type        owl:Class ;
+        rdfs:label      "silymarin"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "extract "@en-US , "mixture "@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000082>
         rdf:type        owl:Class ;
@@ -882,14 +894,6 @@
         ncit:C42610     ""@en-US ;
         dc:description  "A person with the role in the SCRUM method who ensures the team follows the scrum practices and that the backlog, sprint, user stories and epics are clear."@en-US .
 
-[ rdf:type                      <http://schema.org/WebSite> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "VHP4Safety Glossary" ;
-  <http://schema.org/name>      "glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
-] .
-
 <https://vhp4safety.github.io/glossary#VHP0000101>
         rdf:type        owl:Class ;
         rdfs:label      "Risk Assessment"@en-US ;
@@ -951,7 +955,7 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=f4513c5483f13fe3338e2bcd48d3b6e1e0b9457d> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=3d0133f4300d076061ebb5a18f933db89821422f> ;
         <twitter:title>  "VHP4Safety Glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000109>
