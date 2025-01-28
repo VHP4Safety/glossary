@@ -59,6 +59,14 @@
         ncit:C42610     ""@en-US ;
         dc:description  "type of a chemical entity, InChIKey ORXQGKIUCDPEAJ-YRNVUSSQSA-N, CAS registry number 6754-58-1 "@en-US .
 
+[ rdf:type                      <http://schema.org/WebSite> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "VHP4Safety Glossary" ;
+  <http://schema.org/name>      "glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
+] .
+
 <https://vhp4safety.github.io/glossary#Q4732>
         rdf:type        owl:Class ;
         rdfs:label      "Mn²⁺"@en-US ;
@@ -145,9 +153,9 @@
 
 <https://vhp4safety.github.io/glossary#VHP0000015>
         rdf:type        owl:Class ;
-        rdfs:label      "nan"@en-US ;
+        rdfs:label      "No Observed Effect Level"@en-US ;
         ncit:C42610     "NOEL"@en-US ;
-        dc:description  ""@en-US .
+        dc:description  "The highest exposure level of a chemical stressor evaluated in a toxicity test that shows no effects on a plant or animal."@en-US .
 
 <https://vhp4safety.github.io/glossary/glossary#>
         rdf:type         owl:Ontology ;
@@ -308,7 +316,7 @@
         rdf:type        owl:Class ;
         rdfs:label      "Mode of Action"@en-US ;
         ncit:C42610     "MoA"@en-US ;
-        dc:description  ""@en-US .
+        dc:description  "A functional or anatomical change, resulting from the exposure of a living organism to a substance."@en-US .
 
 <https://vhp4safety.github.io/glossary#Q4751>
         rdf:type        owl:Class ;
@@ -524,15 +532,7 @@
         rdf:type        owl:Class ;
         rdfs:label      "European Medicines Agency"@en-US ;
         ncit:C42610     "EMA"@en-US ;
-        dc:description  ""@en-US .
-
-[ rdf:type                      <http://schema.org/WebSite> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "VHP4Safety Glossary" ;
-  <http://schema.org/name>      "glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
-] .
+        dc:description  "An agency of the European Union (EU) in charge of the evaluation and supervision of pharmaceutical products. "@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000058>
         rdf:type        owl:Class ;
@@ -686,9 +686,9 @@
 
 <https://vhp4safety.github.io/glossary#VHP0000082>
         rdf:type        owl:Class ;
-        rdfs:label      "nan"@en-US ;
+        rdfs:label      "College voor de toelating van gewasbeschermingsmiddelen en biociden"@en-US ;
         ncit:C42610     "CTBG"@en-US ;
-        dc:description  ""@en-US .
+        dc:description  "Dutch Board for the Authorisation of Plant Protection Products and Biocides. "@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000061>
         rdf:type        owl:Class ;
@@ -955,7 +955,7 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=3d0133f4300d076061ebb5a18f933db89821422f> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=c9aa1da91e6f3d21727c8bfa29bc3b211f7c68cf> ;
         <twitter:title>  "VHP4Safety Glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000109>
@@ -966,9 +966,9 @@
 
 <https://vhp4safety.github.io/glossary#VHP0000080>
         rdf:type        owl:Class ;
-        rdfs:label      "nan"@en-US ;
+        rdfs:label      "College ter Beoordeling van Geneesmiddelen"@en-US ;
         ncit:C42610     "CBG"@en-US ;
-        dc:description  ""@en-US .
+        dc:description  "Medicines Evaluation Board. The Dutch authority that evaluates and regulates medicines for human and veterinary use. "@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000059>
         rdf:type        owl:Class ;
