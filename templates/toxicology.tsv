@@ -17,5 +17,5 @@ VHP0000012	No Observed Adverse Effect Level	NOAEL	The highest exposure level of 
 VHP0000143	pCHEMBL		A value that allows a number of roughly comparable measures of half-maximal response concentration/potency/affinity to be compared on a negative logarithmic scale.	https://chembl.gitbook.io/chembl-interface-documentation/frequently-asked-questions/chembl-data-questions#what-is-pchembl
 VHP0000013	Read accross		A common approach in the risk assessment in order to examine structural similarities between the source and the target substances when there is a lack of information on their physical-chemical, toxicological properties, or environmental fate.	
 VHP0000014	Teratology		Scientific field that studies the causes, mechanisms, and classes of congenital malformations in animals and plants.	https://www.britannica.com/science/teratology
-VHP0000015		NOEL		
+VHP0000015	No Observed Effect Level	NOEL 	The highest exposure level of a chemical stressor evaluated in a toxicity test that shows no effects on a plant or animal. 	
 VHP0000056	Absorption, Distribution, Metabolism, and Excretion	ADME	Absorption, distribution, metabolism, and excretion of a substance (toxic or not) in a living organism, following exposure to this substance	
