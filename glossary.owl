@@ -39,7 +39,7 @@
         rdf:type        owl:Class ;
         rdfs:label      "Physiologically based kinetic model"@en-US ;
         ncit:C42610     "PBK model"@en-US ;
-        dc:description  "see PBPK model (these terms are equivalent)"@en-US .
+        dc:description  "See PBPK model (these terms are equivalent)"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000041>
         rdf:type        owl:Class ;
@@ -75,7 +75,7 @@
         rdf:type        owl:Class ;
         rdfs:label      "Sprint"@en-US ;
         ncit:C42610     ""@en-US ;
-        dc:description  "A fixed time-box, usually 1-4 weeks, used in the SCRUM method of working. Per sprint, each teammember works on selected tasks which they can (likely) finish within the sprint. Each sprint has meetings to plan the sprint, review the finished tasks and reflect to improve productivity."@en-US .
+        dc:description  "A fixed time-box, usually 1-4 weeks, used in the SCRUM method of working. Per sprint, each team member works on selected tasks which they can (likely) finish within the sprint. Each sprint has meetings to plan the sprint, review the finished tasks and reflect to improve productivity."@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000091>
         rdf:type        owl:Class ;
@@ -248,7 +248,7 @@
         rdf:type        owl:Class ;
         rdfs:label      "Ontology"@en-US ;
         ncit:C42610     ""@en-US ;
-        dc:description  "a formal specification of the conceptualization of a set of phenomena naming and defining the elements of the set along with describing relations between the concepts, data, and entities; a way of showing the properties of a subject area and how they are related, by defining a set of concepts and categories that represent the subject.  "@en-US .
+        dc:description  "A formal specification of the conceptualization of a set of phenomena naming and defining the elements of the set along with describing relations between the concepts, data, and entities; a way of showing the properties of a subject area and how they are related, by defining a set of concepts and categories that represent the subject.  "@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000031>
         rdf:type        owl:Class ;
@@ -290,7 +290,7 @@
         rdf:type        owl:Class ;
         rdfs:label      "Physiologically based toxicokinetic model"@en-US ;
         ncit:C42610     "PBTK"@en-US ;
-        dc:description  "see PBPK model (these terms are equivalent)"@en-US .
+        dc:description  "See PBPK model (these terms are equivalent)"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000039>
         rdf:type        owl:Class ;
@@ -464,7 +464,7 @@
         rdf:type        owl:Class ;
         rdfs:label      "Backlog"@en-US ;
         ncit:C42610     ""@en-US ;
-        dc:description  "A prioritized list of all the tasks the team still wants to complete, used in the SCRUM method of working. Each added task is clearly described and preferably linked to an epic and a user story. At the beginning of a sprint, tasks will be selected from the backlog and assigned to teammember to be completed before the end of that sprint."@en-US .
+        dc:description  "A prioritized list of all the tasks the team still wants to complete, used in the SCRUM method of working. Each added task is clearly described and preferably linked to an epic and a user story. At the beginning of a sprint, tasks will be selected from the backlog and assigned to team member to be completed before the end of that sprint."@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000100>
         rdf:type        owl:Class ;
@@ -686,7 +686,7 @@
         rdf:type        owl:Class ;
         rdfs:label      "Physiologically based biokinetic model"@en-US ;
         ncit:C42610     "PBBK"@en-US ;
-        dc:description  "see PBPK model (these terms are equivalent)"@en-US .
+        dc:description  "See PBPK model (these terms are equivalent)"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000040>
         rdf:type        owl:Class ;
@@ -759,6 +759,14 @@
         rdfs:label      "(human) Embryonic Stem Cell"@en-US ;
         ncit:C42610     "(h)ESCs"@en-US ;
         dc:description  "Pluripotent stem cells derived from the inner cell mass of a blastocyst (an early-stage pre-implantation embryo). These cells are characterised by their ability to differentiate into any cell type of the three germ layers: ectoderm, mesoderm, and endoderm. They are also known for their self-renewal capability, meaning they can proliferate indefinitely in culture while maintaining their pluripotency."@en-US .
+
+[ rdf:type                      <http://schema.org/WebSite> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "VHP4Safety Glossary" ;
+  <http://schema.org/name>      "glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
+] .
 
 <https://vhp4safety.github.io/glossary#VHP0000127>
         rdf:type        owl:Class ;
@@ -947,7 +955,7 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=a3360ac75cf44e4b69460c3f79d739137f21afea> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=8e600bf3f2bfa8c9c0166c5794fff6e08287fb99> ;
         <twitter:title>  "VHP4Safety Glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000109>
@@ -1003,14 +1011,6 @@
         rdfs:label      "Knowledge Graphs"@en-US ;
         ncit:C42610     "KGs"@en-US ;
         dc:description  "An organized and graphical representation of real world obejcts and their relationships, represented mostly as nodes and edges, respectively to store data entities and their interrelations. See also Resource Description Framework.  "@en-US .
-
-[ rdf:type                      <http://schema.org/WebSite> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "VHP4Safety Glossary" ;
-  <http://schema.org/name>      "glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
-] .
 
 <https://vhp4safety.github.io/glossary#VHP0000088>
         rdf:type        owl:Class ;
