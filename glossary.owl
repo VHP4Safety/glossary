@@ -706,14 +706,6 @@
         ncit:C42610     "ECVAM"@en-US ;
         dc:description  "The EU Reference Laboratory for alternatives to animal testing, located in Ispra, Italy."@en-US .
 
-[ rdf:type                      <http://schema.org/WebSite> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "VHP4Safety Glossary" ;
-  <http://schema.org/name>      "glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
-] .
-
 <https://vhp4safety.github.io/glossary#Q4752>
         rdf:type        owl:Class ;
         rdfs:label      "monobutyl phthalate"@en-US ;
@@ -955,7 +947,7 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=958f509467cc19fca1244f4fd1ee889ab19d9148> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=a3360ac75cf44e4b69460c3f79d739137f21afea> ;
         <twitter:title>  "VHP4Safety Glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000109>
@@ -1011,6 +1003,14 @@
         rdfs:label      "Knowledge Graphs"@en-US ;
         ncit:C42610     "KGs"@en-US ;
         dc:description  "An organized and graphical representation of real world obejcts and their relationships, represented mostly as nodes and edges, respectively to store data entities and their interrelations. See also Resource Description Framework.  "@en-US .
+
+[ rdf:type                      <http://schema.org/WebSite> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "VHP4Safety Glossary" ;
+  <http://schema.org/name>      "glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
+] .
 
 <https://vhp4safety.github.io/glossary#VHP0000088>
         rdf:type        owl:Class ;
