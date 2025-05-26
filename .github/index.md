@@ -23,11 +23,6 @@ Experienced GitHub users are encouraged to submit pull requests. More informatio
 [README](README.md).
 
 
-## Chemicals
-
-${chemicals}
-
-
 ## Toxicology in General
 
 ${toxicology}
@@ -58,7 +53,9 @@ ${projects}
 
 ${organizations}
 
+## Chemicals
 
+${chemicals}
 
 ## References
 
