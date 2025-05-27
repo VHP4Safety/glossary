@@ -52,3 +52,10 @@ jobs:
       - name: Cleanup unused VHP ID
         if: steps.extract-id.outputs.result != 'null'
         run: python scripts/cleanup_vhp_id.py '${{ steps.extract-id.outputs.result }}'
+        
+      - name: Save updated VHP cache
+        if: steps.extract-id.outputs.result != 'null'
+        uses: actions/cache/save@v3
+        with:
+          path: .vhp-cache
+          key: vhp-ids-${{ hashFiles('templates/**/*.tsv') }}-${{ github.run_id }}
