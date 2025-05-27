@@ -29,7 +29,7 @@ jobs:
 
       - name: Extract template data
         run: |
-          python templateToMarkdown.py
+          python scripts/template_to_md.py
 
       - name: Check for changes
         id: check_changes
