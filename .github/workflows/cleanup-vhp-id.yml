@@ -6,7 +6,7 @@ on:
 
 jobs:
   cleanup-id:
-    if: contains(github.event.issue.labels.*.name, 'categorization')
+    if: contains(github.event.issue.title, '[TERM REQUEST]')
     runs-on: ubuntu-latest
     
     steps:
