@@ -382,14 +382,6 @@
         ncit:C42610     "WP3.2"@en-US ;
         dc:description  "Acceptance of VHP for safety assessment: objectives to position the VHP in the transition to animal-free safety assessment, raise awareness, investigate uncertainties and acceptance of safety assessments."@en-US .
 
-[ rdf:type                      <http://schema.org/WebSite> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "VHP4Safety Glossary" ;
-  <http://schema.org/name>      "glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
-] .
-
 <https://vhp4safety.github.io/glossary#VHP0000055>
         rdf:type        owl:Class ;
         rdfs:label      "Model"@en-US ;
@@ -599,6 +591,14 @@
         rdfs:label      "Benchmark dose modeling"@en-US ;
         ncit:C42610     "BMD"@en-US ;
         dc:description  "An approach to determine the toxicological limit values for human health, such as the acceptable daily intake (ADI), of all chemical substances (e.g., food) regardless of type or origin. BMD modeling (possibly in combination with PBK modeling) analyzes in conjunction with multiple test systems and organ systems, to study how exposure variation has on the outcome of anin vitrotest system."@en-US .
+
+[ rdf:type                      <http://schema.org/WebSite> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "VHP4Safety Glossary" ;
+  <http://schema.org/name>      "glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
+] .
 
 <https://vhp4safety.github.io/glossary#Q4757>
         rdf:type        owl:Class ;
@@ -955,7 +955,7 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=6bf237ec4f2352f426b482e727b3ca99904b8927> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=88904a8d15eb0f66f5dc2f4bc2b93d18ce2bb490> ;
         <twitter:title>  "VHP4Safety Glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000109>
