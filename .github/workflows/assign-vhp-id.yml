@@ -41,3 +41,4 @@ jobs:
               repo: context.repo.repo,
               issue_number: context.issue.number,
               body: `🆔 **VHP Identifier Assigned:** \`${vhpId}\`\n\nThis identifier has been reserved for this term request.`
+            });
