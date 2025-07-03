@@ -107,14 +107,6 @@
         ncit:C42610     "LOAEL"@en-US ;
         dc:description  "The lowest exposure level of a chemical stressor evaluated in a toxicity test that shows harmful effects on a plant or animal."@en-US .
 
-[ rdf:type                      <http://schema.org/WebSite> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "VHP4Safety Glossary" ;
-  <http://schema.org/name>      "glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
-] .
-
 <https://vhp4safety.github.io/glossary#VHP0000149>
         rdf:type        owl:Class ;
         rdfs:label      "General Tools"@en-US ;
@@ -274,7 +266,7 @@
         rdf:type        owl:Class ;
         rdfs:label      "New Approach Methodology"@en-US ;
         ncit:C42610     "NAM"@en-US ;
-        dc:description  "A collection of various methods (e.g., high-throughput screening and high-content methods) in a wide set of contexts includingin chemicoandin vitroto improve knowledge over the toxicokinetic or toxicodynamic attributes of chemical substances, and in turn to improve the chemical safety assessment (see also Non-Animal Methodology).  "@en-US .
+        dc:description  "A collection of various methods (e.g., high-throughput screening and high-content methods) in a wide set of contexts including in chemico and in vitro to improve knowledge over the toxicokinetic or toxicodynamic attributes of chemical substances, and in turn to improve the chemical safety assessment (see also Non-Animal Methodology).  "@en-US .
 
 <https://vhp4safety.github.io/glossary#Q4722>
         rdf:type        owl:Class ;
@@ -452,9 +444,9 @@
 
 <https://vhp4safety.github.io/glossary#VHP0000063>
         rdf:type        owl:Class ;
-        rdfs:label      "In-vitro-in-vivo extrapolation"@en-US ;
+        rdfs:label      "In vitro in vivo extrapolation"@en-US ;
         ncit:C42610     "IVIVE"@en-US ;
-        dc:description  ""@en-US .
+        dc:description  "A method to conduct the qualitative or quantitative transposition of experimental results or observations made in vitro to predict phenomena in vivo, biological organisms. "@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000042>
         rdf:type        owl:Class ;
@@ -502,7 +494,7 @@
         rdf:type        owl:Class ;
         rdfs:label      "Work Package 2.1"@en-US ;
         ncit:C42610     "WP2.1"@en-US ;
-        dc:description  "In vitromodels to provide toxicokinetics & toxicodynamics parameters: objectives to verifyin vitromodels for ADME and local toxicity, obtaining parameters for PBK modelling, test chemicals on iPSC models."@en-US .
+        dc:description  "In vitro models to provide toxicokinetics & toxicodynamics parameters: objectives to verify in vitro models for ADME and local toxicity, obtaining parameters for PBK modelling, test chemicals on iPSC models."@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000050>
         rdf:type        owl:Class ;
@@ -564,6 +556,14 @@
         ncit:C42610     ""@en-US ;
         dc:description  ""@en-US .
 
+[ rdf:type                      <http://schema.org/WebSite> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "VHP4Safety Glossary" ;
+  <http://schema.org/name>      "glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
+] .
+
 <https://vhp4safety.github.io/glossary#Q4728>
         rdf:type        owl:Class ;
         rdfs:label      "β-endosulfan"@en-US ;
@@ -610,7 +610,7 @@
         rdf:type        owl:Class ;
         rdfs:label      "Benchmark dose modeling"@en-US ;
         ncit:C42610     "BMD"@en-US ;
-        dc:description  "An approach to determine the toxicological limit values for human health, such as the acceptable daily intake (ADI), of all chemical substances (e.g., food) regardless of type or origin. BMD modeling (possibly in combination with PBK modeling) analyzes in conjunction with multiple test systems and organ systems, to study how exposure variation has on the outcome of anin vitrotest system."@en-US .
+        dc:description  "An approach to determine the toxicological limit values for human health, such as the acceptable daily intake (ADI), of all chemical substances (e.g., food) regardless of type or origin. BMD modeling (possibly in combination with PBK modeling) analyzes in conjunction with multiple test systems and organ systems, to study how exposure variation has on the outcome of an in vitro test system."@en-US .
 
 <https://vhp4safety.github.io/glossary#Q4757>
         rdf:type        owl:Class ;
@@ -760,7 +760,7 @@
         rdf:type        owl:Class ;
         rdfs:label      "Work Package 1.2"@en-US ;
         ncit:C42610     "WP1.2"@en-US ;
-        dc:description  "In silico toxicokinetics: objectives to define parameters required for PBPK modelling, developing PBK models and providing guidance forin vitrotoin vivoextrapolations."@en-US .
+        dc:description  "In silico toxicokinetics: objectives to define parameters required for PBPK modelling, developing PBK models and providing guidance for in vitro to in vivo extrapolations."@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000048>
         rdf:type        owl:Class ;
@@ -973,7 +973,7 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=0760190625f121d752e1fd0819191f3baa2ab076> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=a1ec7587eaeb938aae32725f01c647cd41749b42> ;
         <twitter:title>  "VHP4Safety Glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000109>
