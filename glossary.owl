@@ -184,6 +184,14 @@
         ncit:C42610     "LLM"@en-US ;
         dc:description  "A large language model is a computational model capable of language generation or other natural language processing tasks. "@en-US .
 
+[ rdf:type                      <http://schema.org/WebSite> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "VHP4Safety Glossary" ;
+  <http://schema.org/name>      "glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
+] .
+
 <https://vhp4safety.github.io/glossary#VHP0000086>
         rdf:type        owl:Class ;
         rdfs:label      "Task Force"@en-US ;
@@ -910,14 +918,6 @@
         ncit:C42610     ""@en-US ;
         dc:description  "A value that allows a number of roughly comparable measures of half-maximal response concentration/potency/affinity to be compared on a negative logarithmic scale. "@en-US .
 
-[ rdf:type                      <http://schema.org/WebSite> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "VHP4Safety Glossary" ;
-  <http://schema.org/name>      "glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
-] .
-
 <https://vhp4safety.github.io/glossary#VHP0000122>
         rdf:type        owl:Class ;
         rdfs:label      "SCRUM Master"@en-US ;
@@ -991,7 +991,7 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=cf727719f354c603de8debfa4f4648b53acf2880> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=034ddc3291d3b7e3654ee36791645666da29cae8> ;
         <twitter:title>  "VHP4Safety Glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000109>
