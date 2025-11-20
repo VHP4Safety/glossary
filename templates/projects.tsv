@@ -1,7 +1,7 @@
 ID	Term	Abbreviation	Definition	ref
-VHP0000150	Case Study		A human-health scenario used as a guiding use case within the VHP4Safety Project to integrate data, models, and tools, and to formulate specific regulatory questions that the Virtual Human Platform should be able to answer.
-VHP0000152	Process Flow Step		One of the generic stages in the VHP4Safety human-based risk-assessment workflow, used to structure tools, data and models along the risk assessment process. 
-VHP0000151	Regulatory Question	RQ 	A concrete, decision-oriented risk-assessment question, formulated for a given case study, that the Virtual Human Platform should help to answer step-by-step.
+VHP0000150	Case Study		A human-health scenario used as a guiding use case within the VHP4Safety Project to integrate data, models, and tools, and to formulate specific regulatory questions that the Virtual Human Platform should be able to answer.	
+VHP0000152	Process Flow Step		One of the generic stages in the VHP4Safety human-based risk-assessment workflow, used to structure tools, data and models along the risk assessment process. 	
+VHP0000151	Regulatory Question	RQ 	A concrete, decision-oriented risk-assessment question, formulated for a given case study, that the Virtual Human Platform should help to answer step-by-step.	
 VHP0000088	Research Line	RL	Formal structure within a project to reach some goal.	
 VHP0000065	Research Line 1	RL1	Building the Virtual Human Platform.	
 VHP0000066	Research Line 2	RL2	Feeding the Virtual Human Platform.	
