@@ -161,6 +161,12 @@
         ncit:C42610     ""@en-US ;
         dc:description  "chemical compound, InChIKey IXMROOKFPWGDGF-UHFFFAOYSA-N, CAS registry number 447415-26-1 "@en-US .
 
+<https://vhp4safety.github.io/glossary#VHP0000157>
+        rdf:type        owl:Class ;
+        rdfs:label      "Internal (Exposure)"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "The amount of a chemical (or its active metabolites) present in human tissues or biological fluids over time, typically expressed as concentration-time profiles or dose metrics, resulting from external exposure after ADME/TK processes, and used as the input for the Toxicodynamics/AOP step."@en-US .
+
 <https://vhp4safety.github.io/glossary#Q4727>
         rdf:type        owl:Class ;
         rdfs:label      "endosulfan"@en-US ;
@@ -418,6 +424,12 @@
         ncit:C42610     ""@en-US ;
         dc:description  "A common approach in the risk assessment in order to examine structural similarities between the source and the target substances when there is a lack of information on their physical-chemical, toxicological properties, or environmental fate."@en-US .
 
+<https://vhp4safety.github.io/glossary#VHP0000155>
+        rdf:type        owl:Class ;
+        rdfs:label      "Toxicokinetics/ADME (Process Flow Step)"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "A process flow step that is named after toxicokinetics and categorizes services that analyze the kinetics (absorption, distribution, metabolism and excretion) of chemicals and how these processes influence the internal dose. The kinetics step contains four physiological processes substeps: Absorption, Distribution, Metabolism, and Excretion which can be captured in PBK models."@en-US .
+
 <https://vhp4safety.github.io/glossary#Q1880>
         rdf:type        owl:Class ;
         rdfs:label      "lesinurad"@en-US ;
@@ -567,6 +579,12 @@
         rdfs:label      "Apical Endpoint"@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  ""@en-US .
+
+<https://vhp4safety.github.io/glossary#VHP0000158>
+        rdf:type        owl:Class ;
+        rdfs:label      "Adverse Outcome (Process Flow Step)"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "A process flow step that is named after adverse outcome, although specifically refers to clinical and epidemiological effects. It categorizes services that provide information on the toxicological endpoints and adverse outcomes at a clinical or epidemiological level of chemical exposures."@en-US .
 
 <https://vhp4safety.github.io/glossary#Q4728>
         rdf:type        owl:Class ;
@@ -760,6 +778,14 @@
         ncit:C42610     ""@en-US ;
         dc:description  "An agile way of working as a development team that uses time-boxed iterations called sprints to focus on fully executing smaller increments of a larger product. It includes clear bite-sized tasks, regular discussions and collaborative review. It tackles issues such as vague long term goals, poor teamwork and inefficient timespending."@en-US .
 
+[ rdf:type                      <http://schema.org/WebSite> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "VHP4Safety Glossary" ;
+  <http://schema.org/name>      "glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
+] .
+
 <https://vhp4safety.github.io/glossary#VHP0000090>
         rdf:type        owl:Class ;
         rdfs:label      "Proteochemometric"@en-US ;
@@ -832,14 +858,6 @@
         ncit:C42610     "WP3.3"@en-US ;
         dc:description  "Training and Education: objectives to promote collaboration, facilitate transferability of methods and models, implementing new teaching modules, promote capacity building and awareness of stakeholders, improve skills regarding risk communication."@en-US .
 
-[ rdf:type                      <http://schema.org/WebSite> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "VHP4Safety Glossary" ;
-  <http://schema.org/name>      "glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
-] .
-
 <https://vhp4safety.github.io/glossary#VHP0000056>
         rdf:type        owl:Class ;
         rdfs:label      "Absorption, Distribution, Metabolism, and Excretion"@en-US ;
@@ -857,6 +875,12 @@
         rdfs:label      "Teratology"@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "Scientific field that studies the causes, mechanisms, and classes of congenital malformations in animals and plants. "@en-US .
+
+<https://vhp4safety.github.io/glossary#VHP0000156>
+        rdf:type        owl:Class ;
+        rdfs:label      "Toxicodynamics/AOP (Process Flow Step)"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "A process flow step that is named after Toxicodynamics and categorizes services that use or extend the (quantitative) AOP framework to analyze and assess the interaction of chemicals with biological targets."@en-US .
 
 <https://vhp4safety.github.io/glossary#Q1881>
         rdf:type        owl:Class ;
@@ -997,7 +1021,7 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=6d783c18f92590e150c6843963c865379b4e9725> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=3c8b80a32216478dcb280365a1f57c06838358b1> ;
         <twitter:title>  "VHP4Safety Glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000109>
@@ -1131,6 +1155,12 @@
         rdfs:label      "No Observed Adverse Effect Level"@en-US ;
         ncit:C42610     "NOAEL"@en-US ;
         dc:description  "The highest exposure level of a chemical stressor evaluated in a toxicity test that shows no harmful effects on a plant or animal."@en-US .
+
+<https://vhp4safety.github.io/glossary#VHP0000154>
+        rdf:type        owl:Class ;
+        rdfs:label      "(External) Exposure (Process Flow Step)"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "A process flow step that is named after exposure assessment and categorizes services that evaluate and analyze the route, duration, magnitude and frequency of exposure of an organism or (sub)population to one or multiple chemicals."@en-US .
 
 <https://vhp4safety.github.io/glossary#Q1879>
         rdf:type        owl:Class ;
