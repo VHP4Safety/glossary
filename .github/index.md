@@ -21,7 +21,13 @@ For other issues, suggestions, or problems, please create an issue [here](https:
 Experienced GitHub users are encouraged to submit pull requests. More information can be found in the project
 [README](README.md).
 
+## Process flow steps
 
+${process_flow_steps}
+
+## Chemicals
+
+${chemicals}
 ## Toxicology in General
 
 ${toxicology}
@@ -33,7 +39,7 @@ ${risk_assessment}
 
 ## Adverse Outcome Pathway-related terms
 
-${adverse-outcome}
+${adverse_outcome}
 
 
 ## Server-related terms
@@ -51,10 +57,6 @@ ${projects}
 ## Organizations
 
 ${organizations}
-
-## Chemicals
-
-${chemicals}
 
 ## References
 
