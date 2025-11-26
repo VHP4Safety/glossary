@@ -10,10 +10,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-     TARGET_BRANCH: ${{ github.event.workflow_run.head_branch || github.ref_name }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_branch || github.ref_name }}
       - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
@@ -32,8 +32,7 @@ jobs:
       - name: Push changes
         if: github.event_name != 'pull_request'
         run: |
-         git pull origin ${{ github.ref }} --rebase
-         git push -f origin ${{ github.ref }}
+         git pull origin ${{ github.event.workflow_run.head_branch || github.ref_name }} --rebase
+         git push -f origin ${{ github.event.workflow_run.head_branch || github.ref_name }}
         env:
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
