@@ -53,6 +53,12 @@
         ncit:C42610     "ECHA"@en-US ;
         dc:description  "An agency of the European Union which manages the technical and administrative aspects of the implementation of the European Union regulation called Registration, Evaluation, Authorisation and Restriction of Chemicals. "@en-US .
 
+<https://vhp4safety.github.io/glossary#nan>
+        rdf:type        owl:Class ;
+        rdfs:label      "nan"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  ""@en-US .
+
 <https://vhp4safety.github.io/glossary#Q4753>
         rdf:type        owl:Class ;
         rdfs:label      "xanthohumol"@en-US ;
@@ -163,11 +169,10 @@
         ncit:C42610     "NOEL"@en-US ;
         dc:description  "The highest exposure level of a chemical stressor evaluated in a toxicity test that shows no effects on a plant or animal."@en-US .
 
-<https://vhp4safety.github.io/glossary#Q1882>
-        rdf:type        owl:Class ;
-        rdfs:label      "NH-3"@en-US ;
-        ncit:C42610     ""@en-US ;
-        dc:description  "chemical compound, InChIKey IXMROOKFPWGDGF-UHFFFAOYSA-N, CAS registry number 447415-26-1 "@en-US .
+<https://vhp4safety.github.io/glossary/glossary#>
+        rdf:type         owl:Ontology ;
+        dct:contributor  "Egon Willighagen"@en-US , "Javier Millán Acosta"@en-US , "Marvin Martens"@en-US , "Ozan Çınar"@en-US ;
+        dct:title        "VHP4Safety Glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000157>
         rdf:type        owl:Class ;
@@ -175,16 +180,17 @@
         ncit:C42610     ""@en-US ;
         dc:description  "The amount of a chemical (or its active metabolites) present in human tissues or biological fluids over time, typically expressed as concentration-time profiles or dose metrics, resulting from external exposure after ADME/TK processes, and used as the input for the Toxicodynamics/AOP step."@en-US .
 
+<https://vhp4safety.github.io/glossary#Q1882>
+        rdf:type        owl:Class ;
+        rdfs:label      "NH-3"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "chemical compound, InChIKey IXMROOKFPWGDGF-UHFFFAOYSA-N, CAS registry number 447415-26-1 "@en-US .
+
 <https://vhp4safety.github.io/glossary#Q4727>
         rdf:type        owl:Class ;
         rdfs:label      "endosulfan"@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "mixture, InChIKey RDYMFSUJUZBWLH-AZVNHNRSSA-N "@en-US .
-
-<https://vhp4safety.github.io/glossary/glossary#>
-        rdf:type         owl:Ontology ;
-        dct:contributor  "Egon Willighagen"@en-US , "Javier Millán Acosta"@en-US , "Marvin Martens"@en-US , "Ozan Çınar"@en-US ;
-        dct:title        "VHP4Safety Glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000136>
         rdf:type        owl:Class ;
@@ -436,7 +442,8 @@
         rdf:type        owl:Class ;
         rdfs:label      "Toxicokinetics/ADME (Process Flow Step)"@en-US ;
         ncit:C42610     ""@en-US ;
-        dc:description  "A process flow step that is named after toxicokinetics and categorizes services that analyze the kinetics (absorption, distribution, metabolism and excretion) of chemicals and how these processes influence the internal dose. The kinetics step contains four physiological processes substeps: Absorption, Distribution, Metabolism, and Excretion which can be captured in PBK models."@en-US .
+        dc:description  "A process flow step that is named after toxicokinetics and categorizes services that analyze the kinetics (absorption, distribution, metabolism and excretion) of chemicals and how these processes influence the internal dose. The kinetics step contains four physiological processes substeps: Absorption, Distribution, Metabolism, and Excretion which can be captured in PBK models."@en-US ;
+        dct:relation    <https://vhp4safety.github.io/glossary#VHP0000102> .
 
 <https://vhp4safety.github.io/glossary#Q1880>
         rdf:type        owl:Class ;
@@ -534,14 +541,6 @@
         ncit:C42610     "mAOP"@en-US ;
         dc:description  "Metapathway, similar to conventional AOPs, but connected events as e.g. WikiPathways pathways. Their function is to expand KEs with molecular pathways and allow analyses of omics data."@en-US .
 
-[ rdf:type                      <http://schema.org/WebSite> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "VHP4Safety Glossary" ;
-  <http://schema.org/name>      "glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
-] .
-
 <https://vhp4safety.github.io/glossary#VHP0000008>
         rdf:type        owl:Class ;
         rdfs:label      "Monte Carlo Risk Assessment"@en-US ;
@@ -600,7 +599,8 @@
         rdf:type        owl:Class ;
         rdfs:label      "Adverse Outcome (Process Flow Step)"@en-US ;
         ncit:C42610     ""@en-US ;
-        dc:description  "A process flow step that is named after adverse outcome, although specifically refers to clinical and epidemiological effects. It categorizes services that provide information on the toxicological endpoints and adverse outcomes at a clinical or epidemiological level of chemical exposures."@en-US .
+        dc:description  "A process flow step that is named after adverse outcome, although specifically refers to clinical and epidemiological effects. It categorizes services that provide information on the toxicological endpoints and adverse outcomes at a clinical or epidemiological level of chemical exposures."@en-US ;
+        dct:relation    <https://vhp4safety.github.io/glossary#VHP0000025> .
 
 <https://vhp4safety.github.io/glossary#Q4728>
         rdf:type        owl:Class ;
@@ -714,7 +714,8 @@
         rdf:type        owl:Class ;
         rdfs:label      "Hazard/Chemical Characteristics (Process Flow Step)"@en-US ;
         ncit:C42610     ""@en-US ;
-        dc:description  "A process flow step that is named after hazard assessment and considered to be cheminformatics-based. It categorizes services that use molecular structures, chemical descriptors, and databases to predict or analyze the properties, behavior, and potential risks of chemical substances."@en-US .
+        dc:description  "A process flow step that is named after hazard assessment and considered to be cheminformatics-based. It categorizes services that use molecular structures, chemical descriptors, and databases to predict or analyze the properties, behavior, and potential risks of chemical substances."@en-US ;
+        dct:relation    <https://vhp4safety.github.io/glossary#VHP0000102> .
 
 <https://vhp4safety.github.io/glossary#Q4723>
         rdf:type        owl:Class ;
@@ -812,6 +813,14 @@
         ncit:C42610     ""@en-US ;
         dc:description  "Research data should be ready for future research and future processing, making it self-evident that findings can be replicated and that new research effectively builds on already acquired, previous results. "@en-US .
 
+[ rdf:type                      <http://schema.org/WebSite> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "VHP4Safety Glossary" ;
+  <http://schema.org/name>      "glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
+] .
+
 <https://vhp4safety.github.io/glossary#VHP0000027>
         rdf:type        owl:Class ;
         rdfs:label      "Key Event Relationship"@en-US ;
@@ -854,17 +863,17 @@
         ncit:C42610     ""@en-US ;
         dc:description  "A systemic collection of items of the same type. "@en-US .
 
-<https://vhp4safety.github.io/glossary#Q17>
-        rdf:type        owl:Class ;
-        rdfs:label      "amiodarone"@en-US ;
-        ncit:C42610     ""@en-US ;
-        dc:description  "chemical compound, InChIKey IYIKLHRQXLHMJQ-UHFFFAOYSA-N, CAS registry number 1951-25-3 "@en-US .
-
 <https://vhp4safety.github.io/glossary#VHP0000077>
         rdf:type        owl:Class ;
         rdfs:label      "Work Package 3.3"@en-US ;
         ncit:C42610     "WP3.3"@en-US ;
         dc:description  "Training and Education: objectives to promote collaboration, facilitate transferability of methods and models, implementing new teaching modules, promote capacity building and awareness of stakeholders, improve skills regarding risk communication."@en-US .
+
+<https://vhp4safety.github.io/glossary#Q17>
+        rdf:type        owl:Class ;
+        rdfs:label      "amiodarone"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "chemical compound, InChIKey IYIKLHRQXLHMJQ-UHFFFAOYSA-N, CAS registry number 1951-25-3 "@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000056>
         rdf:type        owl:Class ;
@@ -888,7 +897,8 @@
         rdf:type        owl:Class ;
         rdfs:label      "Toxicodynamics/AOP (Process Flow Step)"@en-US ;
         ncit:C42610     ""@en-US ;
-        dc:description  "A process flow step that is named after Toxicodynamics and categorizes services that use or extend the (quantitative) AOP framework to analyze and assess the interaction of chemicals with biological targets."@en-US .
+        dc:description  "A process flow step that is named after Toxicodynamics and categorizes services that use or extend the (quantitative) AOP framework to analyze and assess the interaction of chemicals with biological targets."@en-US ;
+        dct:relation    <https://vhp4safety.github.io/glossary#VHP0000102> .
 
 <https://vhp4safety.github.io/glossary#Q1881>
         rdf:type        owl:Class ;
@@ -1029,7 +1039,7 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=9236c15931ee72e5ef48cdc7cab2cb987f2dd77c> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=5d8075ea0c1bb9ad1bbfcd3cd67ac7ffc2f762aa> ;
         <twitter:title>  "VHP4Safety Glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000109>
@@ -1168,7 +1178,8 @@
         rdf:type        owl:Class ;
         rdfs:label      "(External) Exposure (Process Flow Step)"@en-US ;
         ncit:C42610     ""@en-US ;
-        dc:description  "A process flow step that is named after exposure assessment and categorizes services that evaluate and analyze the route, duration, magnitude and frequency of exposure of an organism or (sub)population to one or multiple chemicals."@en-US .
+        dc:description  "A process flow step that is named after exposure assessment and categorizes services that evaluate and analyze the route, duration, magnitude and frequency of exposure of an organism or (sub)population to one or multiple chemicals."@en-US ;
+        dct:relation    <https://vhp4safety.github.io/glossary#VHP0000104> .
 
 <https://vhp4safety.github.io/glossary#Q1879>
         rdf:type        owl:Class ;
