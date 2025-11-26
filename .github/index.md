@@ -59,10 +59,6 @@ ${projects}
 
 ${organizations}
 
-## Chemicals
-
-${chemicals}
-
 ## References
 
 1. Michie, S., West, R. & Hastings, J. Creating ontological definitions for use in science. Qeios (2022). DOI: [10.32388/YGIF9B.2](https://doi.org/10.32388/YGIF9B.2).
