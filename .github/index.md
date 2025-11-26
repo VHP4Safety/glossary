@@ -1,4 +1,3 @@
-
 # VHP4Safety Glossary
 
 This work is licensed under the [CC-BY 4.0 International](https://github.com/VHP4Safety/glossary/blob/main/LICENCE.md). 
@@ -70,3 +69,6 @@ research program ‘Research along Routes by Consortia (ORC)’, which is funded
 for Scientific Research (NWO). The project started on June 1, 2021 with a budget of over 10 million Euros
 and will last for the duration of 5 years. 
 
+
+<!-- Goatcounter.com, the GDPR-compliant page visit counter -->
+<script data-goatcounter="https://vhp4safety.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
