@@ -526,6 +526,14 @@
         ncit:C42610     "mAOP"@en-US ;
         dc:description  "Metapathway, similar to conventional AOPs, but connected events as e.g. WikiPathways pathways. Their function is to expand KEs with molecular pathways and allow analyses of omics data."@en-US .
 
+[ rdf:type                      <http://schema.org/WebSite> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "VHP4Safety Glossary" ;
+  <http://schema.org/name>      "glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
+] .
+
 <https://vhp4safety.github.io/glossary#VHP0000008>
         rdf:type        owl:Class ;
         rdfs:label      "Monte Carlo Risk Assessment"@en-US ;
@@ -982,14 +990,6 @@
         ncit:C42610     ""@en-US ;
         dc:description  "A modeling technique for realistically possible calculation of the intake of risk substances by humans, for example via food, where the exposure can also be linked to the hazard, with which a risk assessment can be carried out."@en-US .
 
-[ rdf:type                      <http://schema.org/WebSite> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "VHP4Safety Glossary" ;
-  <http://schema.org/name>      "glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
-] .
-
 <https://vhp4safety.github.io/glossary#VHP0000151>
         rdf:type        owl:Class ;
         rdfs:label      "Regulatory Question"@en-US ;
@@ -1021,7 +1021,7 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=366b2b53530137c042fd5e3f0886c701c9a335b5> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=9236c15931ee72e5ef48cdc7cab2cb987f2dd77c> ;
         <twitter:title>  "VHP4Safety Glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000109>
