@@ -13,6 +13,7 @@ prefixes = {
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "ncit": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#",
     "dc": "http://purl.org/dc/elements/1.1/",
+    "dcterms": "http://purl.org/dc/terms/",
     "vhp": "https://vhp4safety.github.io/glossary#",
 }
 
@@ -24,12 +25,13 @@ template_dir = "templates"
 sections = {
     "toxicology": "toxicology.tsv",
     "risk_assessment": "risk_assessment.tsv",
-    "adverse-outcome": "adverse_outcome.tsv",
+    "adverse_outcome": "adverse_outcome.tsv",
     "server": "server.tsv",
     "tools": "tools.tsv",
     "projects": "projects.tsv",
     "organizations": "organizations.tsv",
     "chemicals": "chemicals.tsv",
+    "process_flow_steps": "process_flow.tsv"
 }
 
 # Clickable svg
@@ -102,7 +104,7 @@ def create_rdfa_table(tsv_file_path):
         )
         table_html += f"    <td>{term_cell_content}</td>\n"
 
-        for header in headers[1:]: 
+        for header in headers[1:]:
             cell_value = (
                 row[header] if header in row and not pd.isna(row[header]) else ""
             )
@@ -112,6 +114,14 @@ def create_rdfa_table(tsv_file_path):
                 table_html += f'    <td property="ncit:C42610">{cell_value}</td>\n'
             elif header.lower() == "definition":
                 table_html += f'    <td property="dc:description">{cell_value}</td>\n'
+            elif header.lower() == "related_to":
+                if cell_value:
+                    # Extract VHP identifier from URL and convert to vhp4safety.github.io format
+                    vhp_id = cell_value.split('#')[-1] if '#' in cell_value else ""
+                    github_url = f"https://vhp4safety.github.io/glossary#{vhp_id}"
+                    table_html += f'    <td property="dcterms:relation" resource="{github_url}"><a href="{github_url}">{SVG_ICON} {vhp_id}</a></td>\n'
+                else:
+                    table_html += "    <td></td>\n"
             else:
                 table_html += f"    <td>{cell_value}</td>\n"
 
