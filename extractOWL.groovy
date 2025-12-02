@@ -6,17 +6,21 @@
 
 import org.apache.any23.Any23
 import org.apache.any23.source.HTTPDocumentSource
+import org.apache.any23.source.FileDocumentSource
 import org.apache.any23.writer.NTriplesWriter
 
 workspaceRoot = "../ws"
 rdf = new net.bioclipse.managers.RDFManager(workspaceRoot);
 
-url = "https://vhp4safety.github.io/glossary/"
+// url = "https://vhp4safety.github.io/glossary/"
+// Prefer the generated HTML (index.html) so Any23 parses RDFa correctly
+localFile = new File("index.html")
 
 Any23 runner = new Any23();
 runner.setHTTPUserAgent("test-user-agent");
 httpClient = runner.getHTTPClient()
-source = new HTTPDocumentSource(runner.getHTTPClient(), url)
+// source = new HTTPDocumentSource(runner.getHTTPClient(), url)
+source = new FileDocumentSource(localFile)
 
 out = new ByteArrayOutputStream();
 handler = new NTriplesWriter(out);
@@ -33,6 +37,7 @@ rdf.addPrefix(kb, "skos", "http://www.w3.org/2004/02/skos/core#")
 rdf.addPrefix(kb, "dc", "http://purl.org/dc/elements/1.1/")
 rdf.addPrefix(kb, "dct", "http://purl.org/dc/terms/")
 rdf.addPrefix(kb, "ncit", "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#")
+rdf.addPrefix(kb, "chebi", "http://purl.obolibrary.org/obo/chebi/")
 rdf.addPrefix(kb, "og", "http://ogp.me/ns#")
 rdf.importFromStream(kb, n3Stream, "N3")
 
