@@ -14,6 +14,7 @@ prefixes = {
     "ncit": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#",
     "dc": "http://purl.org/dc/elements/1.1/",
     "dcterms": "http://purl.org/dc/terms/",
+    "chebi": "http://purl.obolibrary.org/obo/chebi/",
     "vhp": "https://vhp4safety.github.io/glossary#",
 }
 
@@ -67,9 +68,11 @@ def create_rdfa_table(tsv_file_path):
         image_html = f'<a href="{url + encoded_smiles}"><img src="{url + encoded_smiles}" alt="{smiles}"></a>'
         return image_html
 
-    # Preserve original SMILES values before encoding
+    # Preserve original SMILES values (just the SMILES part, without Wikidata ID)
     if "SMILES" in df.columns:
-        df["SMILES_original"] = df["SMILES"]
+        df["SMILES_original"] = df["SMILES"].apply(
+            lambda x: x.split("  ")[0].strip() if isinstance(x, str) and "  " in x else (x.strip() if isinstance(x, str) else "")
+        )
         df["SMILES"] = df.apply(
             lambda row: encode_smiles(row["SMILES"]) if isinstance(row["SMILES"], str) else "", axis=1
         )
@@ -126,10 +129,12 @@ def create_rdfa_table(tsv_file_path):
                     table_html += "    <td></td>\n"
             elif header.lower() == "smiles":
                 # Add SMILES with RDFa property using original SMILES value
+                # Use full URI in property attribute with text content
                 if cell_value:
                     original_smiles = str(row.get("SMILES_original", "")).strip()
                     if original_smiles:
-                        table_html += f'    <td><span property="http://purl.obolibrary.org/obo/chebi/smiles" content="{original_smiles}">{cell_value}</span></td>\n'
+                        smiles_prop = "http://purl.obolibrary.org/obo/chebi/smiles"
+                        table_html += f'    <td>{cell_value}<span property="{smiles_prop}">{original_smiles}</span></td>\n'
                     else:
                         table_html += f"    <td>{cell_value}</td>\n"
                 else:
