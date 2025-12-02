@@ -129,7 +129,7 @@ def create_rdfa_table(tsv_file_path):
                 if cell_value:
                     original_smiles = str(row.get("SMILES_original", "")).strip()
                     if original_smiles:
-                        table_html += f'    <td property="http://purl.obolibrary.org/obo/chebi/smiles" content="{original_smiles}">{cell_value}</td>\n'
+                        table_html += f'    <td><span property="http://purl.obolibrary.org/obo/chebi/smiles" content="{original_smiles}">{cell_value}</span></td>\n'
                     else:
                         table_html += f"    <td>{cell_value}</td>\n"
                 else:
