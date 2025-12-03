@@ -12,15 +12,20 @@ import org.apache.any23.writer.NTriplesWriter
 workspaceRoot = "../ws"
 rdf = new net.bioclipse.managers.RDFManager(workspaceRoot);
 
-// url = "https://vhp4safety.github.io/glossary/"
-// Prefer the generated HTML (index.html) so Any23 parses RDFa correctly
-localFile = new File("index.html")
+url = "https://vhp4safety.github.io/glossary/"
 
 Any23 runner = new Any23();
 runner.setHTTPUserAgent("test-user-agent");
 httpClient = runner.getHTTPClient()
-// source = new HTTPDocumentSource(runner.getHTTPClient(), url)
-source = new FileDocumentSource(localFile)
+// prefer a local file if provided as an argument or if index.html exists
+source = null
+if (this.args?.length && new File(this.args[0]).exists()) {
+    source = new FileDocumentSource(new File(this.args[0]))
+} else if (new File('index.html').exists()) {
+    source = new FileDocumentSource(new File('index.html'))
+} else {
+    source = new HTTPDocumentSource(runner.getHTTPClient(), url)
+}
 
 out = new ByteArrayOutputStream();
 handler = new NTriplesWriter(out);

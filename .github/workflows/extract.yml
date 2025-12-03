@@ -20,7 +20,9 @@ jobs:
           java-version: 17
           distribution: 'temurin'
       - name: Install dependencies
-        run: sudo apt install groovy
+        run: sudo apt-get update && sudo apt-get install -y groovy pandoc
+      - name: Generate temporary HTML from index.md
+        run: pandoc index.md -s -o index.html
       - name: Extract OWL
         run: groovy extractOWL.groovy | tee glossary.owl
       - name: Commit OWL file
