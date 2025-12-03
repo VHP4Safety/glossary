@@ -19,6 +19,17 @@ jobs:
         with:
           java-version: 17
           distribution: 'temurin'
+      - name: Cache Groovy/Maven dependencies
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.groovy/grapes
+            ~/.groovy/grapeCache
+            ~/.ivy2/cache
+            ~/.m2/repository
+          key: ${{ runner.os }}-grapes-${{ hashFiles('extractOWL.groovy') }}
+          restore-keys: |
+            ${{ runner.os }}-grapes-
       - name: Install dependencies
         run: sudo apt-get update && sudo apt-get install -y groovy pandoc
       - name: Generate temporary HTML from index.md
