@@ -14,6 +14,7 @@ prefixes = {
     "ncit": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#",
     "dc": "http://purl.org/dc/elements/1.1/",
     "dcterms": "http://purl.org/dc/terms/",
+    "chebi": "http://purl.obolibrary.org/obo/chebi/",
     "vhp": "https://vhp4safety.github.io/glossary#",
 }
 
@@ -67,7 +68,11 @@ def create_rdfa_table(tsv_file_path):
         image_html = f'<a href="{url + encoded_smiles}"><img src="{url + encoded_smiles}" alt="{smiles}"></a>'
         return image_html
 
+    # Preserve original SMILES values (just the SMILES part, without Wikidata ID)
     if "SMILES" in df.columns:
+        df["SMILES_original"] = df["SMILES"].apply(
+            lambda x: x.split("  ")[0].strip() if isinstance(x, str) and "  " in x else (x.strip() if isinstance(x, str) else "")
+        )
         df["SMILES"] = df.apply(
             lambda row: encode_smiles(row["SMILES"]) if isinstance(row["SMILES"], str) else "", axis=1
         )
@@ -79,8 +84,8 @@ def create_rdfa_table(tsv_file_path):
         f'<table prefix="{" ".join([f"{k}: {v}" for k, v in prefixes.items()])}">\n'
     )
 
-    # Adjusted headers to use <td> with <b>
-    headers = [header for header in df.columns if header != "ID"]
+    # Adjusted headers to use <td> with <b>, excluding ID and SMILES_original
+    headers = [header for header in df.columns if header not in ["ID", "SMILES_original"]]
     table_html += (
         "  <tr>\n"
         + "".join([f"    <td><b>{header}</b></td>\n" for header in headers])
@@ -120,6 +125,18 @@ def create_rdfa_table(tsv_file_path):
                     vhp_id = cell_value.split('#')[-1] if '#' in cell_value else ""
                     github_url = f"https://vhp4safety.github.io/glossary#{vhp_id}"
                     table_html += f'    <td property="dcterms:relation" resource="{github_url}"><a href="{github_url}">{SVG_ICON} {vhp_id}</a></td>\n'
+                else:
+                    table_html += "    <td></td>\n"
+            elif header.lower() == "smiles":
+                # Add SMILES with RDFa property using original SMILES value
+                # Use full URI in property attribute with text content
+                if cell_value:
+                    original_smiles = str(row.get("SMILES_original", "")).strip()
+                    if original_smiles:
+                        smiles_prop = "http://purl.obolibrary.org/obo/chebi/smiles"
+                        table_html += f'    <td>{cell_value}<span property="{smiles_prop}">{original_smiles}</span></td>\n'
+                    else:
+                        table_html += f"    <td>{cell_value}</td>\n"
                 else:
                     table_html += "    <td></td>\n"
             else:
