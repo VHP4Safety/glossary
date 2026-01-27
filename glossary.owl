@@ -101,6 +101,14 @@
         ncit:C42610     ""@en-US ;
         dc:description  ""@en-US .
 
+[ rdf:type                      <http://schema.org/WebSite> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "glossary" ;
+  <http://schema.org/name>      "glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
+] .
+
 <https://vhp4safety.github.io/glossary#VHP0000007>
         rdf:type        owl:Class ;
         rdfs:label      "Lowest Observed Adverse Effect Level"@en-US ;
@@ -581,14 +589,6 @@
         ncit:C42610     ""@en-US ;
         dc:description  ""@en-US .
 
-[ rdf:type                      <http://schema.org/WebSite> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "glossary" ;
-  <http://schema.org/name>      "glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
-] .
-
 <https://vhp4safety.github.io/glossary#VHP0000158>
         rdf:type        owl:Class ;
         rdfs:label      "Adverse Outcome (Process Flow Step)"@en-US ;
@@ -1025,7 +1025,7 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=70e6af28f9adc8cfab404f529a5e4482f9088e8c> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=845ee3eee2f71076d2a8aaa3230254c4282ee443> ;
         <twitter:title>  "glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000109>
