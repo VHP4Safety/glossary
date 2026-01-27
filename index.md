@@ -5,13 +5,13 @@
 
 Welcome to the VHP4Safety Glossary!  
 
-Virtual Human Platform for Safety Assessment (VHP4Safety) is a project  to support chemical and pharmaceutical safety testing without using laboratory animals and animal testing, and funded by the Netherlands Research Council (NWO). For more information on the funding, please see [the Funding section](https://glossary.vhp4safety.nl/#funding) at the end this page.
+The Virtual Human Platform for Safety Assessment (VHP4Safety) is a project to support chemical and pharmaceutical safety testing without using laboratory animals and animal testing, and funded by the Netherlands Research Council (NWO). For more information on the funding, please see [the Funding section](https://glossary.vhp4safety.nl/#funding) at the end this page.
 
-On this page below, you can find (a set of) the terminology used in the project, along with their definitions in the context of the project. The terms are categorized below in relevance to the context that the term is used in the project, such as risk assessment, chemicals, or server. In addition, the abbreviations, references to the origin of the term description, and some supplementary information depending on the category that the term belongs to. 
+On this page, you can find (a set of) the terminology and their definitions in the context the terms are used in the project. The terms are categorized below based on the context that the term is used, such as risk assessment, chemicals, or computer infrastructure. In addition, the abbreviations, references, and some supplementary information depending on the category that the term belongs to are presented below. 
 
 <div about="https://vhp4safety.github.io/glossary/glossary#" typeof="owl:Ontology">
 <p>
-  The <span property="dc:title">VHP4Safety Glossary</span> ontology is created and maintained by (in alphabetical order)
+  The <span property="dc:title">VHP4Safety Glossary</span> has been created and maintained by (in alphabetical order)
   <span property="dc:contributor">Ozan Çınar</span>, <span property="dc:contributor">Marvin Martens</span>, <span property="dc:contributor">Javier Millán Acosta</span>,
   <span property="dc:contributor">Egon Willighagen</span>. The terms, their descriptions and other additional information have been provided by the members and partners of the VHP4Safety project.
 </p>
@@ -22,9 +22,9 @@ This work is licensed under the [CC-BY 4.0 International](https://github.com/VHP
 
 ### Development Version and Contribution
 
-This glossary has been under development since 2022 and is still continuously under development. This means that new terms can be added in the future depending on their prevalence and frequency of use among the project members. In addition, unfortunately, a marginal proportion of the terms and their definitions do not meet the community standards yet[<sup>1</sup>](https://glossary.vhp4safety.nl/#references), although the goal is to achieve this status.
+This glossary has been under development since 2022 and is still continuously developed. This means that new terms can be added in the future depending on their prevalence and frequency of use among the project members. In addition, unfortunately, not all the terms and their definitions currently meet the community standards[<sup>1</sup>](https://glossary.vhp4safety.nl/#references), although our goal is to achieve this status.
 
-This glossary is development as [a GitHub repository](https://github.com/VHP4Safety/glossary). The readers and users of the platform are welcome to contribute. To make new entry queries, please create an issue [here](https://github.com/VHP4Safety/glossary/issues/new/choose)
+This glossary is developedt as [a GitHub repository](https://github.com/VHP4Safety/glossary). The readers and users of the platform are welcome to contribute. To make new entry queries, please create an issue [here](https://github.com/VHP4Safety/glossary/issues/new/choose)
 using the [issue template](https://github.com/VHP4Safety/glossary/issues/new?assignees=&labels=categorization&projects=&template=ontology-term-request.yml&title=%5BTERM+REQUEST%5D+Please+add+this+glossary+term).
 For other issues, suggestions, or problems, please create an issue [here](https://github.com/VHP4Safety/glossary/issues). 
 Experienced GitHub users are encouraged to submit pull requests. More information can be found in the project
@@ -536,7 +536,7 @@ Experienced GitHub users are encouraged to submit pull requests. More informatio
 </table>
 
 
-## Server
+## Computer Infrastructure
 
 <table prefix="rdfs: http://www.w3.org/2000/01/rdf-schema# ncit: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl# dc: http://purl.org/dc/elements/1.1/ dcterms: http://purl.org/dc/terms/ vhp: https://vhp4safety.github.io/glossary#">
   <tr>
