@@ -280,14 +280,6 @@
         ncit:C42610     ""@en-US ;
         dc:description  "One of the generic stages in the VHP4Safety human-based risk-assessment workflow, used to structure tools, data and models along the risk assessment process."@en-US .
 
-[ rdf:type                      <http://schema.org/WebSite> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "VHP4Safety Glossary" ;
-  <http://schema.org/name>      "glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
-] .
-
 <https://vhp4safety.github.io/glossary#Q4722>
         rdf:type        owl:Class ;
         rdfs:label      "chlorpyrifos"@en-US ;
@@ -528,6 +520,14 @@
         rdfs:label      "Open Data"@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "A (collection of) data that can be used, studied, and modified without restriction, and which can be copied and redistributed in modified or unmodified form either without restriction, or with restrictions only to ensure that further recipients can also do these things. "@en-US .
+
+[ rdf:type                      <http://schema.org/WebSite> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "glossary" ;
+  <http://schema.org/name>      "glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
+] .
 
 <https://vhp4safety.github.io/glossary#VHP0000029>
         rdf:type        owl:Class ;
@@ -1010,10 +1010,10 @@
         og:description   "Webpage with the VHP4Safety Glossary"@en-US ;
         og:locale        "en_US"@en-US ;
         og:site_name     "glossary"@en-US ;
-        og:title         "VHP4Safety Glossary"@en-US ;
+        og:title         "glossary"@en-US ;
         og:type          "website"@en-US ;
         og:url           "https://glossary.vhp4safety.nl/"@en-US ;
-        dct:title        "VHP4Safety Glossary | glossary" ;
+        dct:title        "glossary | Webpage with the VHP4Safety Glossary" ;
         <http://vocab.sindice.net/any23#X-UA-Compatible>
                 "IE=edge"@en-US ;
         <http://vocab.sindice.net/any23#description>
@@ -1025,8 +1025,8 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=e467911341981f0c497d36f9e5f58cc6dc38121d> ;
-        <twitter:title>  "VHP4Safety Glossary"@en-US .
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=afdb9562f21da5f50a918bc5be863da45f61e7d1> ;
+        <twitter:title>  "glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000109>
         rdf:type        owl:Class ;
