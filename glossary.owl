@@ -101,14 +101,6 @@
         ncit:C42610     ""@en-US ;
         dc:description  ""@en-US .
 
-[ rdf:type                      <http://schema.org/WebSite> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "glossary" ;
-  <http://schema.org/name>      "glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
-] .
-
 <https://vhp4safety.github.io/glossary#VHP0000007>
         rdf:type        owl:Class ;
         rdfs:label      "Lowest Observed Adverse Effect Level"@en-US ;
@@ -434,7 +426,7 @@
 
 <https://vhp4safety.github.io/glossary#VHP0000155>
         rdf:type        owl:Class ;
-        rdfs:label      "Toxicokinetics/ADME (Process Flow Step)"@en-US ;
+        rdfs:label      "Toxicokinetics (Process Flow Step)"@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "A process flow step that is named after toxicokinetics and categorizes services that analyze the kinetics (absorption, distribution, metabolism and excretion) of chemicals and how these processes influence the internal dose. The kinetics step contains four physiological processes substeps: Absorption, Distribution, Metabolism, and Excretion which can be captured in PBK models."@en-US ;
         dct:relation    <https://vhp4safety.github.io/glossary#VHP0000102> .
@@ -650,6 +642,14 @@
         ncit:C42610     ""@en-US ;
         dc:description  "type of a chemical entity, InChIKey WHPVYXDFIXRKLN-UHFFFAOYSA-N, CAS registry number 60348-60-9 "@en-US .
 
+[ rdf:type                      <http://schema.org/WebSite> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "glossary" ;
+  <http://schema.org/name>      "glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
+] .
+
 <https://vhp4safety.github.io/glossary#VHP0000145>
         rdf:type        owl:Class ;
         rdfs:label      "Compound Wiki ID"@en-US ;
@@ -706,7 +706,7 @@
 
 <https://vhp4safety.github.io/glossary#VHP0000153>
         rdf:type        owl:Class ;
-        rdfs:label      "Hazard/Chemical Characteristics (Process Flow Step)"@en-US ;
+        rdfs:label      "Chemical Characteristics and Hazard identification (Process Flow Step)"@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "A process flow step that is named after hazard assessment and considered to be cheminformatics-based. It categorizes services that use molecular structures, chemical descriptors, and databases to predict or analyze the properties, behavior, and potential risks of chemical substances."@en-US ;
         dct:relation    <https://vhp4safety.github.io/glossary#VHP0000102> .
@@ -881,7 +881,7 @@
 
 <https://vhp4safety.github.io/glossary#VHP0000156>
         rdf:type        owl:Class ;
-        rdfs:label      "Toxicodynamics/AOP (Process Flow Step)"@en-US ;
+        rdfs:label      "Toxicodynamics (Process Flow Step)"@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "A process flow step that is named after Toxicodynamics and categorizes services that use or extend the (quantitative) AOP framework to analyze and assess the interaction of chemicals with biological targets."@en-US ;
         dct:relation    <https://vhp4safety.github.io/glossary#VHP0000102> .
@@ -1025,7 +1025,7 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=845ee3eee2f71076d2a8aaa3230254c4282ee443> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=1e26fea9e14da43ccc25cc18ef2fb789caf3794d> ;
         <twitter:title>  "glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000109>
@@ -1162,7 +1162,7 @@
 
 <https://vhp4safety.github.io/glossary#VHP0000154>
         rdf:type        owl:Class ;
-        rdfs:label      "(External) Exposure (Process Flow Step)"@en-US ;
+        rdfs:label      "Exposure (Process Flow Step)"@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "A process flow step that is named after exposure assessment and categorizes services that evaluate and analyze the route, duration, magnitude and frequency of exposure of an organism or (sub)population to one or multiple chemicals."@en-US ;
         dct:relation    <https://vhp4safety.github.io/glossary#VHP0000104> .
