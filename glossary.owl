@@ -53,6 +53,14 @@
         ncit:C42610     "ECHA"@en-US ;
         dc:description  "An agency of the European Union which manages the technical and administrative aspects of the implementation of the European Union regulation called Registration, Evaluation, Authorisation and Restriction of Chemicals. "@en-US .
 
+[ rdf:type                      <http://schema.org/WebSite> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "glossary" ;
+  <http://schema.org/name>      "glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
+] .
+
 <https://vhp4safety.github.io/glossary#Q4753>
         rdf:type        owl:Class ;
         rdfs:label      "xanthohumol"@en-US ;
