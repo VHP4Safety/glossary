@@ -9,4 +9,5 @@ VHP0000157	Internal (Exposure) 		The amount of a chemical (or its active metabol
 VHP0000018	Mode of Action	MoA	A functional or anatomical change, resulting from the exposure of a living organism to a substance.	
 VHP0000022	The legislation of 'Registration, Evaluation, Authorisation and Restriction of Chemicals'	REACH	Regulation (EC) No 1907/2006 of the European Parliament and of the Council concerning the Registration, Evaluation, Authorisation and Restriction of Chemicals (REACH).	http://data.europa.eu/eli/reg/2006/1907/2022-05-01
 VHP0000101	Risk Assessment		The process of assessing human health and environmental risks in a historic, current or emerging exposure scenario for which a concern has risen.	
+VHP0000160	Risk characterization		A process to combine information for a substance about the hazard and exposure to determine how much risk there is.	
 VHP0000103	Safety Assessment		The overarching term for hazard and risk assessment in toxicology. For pharmaceuticals, this term is generally used for assessments of the safety of a certain application of pharmaceuticals, including the determination of the therapeutic window and risk/benefit analysis.	
