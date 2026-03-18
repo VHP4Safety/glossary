@@ -672,6 +672,14 @@
         ncit:C42610     "WP2.4"@en-US ;
         dc:description  "Age and gender specific safety - Case study Thyroid mediated developmental neurotoxicity: objectives to collect mechanistic physiological data, determine critical pathways, establish quantitative AOP network, identify gender-specific sentitivities and compounds that discriminate, and assess the safety of compound exposure."@en-US .
 
+[ rdf:type                      <http://schema.org/WebSite> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "glossary" ;
+  <http://schema.org/name>      "glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
+] .
+
 <https://vhp4safety.github.io/glossary#VHP0000053>
         rdf:type        owl:Class ;
         rdfs:label      "Sysrev"@en-US ;
@@ -810,14 +818,6 @@
         rdfs:label      "(human) Embryonic Stem Cell"@en-US ;
         ncit:C42610     "(h)ESCs"@en-US ;
         dc:description  "Pluripotent stem cells derived from the inner cell mass of a blastocyst (an early-stage pre-implantation embryo). These cells are characterised by their ability to differentiate into any cell type of the three germ layers: ectoderm, mesoderm, and endoderm. They are also known for their self-renewal capability, meaning they can proliferate indefinitely in culture while maintaining their pluripotency."@en-US .
-
-[ rdf:type                      <http://schema.org/WebSite> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "glossary" ;
-  <http://schema.org/name>      "glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
-] .
 
 <https://vhp4safety.github.io/glossary#VHP0000148>
         rdf:type        owl:Class ;
@@ -1025,7 +1025,7 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=1e26fea9e14da43ccc25cc18ef2fb789caf3794d> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=aa2afdecf1a9d9ca7ec43d12df800a2620655cd7> ;
         <twitter:title>  "glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000109>
@@ -1063,6 +1063,12 @@
         rdfs:label      "sulfobromophthalein sodium"@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "type of a chemical entity, InChIKey CDTNUNQQEUGDSD-UHFFFAOYSA-L, CAS registry number 123359-42-2 "@en-US .
+
+<https://vhp4safety.github.io/glossary#VHP0000159>
+        rdf:type        owl:Class ;
+        rdfs:label      "Integrated Approaches to Testing and Assessment"@en-US ;
+        ncit:C42610     "IATA"@en-US ;
+        dc:description  "An assessment method puts together information from multiple sources used for toxicity assessment of chemical substances in regulatory context. IATA is coined by the OECD, for which case studies are conducted to establish IATAs. "@en-US .
 
 <https://vhp4safety.github.io/glossary#Q4729>
         rdf:type        owl:Class ;
