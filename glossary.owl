@@ -51,7 +51,7 @@
         rdf:type        owl:Class ;
         rdfs:label      "European Chemical Agency"@en-US ;
         ncit:C42610     "ECHA"@en-US ;
-        dc:description  "An agency of the European Union which manages the technical and administrative aspects of the implementation of the European Union regulation called Registration, Evaluation, Authorisation and Restriction of Chemicals. "@en-US .
+        dc:description  "The European Chemicals Agency (ECHA) is responsible for, among other things, implementing European Union legislation on chemicals, such as REACH (Registration, Evaluation, Authorisation and Restriction of Chemicals) and CLP (Classification, Labelling and Packaging of substances and mixtures). "@en-US .
 
 <https://vhp4safety.github.io/glossary#Q4753>
         rdf:type        owl:Class ;
@@ -334,6 +334,12 @@
         ncit:C42610     ""@en-US ;
         dc:description  "type of a chemical entity, InChIKey JFPVXVDWJQMJEE-IZRZKJBUSA-N, CAS registry number 55268-75-2 "@en-US .
 
+<https://vhp4safety.github.io/glossary#VHP0000160>
+        rdf:type        owl:Class ;
+        rdfs:label      "Risk characterization"@en-US ;
+        ncit:C42610     ""@en-US ;
+        dc:description  "A process to combine information for a substance about the hazard and exposure to determine how much risk there is."@en-US .
+
 <https://vhp4safety.github.io/glossary#VHP0000139>
         rdf:type        owl:Class ;
         rdfs:label      "Retrieval-Augmented Generation"@en-US ;
@@ -557,14 +563,6 @@
         ncit:C42610     "iPSCs"@en-US ;
         dc:description  "A type of pluripotent stem cell that can be generated directly from adult cells. The process of creating iPSCs involves reprogramming differentiated somatic cells (such as skin or blood cells) by introducing specific genes that reset the cells to a pluripotent state. This reprogramming allows iPSCs to develop into almost any cell type in the body, similarly to hESCs, making them highly valuable for regenerative medicine, disease modelling, and drug discovery."@en-US .
 
-[ rdf:type                      <http://schema.org/WebSite> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "glossary" ;
-  <http://schema.org/name>      "glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
-] .
-
 <https://vhp4safety.github.io/glossary#VHP0000079>
         rdf:type        owl:Class ;
         rdfs:label      "European Medicines Agency"@en-US ;
@@ -710,6 +708,14 @@
         ncit:C42610     ""@en-US ;
         dc:description  "A process flow step that is named after hazard assessment and considered to be cheminformatics-based. It categorizes services that use molecular structures, chemical descriptors, and databases to predict or analyze the properties, behavior, and potential risks of chemical substances."@en-US ;
         dct:relation    <https://vhp4safety.github.io/glossary#VHP0000102> .
+
+[ rdf:type                      <http://schema.org/WebSite> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "glossary" ;
+  <http://schema.org/name>      "glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
+] .
 
 <https://vhp4safety.github.io/glossary#Q4723>
         rdf:type        owl:Class ;
@@ -1025,7 +1031,7 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=4274d0e112ec1b0149e17117eea499ceb33ef4aa> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=e5528d482da08c5b75787d29af75169e9b0d6f03> ;
         <twitter:title>  "glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000109>
