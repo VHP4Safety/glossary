@@ -1,4 +1,5 @@
 ID	Term	Abbreviation	Definition	ref
+VHP0000161	Alternative Safety Profiling Algorithm	ASPA	a risk assessment workflow to combine information required for Next Generation Risk Assessment (NGRA), coined by Animal-free Safety assessment of chemicals: Project cluster for Implementation of novel Strategies (ASPIS; joint collaboration ONTOX, PrecisionTox, RISK-HUNT3R)	https://doi.org/10.14573/altex.2509081
 VHP0000019	European Centre for the Validation of Alternative Methods	ECVAM	The EU Reference Laboratory for alternatives to animal testing, located in Ispra, Italy.	
 VHP0000020	European Chemical Agency	ECHA	The European Chemicals Agency (ECHA) is responsible for, among other things, implementing European Union legislation on chemicals, such as REACH (Registration, Evaluation, Authorisation and Restriction of Chemicals) and CLP (Classification, Labelling and Packaging of substances and mixtures).	https://echa.europa.eu/
 VHP0000021	European Food Safety Authority	EFSA	The European Food Safety Authority (EFSA) is responsible for providing scientific advice on risks related to food and animal feed throughout the entire supply chain in the European Union.	
