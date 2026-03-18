@@ -672,14 +672,6 @@
         ncit:C42610     "WP2.4"@en-US ;
         dc:description  "Age and gender specific safety - Case study Thyroid mediated developmental neurotoxicity: objectives to collect mechanistic physiological data, determine critical pathways, establish quantitative AOP network, identify gender-specific sentitivities and compounds that discriminate, and assess the safety of compound exposure."@en-US .
 
-[ rdf:type                      <http://schema.org/WebSite> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "glossary" ;
-  <http://schema.org/name>      "glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
-] .
-
 <https://vhp4safety.github.io/glossary#VHP0000053>
         rdf:type        owl:Class ;
         rdfs:label      "Sysrev"@en-US ;
@@ -962,7 +954,7 @@
         rdf:type        owl:Class ;
         rdfs:label      "Risk Assessment"@en-US ;
         ncit:C42610     ""@en-US ;
-        dc:description  "The process of assessing human health risks in a historic, current or emerging exposure scenario for which a concern has risen."@en-US .
+        dc:description  "The process of assessing human health and environmental risks in a historic, current or emerging exposure scenario for which a concern has risen."@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000093>
         rdf:type        owl:Class ;
@@ -1025,7 +1017,7 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=aa2afdecf1a9d9ca7ec43d12df800a2620655cd7> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=5f2de899eceb26a271be51374214cc41f210c56a> ;
         <twitter:title>  "glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000109>
@@ -1033,6 +1025,14 @@
         rdfs:label      "Template"@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "A thing that is used as a model for producing other similar examples. "@en-US .
+
+[ rdf:type                      <http://schema.org/WebSite> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "glossary" ;
+  <http://schema.org/name>      "glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
+] .
 
 <https://vhp4safety.github.io/glossary#VHP0000080>
         rdf:type        owl:Class ;
