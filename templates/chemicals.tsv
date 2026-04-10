@@ -19,12 +19,11 @@ Q4757	PBDE-99		type of a chemical entity, InChIKey WHPVYXDFIXRKLN-UHFFFAOYSA-N, 
 Q38	rotenone		chemical compound, InChIKey JUVIOZPCNVVQFO-HBGVWJBISA-N, CAS registry number 83-79-4	CC(=C)[C@H]1CC2=C(O1)C=CC3=C2O[C@@H]4COC5=CC(=C(C=C5[C@@H]4C3=O)OC)OC	https://compoundcloud.wikibase.cloud/entity/Q38
 Q2062	Silibinin		mixture		https://compoundcloud.wikibase.cloud/entity/Q2062
 Q1881	silychristin A		chemical compound, InChIKey BMLIIPOXVWESJG-LMBCONBSSA-N, CAS registry number 33889-69-9	COC1=C(C=CC(=C1)[C@H]2[C@@H](C3=C(O2)C(=CC(=C3)[C@@H]4[C@H](C(=O)C5=C(C=C(C=C5O4)O)O)O)O)CO)O	https://compoundcloud.wikibase.cloud/entity/Q1881
-Q2061	silymarin		mixture		https://compoundcloud.wikibase.cloud/entity/Q2061
-Q2061	silymarin		extract		https://compoundcloud.wikibase.cloud/entity/Q2061
+Q2061	silymarin		extract of the milk thistle (Silybum marianum) that contains a mixture of flavonolignans, including silibinin isomers, silychristin isomers, and others.		https://compoundcloud.wikibase.cloud/entity/Q2061
 Q4744	sulfobromophthalein		type of a chemical entity, InChIKey OHTXTCNTQJFRIG-UHFFFAOYSA-N, CAS registry number 297-83-6	Oc1ccc(cc1S(O)(=O)=O)C2(OC(=O)c3c(Br)c(Br)c(Br)c(Br)c23)c4ccc(O)c(c4)S(O)(=O)=O	https://compoundcloud.wikibase.cloud/entity/Q4744
 Q4750	sulfobromophthalein sodium		type of a chemical entity, InChIKey CDTNUNQQEUGDSD-UHFFFAOYSA-L, CAS registry number 123359-42-2	[Na+].[Na+].[H]O[H].Oc1ccc(cc1S([O-])(=O)=O)C2(OC(=O)c3c(Br)c(Br)c(Br)c(Br)c23)c4ccc(O)c(c4)S([O-])(=O)=O	https://compoundcloud.wikibase.cloud/entity/Q4750
-Q5027	T3	T3	type of a chemical entity, InChIKey AUYYCJSJGJYCDS-LBPRGKRZSA-N	N[C@@H](Cc1cc(I)c(Oc2ccc(O)c(I)c2)c(I)c1)C(O)=O	https://compoundcloud.wikibase.cloud/entity/Q5027
-Q5026	T4	T4	type of a chemical entity, InChIKey XUIIKFGFIJCVMT-LBPRGKRZSA-N	N[C@@H](Cc1cc(I)c(Oc2cc(I)c(O)c(I)c2)c(I)c1)C(O)=O	https://compoundcloud.wikibase.cloud/entity/Q5026
+Q5027	triiodothyronine	T3	type of a chemical entity, InChIKey AUYYCJSJGJYCDS-LBPRGKRZSA-N	N[C@@H](Cc1cc(I)c(Oc2ccc(O)c(I)c2)c(I)c1)C(O)=O	https://compoundcloud.wikibase.cloud/entity/Q5027
+Q5026	thyroxine	T4	type of a chemical entity, InChIKey XUIIKFGFIJCVMT-LBPRGKRZSA-N	N[C@@H](Cc1cc(I)c(Oc2cc(I)c(O)c(I)c2)c(I)c1)C(O)=O	https://compoundcloud.wikibase.cloud/entity/Q5026
 Q82	tetrabromobisphenol A	TBBPA	bisphenol, InChIKey VEORPZCZECFIRK-UHFFFAOYSA-N, CAS registry number 79-94-7	CC(C)(C1=CC(=C(C(=C1)Br)O)Br)C2=CC(=C(C(=C2)Br)O)Br	https://compoundcloud.wikibase.cloud/entity/Q82
 Q4753	xanthohumol		type of a chemical entity, InChIKey ORXQGKIUCDPEAJ-YRNVUSSQSA-N, CAS registry number 6754-58-1	COc1cc(O)c(C\C=C(/C)C)c(O)c1C(=O)\C=C\c2ccc(O)cc2	https://compoundcloud.wikibase.cloud/entity/Q4753
 Q4733	Zn²⁺		type of a chemical entity, InChIKey PTFCDOFLOPIGGS-UHFFFAOYSA-N	[Zn+2]	https://compoundcloud.wikibase.cloud/entity/Q4733
