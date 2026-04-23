@@ -113,14 +113,6 @@
         ncit:C42610     "LOAEL"@en-US ;
         dc:description  "The lowest exposure level of a chemical stressor evaluated in a toxicity test that shows harmful effects on a plant or animal."@en-US .
 
-[ rdf:type                      <http://schema.org/WebSite> ;
-  <http://schema.org/description>
-          "Webpage with the VHP4Safety Glossary" ;
-  <http://schema.org/headline>  "glossary" ;
-  <http://schema.org/name>      "glossary" ;
-  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
-] .
-
 <https://vhp4safety.github.io/glossary#VHP0000149>
         rdf:type        owl:Class ;
         rdfs:label      "General Tools"@en-US ;
@@ -230,7 +222,7 @@
 
 <https://vhp4safety.github.io/glossary#VHP0000002>
         rdf:type        owl:Class ;
-        rdfs:label      "Benchmark dose"@en-US ;
+        rdfs:label      "Benchmark Dose"@en-US ;
         ncit:C42610     "BMD"@en-US ;
         dc:description  "See Benchmark dose modeling"@en-US .
 
@@ -257,6 +249,14 @@
         rdfs:label      "Hazard Assessment"@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "The process of assessing the intrinsic hazard a substance poses to human health and/or the environment. This provides information on potential human health effects such that a safe production and use of a chemical can be assured. Two types can be generally distinguished, i.e. with the purpose to classify the chemical to a certain category of toxicity (mostly qualitative assessment) or to derive an exposure limit, such as a health-based guidance value or product limit, that ensures safe use."@en-US .
+
+[ rdf:type                      <http://schema.org/WebSite> ;
+  <http://schema.org/description>
+          "Webpage with the VHP4Safety Glossary" ;
+  <http://schema.org/headline>  "glossary" ;
+  <http://schema.org/name>      "glossary" ;
+  <http://schema.org/url>       <https://glossary.vhp4safety.nl/>
+] .
 
 <https://vhp4safety.github.io/glossary#VHP0000094>
         rdf:type        owl:Class ;
@@ -440,7 +440,7 @@
 
 <https://vhp4safety.github.io/glossary#VHP0000013>
         rdf:type        owl:Class ;
-        rdfs:label      "Read accross"@en-US ;
+        rdfs:label      "Read Across"@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "A common approach in the risk assessment in order to examine structural similarities between the source and the target substances when there is a lack of information on their physical-chemical, toxicological properties, or environmental fate."@en-US .
 
@@ -1008,7 +1008,7 @@
 
 <https://vhp4safety.github.io/glossary#VHP0000009>
         rdf:type        owl:Class ;
-        rdfs:label      "Monte Carlo Risk Assessment calculation model"@en-US ;
+        rdfs:label      "Monte Carlo Risk Assessment Calculation Model"@en-US ;
         ncit:C42610     ""@en-US ;
         dc:description  "A modeling technique for realistically possible calculation of the intake of risk substances by humans, for example via food, where the exposure can also be linked to the hazard, with which a risk assessment can be carried out."@en-US .
 
@@ -1043,7 +1043,7 @@
         <http://vocab.sindice.net/any23#viewport>
                 "width=device-width, initial-scale=1"@en-US ;
         <http://www.w3.org/1999/xhtml/vocab#stylesheet>
-                <https://glossary.vhp4safety.nl/assets/css/style.css?v=6d20b16030c2bbe921eb71e859d23a1dab148e83> ;
+                <https://glossary.vhp4safety.nl/assets/css/style.css?v=4e325053e5e229f148d23ba4e094d966c25d293a> ;
         <twitter:title>  "glossary"@en-US .
 
 <https://vhp4safety.github.io/glossary#VHP0000109>
