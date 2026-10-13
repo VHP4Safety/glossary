@@ -42,7 +42,42 @@ SVG_ICON = (
 )
 
 
-def create_rdfa_table(tsv_file_path):
+# Term-linking TSV columns: (RDF predicate, note shown under the term, label links by abbreviation)
+TERM_LINKS = {
+    "synonyms": ("owl:equivalentClass", "synonyms", True),
+    "see_also": ("rdfs:seeAlso", "see also", False),
+}
+
+
+def load_term_links(sections):
+    """Map each term ID to its linked terms {column: {ID: label}}, in both directions and across all templates."""
+    terms, pairs = {}, []
+    for tsv_file in sections.values():
+        tsv_path = os.path.join(template_dir, tsv_file)
+        if not os.path.exists(tsv_path):
+            continue
+        df = pd.read_csv(tsv_path, sep="\t", dtype=str).fillna("")
+        for _, row in df.iterrows():
+            row_id = row["ID"].strip()
+            terms[row_id] = (row["Term"].strip(), row.get("Abbreviation", "").strip())
+            for column in TERM_LINKS:
+                for linked_id in row.get(column, "").split(","):
+                    linked_id = linked_id.strip().split("#")[-1]
+                    if linked_id:
+                        pairs += [(column, row_id, linked_id), (column, linked_id, row_id)]
+
+    links = {}
+    for column, term_id, linked_id in pairs:
+        if term_id not in terms or linked_id not in terms:
+            logging.warning(f"Unknown {column} link {term_id} - {linked_id}. Skipping.")
+            continue
+        term, abbreviation = terms[linked_id]
+        label = abbreviation if TERM_LINKS[column][2] and abbreviation else term
+        links.setdefault(term_id, {}).setdefault(column, {})[linked_id] = label
+    return links
+
+
+def create_rdfa_table(tsv_file_path, links):
     try:
         df = pd.read_csv(tsv_file_path, sep="\t")
         logging.info(f"Processing TSV: {tsv_file_path}")
@@ -60,6 +95,7 @@ def create_rdfa_table(tsv_file_path):
         )
         df.drop("ref", axis=1, inplace=True)
 
+    df.drop(columns=[column for column in TERM_LINKS if column in df.columns], inplace=True)
 
     def encode_smiles(smiles):
         encoded_smiles = urllib.parse.quote(smiles.encode('utf-8'))
@@ -102,6 +138,12 @@ def create_rdfa_table(tsv_file_path):
             f'<span property="rdfs:label">{term_value}</span> '
             f'<a href="https://vhp4safety.github.io/glossary#{row_id}">{SVG_ICON}</a>'
         )
+        for column, (predicate, note, _) in TERM_LINKS.items():
+            if column in links.get(row_id, {}):
+                term_cell_content += f"<br><small>{note}: " + ", ".join(
+                    f'<a property="{predicate}" resource="https://vhp4safety.github.io/glossary#{linked_id}" href="#{linked_id}">{label}</a>'
+                    for linked_id, label in links[row_id][column].items()
+                ) + "</small>"
         table_html += f"    <td>{term_cell_content}</td>\n"
 
         for header in headers[1:]:
@@ -160,13 +202,14 @@ def update_markdown_file(template_file, output_file, sections):
         logging.error(f"Failed to read {template_file}: {e}")
         return
 
+    links = load_term_links(sections)
     for table_type, tsv_file in sections.items():
         tsv_path = os.path.join(template_dir, tsv_file)
         if not os.path.exists(tsv_path):
             logging.warning(f"TSV file not found: {tsv_path}")
             continue
 
-        table_html, _ = create_rdfa_table(tsv_path)
+        table_html, _ = create_rdfa_table(tsv_path, links)
         if not table_html:
             continue
         content = content.replace(f"${{{table_type}}}", table_html)
