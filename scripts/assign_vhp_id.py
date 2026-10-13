@@ -1,6 +1,17 @@
 import os
 import re
 import glob
+import subprocess
+
+def ids_in_branches():
+    """VHP IDs in the templates of all fetched remote branches (e.g. terms added in an open pull request)."""
+    refs = subprocess.run(['git', 'for-each-ref', '--format=%(refname)', 'refs/remotes/origin'],
+                          capture_output=True, text=True).stdout.split()
+    if not refs:
+        return set()
+    found = subprocess.run(['git', 'grep', '-h', '-o', '-E', 'VHP[0-9]{7}', *refs, '--', 'templates/*.tsv'],
+                           capture_output=True, text=True).stdout
+    return set(found.split())
 
 def main():
     # Load existing cached IDs or create new cache
@@ -41,7 +52,7 @@ def main():
             print(f"Error reading {template_file}: {e}")
     
     # Combine cached and template IDs
-    all_ids = cached_ids.union(template_ids)
+    all_ids = cached_ids.union(template_ids, ids_in_branches())
     
     # Generate next ID
     if all_ids:

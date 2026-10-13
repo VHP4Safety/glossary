@@ -1,6 +1,17 @@
 import os
 import sys
 import glob
+import subprocess
+
+def ids_in_branches():
+    """VHP IDs in the templates of all fetched remote branches (e.g. terms added in an open pull request)."""
+    refs = subprocess.run(['git', 'for-each-ref', '--format=%(refname)', 'refs/remotes/origin'],
+                          capture_output=True, text=True).stdout.split()
+    if not refs:
+        return set()
+    found = subprocess.run(['git', 'grep', '-h', '-o', '-E', 'VHP[0-9]{7}', *refs, '--', 'templates/*.tsv'],
+                           capture_output=True, text=True).stdout
+    return set(found.split())
 
 def main():
     if len(sys.argv) != 2:
@@ -47,6 +58,11 @@ def main():
         except Exception as e:
             print(f"Error reading {template_file}: {e}")
     
+    # Keep the reservation if another branch already uses the ID
+    if not id_in_templates and vhp_id in ids_in_branches():
+        id_in_templates = True
+        print(f"ID {vhp_id} found in another branch")
+
     # If ID not in templates, remove from cache
     if not id_in_templates and os.path.exists(cache_file):
         with open(cache_file, 'r') as f:

@@ -20,6 +20,8 @@ jobs:
 
       - name: Fetch VHP cache from vhp-state branch
         run: |
+          # all branches, so IDs used in open branches are taken into account
+          git fetch --depth=1 origin '+refs/heads/*:refs/remotes/origin/*'
           git fetch origin vhp-state
           git checkout origin/vhp-state -- .vhp-cache || echo "No cache found"
 
