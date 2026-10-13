@@ -1,6 +1,43 @@
 ID	Term	Abbreviation	Definition	ref
+VHP0000392	Amsterdam University Medical Center	Amsterdam UMC	University hospitals cooperation in Amsterdam, Netherlands	https://www.wikidata.org/wiki/Q56682938
+VHP0000398	Bayer		German multinational pharmaceutical, chemical, and agricultural biotechnology company	https://www.wikidata.org/wiki/Q152051
+VHP0000419	Brunel University London		University in London, UK	https://www.wikidata.org/wiki/Q932411
+VHP0000399	Certara		Company in St Louis, United States	https://www.wikidata.org/wiki/Q30283378
+VHP0000402	Charles River Laboratories		Major US biomedical company	https://www.wikidata.org/wiki/Q5082076
+VHP0000406	Cosmetics Europe		Organization in Brussels, Belgium	https://www.wikidata.org/wiki/Q19787844
+VHP0000414	DTU National Food Institute			
+VHP0000405	Dutch Burns Foundation			
+VHP0000401	Dutch Kidney Foundation		Kidney research funding body based in Bussum, Netherlands	https://www.wikidata.org/wiki/Q29787926
+VHP0000384	Dutch Research Council	NWO	National research council of the Netherlands	https://www.wikidata.org/wiki/Q129724
+VHP0000416	ELIXIR		European life-sciences infrastructure	https://www.wikidata.org/wiki/Q12269561
+VHP0000394	Erasmus MC		Hospital in Rotterdam, Netherlands	https://www.wikidata.org/wiki/Q3126873
+VHP0000411	European Commission	EC	Executive branch of the European Union	https://www.wikidata.org/wiki/Q8880
 VHP0000079	European Medicines Agency	EMA 	An agency of the European Union (EU) in charge of the evaluation and supervision of pharmaceutical products.	https://www.ema.europa.eu/en/homepage
 VHP0000080	College ter Beoordeling van Geneesmiddelen	CBG 	Medicines Evaluation Board. The Dutch authority that evaluates and regulates medicines for human and veterinary use. 	https://www.cbg-meb.nl/
 VHP0000081		ZIN		
 VHP0000082	College voor de toelating van gewasbeschermingsmiddelen en biociden	CTBG 	Dutch Board for the Authorisation of Plant Protection Products and Biocides.	https://www.ctgb.nl/
 VHP0000085	European Centre for Ecotoxicology and Toxicology of Chemicals	ECTOC	"The European Centre for Ecotoxicology and Toxicology of Chemicals (ECETOC) is a scientific, non-profit, non-commercial and non-governmental association. Established in 1978, ECETOC's main objective is to identify, evaluate, and through such knowledge help industry to minimise any potentially adverse effects on human health and the environment that may arise from the manufacture and use of chemicals, biomaterials and pharmaceuticals."	https://en.wikipedia.org/wiki/European_Centre_for_Ecotoxicology_and_Toxicology_of_Chemicals
+VHP0000418	Institute for Risk Assessment Sciences	IRAS	Universiteit Utrecht	https://www.wikidata.org/wiki/Q2874394
+VHP0000412	Joint Research Centre	JRC	European Commission's science and knowledge service	https://www.wikidata.org/wiki/Q1500915
+VHP0000404	KWR Water Research Institute			
+VHP0000408	Lakefront Biotherapeutics			
+VHP0000390	Leiden University		Public university in the Netherlands	https://www.wikidata.org/wiki/Q156598
+VHP0000388	Maastricht University	UM	Public university in Maastricht	https://www.wikidata.org/wiki/Q1137652
+VHP0000400	Ministry of Agriculture, Nature and Food Quality	LNV	Agriculture ministry of Netherlands	https://www.wikidata.org/wiki/Q898882
+VHP0000385	National Institute for Public Health and the Environment	RIVM	Dutch research institute	https://www.wikidata.org/wiki/Q1055186
+VHP0000413	National Institutes of Health	NIH	US government medical research agency	https://www.wikidata.org/wiki/Q390551
+VHP0000417	National Research Data Infrastructure	NFDI		https://www.wikidata.org/wiki/Q61658497
+VHP0000409	Organisation for Economic Co-operation and Development	OECD	Intergovernmental economic organization	https://www.wikidata.org/wiki/Q41550
+VHP0000396	ORTEC			
+VHP0000403	Shell		British multinational oil and gas company	https://www.wikidata.org/wiki/Q154950
+VHP0000415	Statistics Netherlands	CBS	Netherlands' principal government institution in charge of statistics and census data	https://www.wikidata.org/wiki/Q167086
+VHP0000407	Stichting Proefdiervrij		Organization	https://www.wikidata.org/wiki/Q3381433
+VHP0000395	TNO		Dutch organisation	https://www.wikidata.org/wiki/Q1867222
+VHP0000397	Unilever		British multinational consumer goods company	https://www.wikidata.org/wiki/Q157062
+VHP0000393	University Medical Center Utrecht	UMC Utrecht	Academic hospital in Utrecht, Netherlands	https://www.wikidata.org/wiki/Q2456800
+VHP0000387	University of Applied Sciences Utrecht	HU	University of applied sciences in Utrecht, the Netherlands	https://www.wikidata.org/wiki/Q4372693
+VHP0000420	University of Konstanz		University in Konstanz, Germany	https://www.wikidata.org/wiki/Q835440
+VHP0000386	Utrecht University	UU	University in the Netherlands	https://www.wikidata.org/wiki/Q221653
+VHP0000389	Vrije Universiteit Amsterdam	VU	University in Amsterdam, Netherlands	https://www.wikidata.org/wiki/Q1065414
+VHP0000391	Wageningen University & Research	WUR	University in the Netherlands	https://www.wikidata.org/wiki/Q422208
+VHP0000410	World Health Organization	WHO	United Nations agency concerned with international public health	https://www.wikidata.org/wiki/Q7817
