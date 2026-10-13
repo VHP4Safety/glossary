@@ -9,6 +9,8 @@ on:
 
 jobs:
   build:
+    # skip when update_md failed: index.md may not match the templates
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -20,15 +22,18 @@ jobs:
           java-version: 17
           distribution: 'temurin'
       - name: Install dependencies
-        run: sudo apt install groovy
+        run: sudo apt install groovy pandoc
       - name: Extract OWL
-        run: groovy extractOWL.groovy index.md | tee glossary.owl
+        run: |
+          set -o pipefail
+          # render index.md to HTML as a temporary file (raw HTML tables kept as is, page language set)
+          pandoc index.md -f gfm -t html5 -s -M lang=en-US -M pagetitle="VHP4Safety Glossary" -o "$RUNNER_TEMP/glossary.html"
+          groovy extractOWL.groovy "$RUNNER_TEMP/glossary.html" | tee glossary.owl
       - name: Commit OWL file
         run: |
-          git add glossary.owl
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git commit -m "Updated OWL" glossary.owl
+          git diff --quiet glossary.owl || git commit -m "Updated OWL" glossary.owl
       - name: Push changes
         if: github.event_name != 'pull_request'
         run: |

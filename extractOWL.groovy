@@ -13,10 +13,9 @@ rdf = new net.bioclipse.managers.RDFManager(workspaceRoot);
 
 url = "https://vhp4safety.github.io/glossary/"
 
-// extract from the local index
-page = new File(args ? args[0] : "index.md").getText("UTF-8")
+// extract from the HTML rendering of the local index.md
 
-Any23 runner = new Any23();
+Any23 runner = new Any23("html-rdfa11")
 source = new StringDocumentSource(page, url, "text/html")
 
 out = new ByteArrayOutputStream();

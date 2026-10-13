@@ -89,10 +89,10 @@ def create_rdfa_table(tsv_file_path, links):
         logging.error(f"Required columns not found in {tsv_file_path}. Skipping.")
         return "", set()
 
+    df["Definition"] = df.apply(
+        lambda row: add_superscripts(row["Definition"], row.get("ref")), axis=1
+    )
     if "ref" in df.columns:
-        df["Definition"] = df.apply(
-            lambda row: add_superscripts(row["Definition"], row["ref"]), axis=1
-        )
         df.drop("ref", axis=1, inplace=True)
 
     df.drop(columns=[column for column in TERM_LINKS if column in df.columns], inplace=True)
@@ -153,9 +153,11 @@ def create_rdfa_table(tsv_file_path, links):
             cell_value = str(cell_value).strip()
 
             if header.lower() == "abbreviation":
-                table_html += f'    <td property="ncit:C42610">{cell_value}</td>\n'
+                # no property on empty cells, to avoid empty literals in the OWL
+                table_html += f'    <td property="ncit:C42610">{cell_value}</td>\n' if cell_value else "    <td></td>\n"
             elif header.lower() == "definition":
-                table_html += f'    <td property="dc:description">{cell_value}</td>\n'
+                # the dc:description span is added by add_superscripts, outside the reference links
+                table_html += f"    <td>{cell_value}</td>\n"
             elif header.lower() == "related_to":
                 if cell_value:
                     # Extract VHP identifier from URL and convert to vhp4safety.github.io format
@@ -177,7 +179,9 @@ def add_superscripts(definition, refs):
     if pd.isna(definition):
         definition = ""
     else:
-        definition = str(definition)
+        definition = str(definition).strip()
+    if definition:
+        definition = f'<span property="dc:description">{definition}</span>'
 
     if pd.isna(refs):
         return definition
