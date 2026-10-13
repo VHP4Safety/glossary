@@ -5,7 +5,7 @@
 @Grab(group='io.github.egonw.bacting', module='managers-rdf', version='0.0.45')
 
 import org.apache.any23.Any23
-import org.apache.any23.source.HTTPDocumentSource
+import org.apache.any23.source.StringDocumentSource
 import org.apache.any23.writer.NTriplesWriter
 
 workspaceRoot = "../ws"
@@ -13,10 +13,11 @@ rdf = new net.bioclipse.managers.RDFManager(workspaceRoot);
 
 url = "https://vhp4safety.github.io/glossary/"
 
+// extract from the local index
+page = new File(args ? args[0] : "index.md").getText("UTF-8")
+
 Any23 runner = new Any23();
-runner.setHTTPUserAgent("test-user-agent");
-httpClient = runner.getHTTPClient()
-source = new HTTPDocumentSource(runner.getHTTPClient(), url)
+source = new StringDocumentSource(page, url, "text/html")
 
 out = new ByteArrayOutputStream();
 handler = new NTriplesWriter(out);
