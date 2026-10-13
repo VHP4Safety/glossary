@@ -14,6 +14,7 @@ prefixes = {
     "ncit": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#",
     "dc": "http://purl.org/dc/elements/1.1/",
     "dcterms": "http://purl.org/dc/terms/",
+    "chebi": "http://purl.obolibrary.org/obo/chebi/",
     "vhp": "https://vhp4safety.github.io/glossary#",
 }
 
@@ -98,10 +99,11 @@ def create_rdfa_table(tsv_file_path, links):
     df.drop(columns=[column for column in TERM_LINKS if column in df.columns], inplace=True)
 
     def encode_smiles(smiles):
+        smiles = smiles.strip()
         encoded_smiles = urllib.parse.quote(smiles.encode('utf-8'))
         url = "https://cdkdepict.cloud.vhp4safety.nl/depict/bot/svg?w=-1&h=-1&abbr=off&hdisp=bridgehead&showtitle=false&zoom=1.6&annotate=cip&r=0&smi="
         image_html = f'<a href="{url + encoded_smiles}"><img src="{url + encoded_smiles}" alt="{smiles}"></a>'
-        return image_html
+        return image_html + f'<span property="chebi:smiles" datatype="xsd:string">{smiles}</span>'
 
     if "SMILES" in df.columns:
         df["SMILES"] = df.apply(

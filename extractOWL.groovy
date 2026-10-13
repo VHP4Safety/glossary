@@ -40,6 +40,7 @@ rdf.addPrefix(kb, "skos", "http://www.w3.org/2004/02/skos/core#")
 rdf.addPrefix(kb, "dc", "http://purl.org/dc/elements/1.1/")
 rdf.addPrefix(kb, "dct", "http://purl.org/dc/terms/")
 rdf.addPrefix(kb, "ncit", "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#")
+rdf.addPrefix(kb, "chebi", "http://purl.obolibrary.org/obo/chebi/")
 rdf.addPrefix(kb, "og", "http://ogp.me/ns#")
 rdf.importFromStream(kb, n3Stream, "N3")
 
