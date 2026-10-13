@@ -1,15 +1,37 @@
 ID	Term	Abbreviation	Definition	ref
 VHP0000161	Alternative Safety Profiling Algorithm	ASPA	a risk assessment workflow to combine information required for Next Generation Risk Assessment (NGRA), coined by Animal-free Safety assessment of chemicals: Project cluster for Implementation of novel Strategies (ASPIS; joint collaboration ONTOX, PrecisionTox, RISK-HUNT3R)	https://doi.org/10.14573/altex.2509081
+VHP0000260	Benchmark Concentration	BMC		
+VHP0000261	Benchmark Dose Lower Confidence Limit	BMDL		
+VHP0000263	Bioactivity-Exposure Ratio	BER		
+VHP0000268	Dietary exposure		Exposure to potentially harmful factors or substances in contaminated food or drinking water	https://www.wikidata.org/wiki/Q105086057
+VHP0000270	Environmental exposure		The exposure to potentially harmful chemical, physical, or biological agents in the environment or to environmental factors that may include ionizing radiation, pathogenic organisms, or toxic chemicals.	http://id.nlm.nih.gov/mesh/D004781
 VHP0000019	European Centre for the Validation of Alternative Methods	ECVAM	The EU Reference Laboratory for alternatives to animal testing, located in Ispra, Italy.	
-VHP0000020	European Chemical Agency	ECHA	The European Chemicals Agency (ECHA) is responsible for, among other things, implementing European Union legislation on chemicals, such as REACH (Registration, Evaluation, Authorisation and Restriction of Chemicals) and CLP (Classification, Labelling and Packaging of substances and mixtures).	https://echa.europa.eu/
+VHP0000020	European Chemical Agency	ECHA	The European Chemicals Agency (ECHA) is responsible for, among other things, implementing European Union legislation on chemicals, such as REACH (Registration, Evaluation, Authorization and Restriction of Chemicals) and CLP (Classification, Labelling and Packaging of substances and mixtures).	https://echa.europa.eu/
 VHP0000021	European Food Safety Authority	EFSA	The European Food Safety Authority (EFSA) is responsible for providing scientific advice on risks related to food and animal feed throughout the entire supply chain in the European Union.	
+VHP0000272	Exposome		The measure of all the exposures of an individual from all sources, including environmental and occupational sources, in a lifetime and how those exposures relate to health. (from https://www.cdc.gov/niosh/topics/exposome/ on 06/06/2019)	http://id.nlm.nih.gov/mesh/D000081413,https://www.wikidata.org/wiki/Q1384754
 VHP0000147	Exposure		Contact between a toxicological agent and an outer boundary of an organism. 	
 VHP0000104	Exposure Assessment		The process of assessing the magnitude, frequency and duration of exposure of a certain organism to a certain agent; OF the process of assessing the total external (or internal) exposure following one or more exposure/use scenarios that are described in terms of route, extent, frequency and duration of exposure, including exposure via more than one exposure route (aggregated exposure) and exposure to multiple chemicals (cumulative exposure).	
+VHP0000266	Exposure scenario			
+VHP0000267	External exposure			
 VHP0000102	Hazard Assessment		The process of assessing the intrinsic hazard a substance poses to human health and/or the environment. This provides information on potential human health effects such that a safe production and use of a chemical can be assured. Two types can be generally distinguished, i.e. with the purpose to classify the chemical to a certain category of toxicity (mostly qualitative assessment) or to derive an exposure limit, such as a health-based guidance value or product limit, that ensures safe use.	
+VHP0000258	Hazard characterization			
+VHP0000257	Hazard identification		First step of risk assessment and management in systematically discovering, recognizing and documenting potential risks which may negatively impact the objectives of an organization or individual	https://www.wikidata.org/wiki/Q5687675
+VHP0000273	Human biomonitoring		Measurement of the body burden of toxic chemical compounds, elements, or their metabolites, in biological substances	https://www.wikidata.org/wiki/Q864610
 VHP0000157	Internal (Exposure) 		The amount of a chemical (or its active metabolites) present in human tissues or biological fluids over time, typically expressed as concentration-time profiles or dose metrics, resulting from external exposure after ADME/TK processes, and used as the input for the Toxicodynamics/AOP step.	
+VHP0000262	Lowest Observed Effect Concentration	LOEC		
 VHP0000018	Mode of Action	MoA	A functional or anatomical change, resulting from the exposure of a living organism to a substance.	
-VHP0000022	The legislation of 'Registration, Evaluation, Authorisation and Restriction of Chemicals'	REACH	Regulation (EC) No 1907/2006 of the European Parliament and of the Council concerning the Registration, Evaluation, Authorisation and Restriction of Chemicals (REACH).	http://data.europa.eu/eli/reg/2006/1907/2022-05-01
+VHP0000275	Monte Carlo simulation		Broad class of computational algorithms using random sampling to obtain numerical results	https://www.wikidata.org/wiki/Q232207
+VHP0000264	Next Generation Risk Assessment	NGRA		
+VHP0000269	Occupational exposure		Exposure to a hazard in the workplace	https://www.wikidata.org/wiki/Q26989042
+VHP0000276	Pharmacovigilance		The pharmacological science relating to the collection, detection, assessment, monitoring, and prevention of adverse effects with pharmaceutical product	https://www.wikidata.org/wiki/Q1550789
+VHP0000259	Point of Departure	PoD		
+VHP0000274	Population variability		Differences in measurable biological values, characteristics, or traits, among individuals of a population or between population groups.	http://id.nlm.nih.gov/mesh/D000073537
+VHP0000278	Raw Primary Commodity	RPC		
+VHP0000271	Recommended Daily Intake	RDI	The amounts of various substances in the diet recommended by governmental guidelines as needed to sustain healthy life.	http://id.nlm.nih.gov/mesh/D064167
+VHP0000022	The legislation of 'Registration, Evaluation, Authorization and Restriction of Chemicals'	REACH	Regulation (EC) No 1907/2006 of the European Parliament and of the Council concerning the Registration, Evaluation, Authorization and Restriction of Chemicals (REACH).	http://data.europa.eu/eli/reg/2006/1907/2022-05-01
 VHP0000101	Risk Assessment		The process of assessing human health and environmental risks in a historic, current or emerging exposure scenario for which a concern has risen.	
 VHP0000160	Risk characterization		A process to combine information for a substance about the hazard and exposure to determine how much risk there is.	
 VHP0000103	Safety Assessment		The overarching term for hazard and risk assessment in toxicology. For pharmaceuticals, this term is generally used for assessments of the safety of a certain application of pharmaceuticals, including the determination of the therapeutic window and risk/benefit analysis.	
+VHP0000277	Therapeutic Drug Monitoring	TDM	Observing, recording, or detecting the effects of a chemical substance administered to an individual	https://www.wikidata.org/wiki/Q1261151
+VHP0000265	Weight of evidence			
 VHP0000162	WHO Human Health Risk Assessment Toolkit: Chemical Hazards		A publication that provides guidance on how to identify, gather, and use the information needed to assess chemical hazards, exposures, and related health risks. It was developed by the International Programme on Chemical Safety.	https://www.who.int/publications/i/item/9789240035720

@@ -1,15 +1,46 @@
 ID	Term	Abbreviation	Definition	ref
+VHP0000292	Artificial Intelligence	AI	Field that develops and studies software enabling machines to exhibit intelligent behavior	https://www.wikidata.org/wiki/Q11660
+VHP0000304	BioAssay Ontology	BAO	Ontology to annotate experiments in the field of the life sciences	https://www.wikidata.org/wiki/Q41807229
+VHP0000303	Cell Line Ontology	CLO	Ontology which describes anatomic origin and nature of eukaryotic cell lines	https://www.wikidata.org/wiki/Q21039006
+VHP0000302	Cell Ontology	CL	An ontology for cell types	https://www.wikidata.org/wiki/Q55118285
 VHP0000093	Cloud computing		A computer infrastructure that provides access to data resources, analysis software, and computer power to conduct analyses specific to a use case or research community.	https://www.nature.com/articles/s41597-022-01619-5
+VHP0000296	Controlled vocabulary		Standardized and organized sets of words and phrases for retrieval and disambiguation of information, distinguishing preferred terms from non-preferred terms	https://www.wikidata.org/wiki/Q1469824
+VHP0000288	CSV		Tabular data represented as comma-separated values in a text file.	http://edamontology.org/format_3752,https://www.wikidata.org/wiki/Q935809
+VHP0000297	Digital Object Identifier	DOI	ISO standard unique string identifier for a digital object	https://www.wikidata.org/wiki/Q25670
 VHP0000032	Docker		A service to create a virtual computer environment which can include the required software/tools to conduct a scientific work.	
 VHP0000033	Dockerfile		A file that includes the commands to build a Docker image.	
 VHP0000034	Docker container		The virtual environment that has been initiated to run based on its Docker image.	
 VHP0000035	Docker image		A representative file from which a docker container can be run and executed.	
+VHP0000308	eNanoMapper Ontology	ENM	Application ontology for the nanomaterial safety assessment domain	https://www.wikidata.org/wiki/Q116446479
+VHP0000305	Exposure Ontology	ExO	Ontology for environmental and chemical exposure assessment	https://www.wikidata.org/wiki/Q113012658
+VHP0000310	Gene Ontology	GO	Ontology for describing the function of genes and gene products	https://www.wikidata.org/wiki/Q135085
+VHP0000280	GitHub		Hosting service for software projects using Git	https://www.wikidata.org/wiki/Q364
+VHP0000287	JSON		Text-based open standard designed for human-readable data interchange	https://www.wikidata.org/wiki/Q2063
+VHP0000289	Jupyter Notebook		Web-based interactive computational environment for creating Jupyter notebook documents	https://www.wikidata.org/wiki/Q105099901
 VHP0000036	Kubernetes	K8s	A computer tool to orchesterize and manage Docker containers.	
+VHP0000293	Machine learning		Scientific study of algorithms and statistical models that computer systems use to perform tasks without explicit instructions	https://www.wikidata.org/wiki/Q2539
+VHP0000309	Medical Subject Headings	MeSH	Controlled vocabulary for the purpose of indexing journal articles and books in the life sciences	https://www.wikidata.org/wiki/Q199897
+VHP0000291	Model Context Protocol	MCP	Protocol for applications to provide context to LLMs	https://www.wikidata.org/wiki/Q133436854
+VHP0000306	NCBI Taxonomy	NCBITaxon	Curated classification and nomenclature for all of the organisms in the public sequence databases	https://www.wikidata.org/wiki/Q12159796
+VHP0000307	Ontology for Biomedical Investigations	OBI	An ontology that provides terms with precisely defined meanings to describe all aspects of how investigations in the biological and medical domains are conducted.	http://purl.obolibrary.org/obo/NCIT_C190884,https://www.wikidata.org/wiki/Q7095051
+VHP0000295	Open source		Practice of publishing digital resources publicly alongside their source code or source files	https://www.wikidata.org/wiki/Q39162
+VHP0000286	OpenAPI		Specification language for APIs	https://www.wikidata.org/wiki/Q18393146
+VHP0000298	ORCID		Nonproprietary alphanumeric code to uniquely identify scientific and other academic authors	https://www.wikidata.org/wiki/Q51044
 VHP0000099	Platform		A computer environment where a set of software and tools are hosted and made available for the use of others over the internet.	https://en.wikipedia.org/wiki/Computing_platform
+VHP0000290	R Shiny		Web-application on R -language	https://www.wikidata.org/wiki/Q90803460
+VHP0000299	Research Organization Registry	ROR	Community-led database of research organizations maintained by the ROR community	https://www.wikidata.org/wiki/Q110235640
+VHP0000300	Research Resource Identifier	RRID	Persistent and unique identifier for referencing a research resource	https://www.wikidata.org/wiki/Q107278278
+VHP0000285	REST API		Architectural style for distributed hypermedia systems	https://www.wikidata.org/wiki/Q749568
+VHP0000284	RO-Crate		Method to aggregate and describing research data with associated metadata	https://www.wikidata.org/wiki/Q124366860
 VHP0000094	Scalability		The property of a (cloud) infrastructure to be able to handle a growing amount of data and work related to it with additions.	https://dl.acm.org/doi/10.1145/350391.350432
 VHP0000037	Secure Shell	ssh	A network protocol to access a network service remotely and securely.	
+VHP0000283	SPARQL		SPARQL (SPARQL Protocol and RDF Query Language) is a semantic query language for querying and manipulating data stored in Resource Description Framework (RDF) format.	http://edamontology.org/format_3790,https://www.wikidata.org/wiki/Q54871
 VHP0000038	Strato		An internet hosting service provider that supplies the servers where the virtual platform is built.	https://www.strato.nl/
-VHP0000039	VHP server 1		The server provided by Strato where the Docker containers used in the project are deployed.	
-VHP0000040	VHP server 2		The server provided by Strato where the Kubernetes structure is formed for orchestration of the Docker containers on VHP server 1.	  
-VHP0000095	VHP server 3		The server provided by Strato that is used for experimentation, learning, and testing the work that is carried out on VHP servers 1 and 2.	
+VHP0000301	Uberon		Cross-species anatomy ontology for metazoan structures and development	https://www.wikidata.org/wiki/Q7876491
+VHP0000294	User Interface	UI	Means by which a user interacts with and controls a machine	https://www.wikidata.org/wiki/Q47146
+VHP0000039	VHP server 1		The server hosted in Strato where the Docker containers used in the project are deployed.	
+VHP0000040	VHP server 2		The server hosted in Strato where the Kubernetes structure is formed for orchestration of the Docker containers on VHP server 1.	  
+VHP0000095	VHP server 3		The server hosted in Strato that is used for experimentation, learning, and testing the work that is carried out on VHP servers 1 and 2.	
 
+VHP0000281	Wikibase		Collection of software (applications and libraries) for creating, managing and sharing structured data	https://www.wikidata.org/wiki/Q16354758
+VHP0000282	Wikidata		Free multilingual online knowledge graph	https://www.wikidata.org/wiki/Q2013
