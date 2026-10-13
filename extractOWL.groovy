@@ -14,6 +14,8 @@ rdf = new net.bioclipse.managers.RDFManager(workspaceRoot);
 url = "https://vhp4safety.github.io/glossary/"
 
 // extract from the HTML rendering of the local index.md
+page = new File(args ? args[0] : "index.md").getText("UTF-8")
+if (!page.toLowerCase().contains("<html")) page = "<!DOCTYPE html>\n<html lang=\"en-US\"><body>\n${page}\n</body></html>"
 
 Any23 runner = new Any23("html-rdfa11")
 source = new StringDocumentSource(page, url, "text/html")
@@ -22,6 +24,11 @@ out = new ByteArrayOutputStream();
 handler = new NTriplesWriter(out);
 try { runner.extract(source, handler);
 } finally { handler.close(); }
+
+if (out.size() == 0) {
+  System.err.println("No triples extracted")
+  System.exit(1)
+}
 
 n3Stream = new ByteArrayInputStream(out.toByteArray())
 
