@@ -21,6 +21,11 @@ jobs:
         with:
           java-version: 17
           distribution: 'temurin'
+      - name: Cache Grape dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.groovy/grapes
+          key: grapes-${{ hashFiles('extractOWL.groovy') }}
       - name: Install dependencies
         run: sudo apt install groovy pandoc
       - name: Extract OWL
