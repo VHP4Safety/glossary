@@ -98,6 +98,8 @@ def create_rdfa_table(tsv_file_path, links):
 
     df.drop(columns=[column for column in TERM_LINKS if column in df.columns], inplace=True)
 
+    contributors = dict(zip(df["ID"].astype(str).str.strip(), df.pop("contributor").fillna(""))) if "contributor" in df.columns else {}
+
     def encode_smiles(smiles):
         smiles = smiles.strip()
         encoded_smiles = urllib.parse.quote(smiles.encode('utf-8'))
@@ -146,6 +148,11 @@ def create_rdfa_table(tsv_file_path, links):
                     f'<a property="{predicate}" resource="https://vhp4safety.github.io/glossary#{linked_id}" href="#{linked_id}">{label}</a>'
                     for linked_id, label in links[row_id][column].items()
                 ) + "</small>"
+        if contributors.get(row_id):
+            term_cell_content += "<br><small>contributors: " + ", ".join(
+                f'<a property="dcterms:contributor" resource="{iri}" href="{iri}">{iri.rsplit("/", 1)[-1]}</a>'
+                for iri in contributors[row_id].split(",")
+            ) + "</small>"
         table_html += f"    <td>{term_cell_content}</td>\n"
 
         for header in headers[1:]:

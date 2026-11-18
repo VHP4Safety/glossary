@@ -16,6 +16,20 @@ are encouraged to submit pull requests adding new terms to the [`template.tsv` t
 
 For other issues, suggestions, or problems, please create an issue [here](https://github.com/VHP4Safety/glossary/issues). 
 
+## Sync with the VHP4Safety platform
+
+The [sync-platform](.github/workflows/sync-platform.yml) action keeps the glossary and the glossary of the
+[VHP4Safety platform](https://pseudo.platform.vhp4safety.nl/) in sync. (TODO: change to platform after new release)
+
+1. **Pull** ([`sync_platform/pull.py`](sync_platform/pull.py)): the glossary terms of the platform are read, with their contributors.
+2. **Propose** ([`sync_platform/sync.py`](sync_platform/sync.py)): the draft terms of the platform become pull requests on a branch `platform/<GitHub account>`. The new term gets the VHP
+   identifier from [`scripts/assign_vhp_id.py`](scripts/assign_vhp_id.py).
+3. **Push** ([`sync_platform/push.py`](sync_platform/push.py)): the terms of the main branch are written to the platform.
+
+### Contributors
+
+The `contributor` column of the templates sets the `dcterms:contributor` in the OWL and RDFa.
+
 ## Data format
 
 The Glossary is mainly presented under https://glossary.vhp4safety.nl/ in the HTML rendering of a [Markdown](https://en.wikipedia.org/wiki/Markdown) file with

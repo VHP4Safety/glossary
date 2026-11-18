@@ -1,0 +1,69 @@
+name: sync-platform
+
+on:
+  schedule:
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+    inputs:
+      platform:
+        description: Address of the platform
+        default: https://pseudo.platform.vhp4safety.nl/
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: sync-platform
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PLATFORM: ${{ inputs.platform || vars.PLATFORM || 'https://pseudo.platform.vhp4safety.nl/' }}
+      PLATFORM_TOKEN: ${{ secrets.PLATFORM_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Pull the glossary of the platform
+        run: python sync_platform/pull.py "$PLATFORM" > "$RUNNER_TEMP/platform.jsonl"
+
+      - name: Propose the terms of each curator
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          STATE="$RUNNER_TEMP/vhp-state"
+          git worktree add -q --detach "$STATE" origin/vhp-state
+          ln -s "$STATE/.vhp-cache" .vhp-cache
+          export HOST=$(echo "$PLATFORM" | cut -d/ -f3) DATE=$(date -u +%F)
+          for CURATOR in $(jq -r 'select(.draft and .curator != "") | .curator' "$RUNNER_TEMP/platform.jsonl" | sort -u); do
+            export CURATOR BRANCH="platform/$CURATOR"
+            if [ "$(gh pr view "$BRANCH" --json state --jq .state 2>/dev/null)" = OPEN ]; then continue; fi
+            for ATTEMPT in 1 2 3 4 5; do
+              git fetch -q origin "+refs/heads/*:refs/remotes/origin/*"
+              git -C "$STATE" reset -q --hard origin/vhp-state
+              git checkout -q -f -B "$BRANCH" origin/main
+              python sync_platform/sync.py "$RUNNER_TEMP/platform.jsonl" "$CURATOR"
+              git -C "$STATE" diff --quiet && break
+              git -C "$STATE" commit -q -a -m "Reserve the VHP IDs of the terms of $CURATOR [ci skip]"
+              git -C "$STATE" push -q origin HEAD:vhp-state && break
+              [ "$ATTEMPT" = 5 ] && exit 1
+            done
+            if git diff --quiet; then continue; fi
+            git commit -q -a -m "Add the terms of $CURATOR from $HOST" --author "$(gh api "users/$CURATOR" --jq '"\(.name // .login) <\(.id)+\(.login)@users.noreply.github.com>"')"
+            git push -q -f origin "$BRANCH"
+            gh pr create --base main --head "$BRANCH" --title "Terms of $CURATOR from $HOST" --body "$(envsubst < sync_platform/pull_request.md)"
+          done
+
+      - name: Push the glossary to the platform
+        if: ${{ !cancelled() }}
+        run: |
+          git checkout -q -f origin/main
+          python sync_platform/push.py "$RUNNER_TEMP/platform.jsonl" "$PLATFORM"
