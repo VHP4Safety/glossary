@@ -24,7 +24,8 @@ The [sync-platform](.github/workflows/sync-platform.yml) action keeps the glossa
 1. **Pull** ([`sync_platform/pull.py`](sync_platform/pull.py)): the glossary terms of the platform are read, with their contributors.
 2. **Propose** ([`sync_platform/sync.py`](sync_platform/sync.py)): the draft terms of the platform become pull requests on a branch `platform/<GitHub account>`. The new term gets the VHP
    identifier from [`scripts/assign_vhp_id.py`](scripts/assign_vhp_id.py).
-3. **Push** ([`sync_platform/push.py`](sync_platform/push.py)): the terms of the main branch are written to the platform.
+3. **Push** ([`sync_platform/push.py`](sync_platform/push.py)): the VHP identifier of each draft in a new pull request is written to the draft on
+   the platform. The terms of the main branch are written to the platform.
 
 ### Contributors
 

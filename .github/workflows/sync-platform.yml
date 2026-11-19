@@ -50,7 +50,7 @@ jobs:
               git fetch -q origin "+refs/heads/*:refs/remotes/origin/*"
               git -C "$STATE" reset -q --hard origin/vhp-state
               git checkout -q -f -B "$BRANCH" origin/main
-              python sync_platform/sync.py "$RUNNER_TEMP/platform.jsonl" "$CURATOR"
+              python sync_platform/sync.py "$RUNNER_TEMP/platform.jsonl" "$CURATOR" > "$RUNNER_TEMP/identified.jsonl"
               git -C "$STATE" diff --quiet && break
               git -C "$STATE" commit -q -a -m "Reserve the VHP IDs of the terms of $CURATOR [ci skip]"
               git -C "$STATE" push -q origin HEAD:vhp-state && break
@@ -60,10 +60,12 @@ jobs:
             git commit -q -a -m "Add the terms of $CURATOR from $HOST" --author "$(gh api "users/$CURATOR" --jq '"\(.name // .login) <\(.id)+\(.login)@users.noreply.github.com>"')"
             git push -q -f origin "$BRANCH"
             gh pr create --base main --head "$BRANCH" --title "Terms of $CURATOR from $HOST" --body "$(envsubst < sync_platform/pull_request.md)"
+            cat "$RUNNER_TEMP/identified.jsonl" >> "$RUNNER_TEMP/assigned.jsonl"
           done
 
       - name: Push the glossary to the platform
         if: ${{ !cancelled() }}
         run: |
           git checkout -q -f origin/main
-          python sync_platform/push.py "$RUNNER_TEMP/platform.jsonl" "$PLATFORM"
+          touch "$RUNNER_TEMP/assigned.jsonl"
+          python sync_platform/push.py "$RUNNER_TEMP/platform.jsonl" "$PLATFORM" "$RUNNER_TEMP/assigned.jsonl"

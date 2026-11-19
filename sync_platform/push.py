@@ -21,6 +21,14 @@ def send(method, path, body=None):
         return json.load(response)
 
 
+for line in open(sys.argv[3], encoding="utf-8"):
+    draft = json.loads(line)
+    record = send("GET", draft["iri"].removeprefix(PLATFORM))
+    record.pop("@context")
+    same = record.get("sameAs", [])
+    record.update({"termCode": draft["id"], "sameAs": (same if isinstance(same, list) else [same]) + [{"@id": f"https://vhp4safety.github.io/glossary#{draft['id']}"}]})
+    send("PUT", draft["iri"].removeprefix(PLATFORM), record)
+    print("Identified", draft["id"], draft["iri"])
 platform = {}
 for line in open(sys.argv[1], encoding="utf-8"):
     term = json.loads(line)

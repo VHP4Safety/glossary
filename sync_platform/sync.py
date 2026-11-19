@@ -13,7 +13,7 @@ def plain(text):
 
 def assigned():
     with tempfile.NamedTemporaryFile("r") as output:
-        subprocess.run([sys.executable, "scripts/assign_vhp_id.py"], env={**os.environ, "GITHUB_OUTPUT": output.name}, check=True)
+        subprocess.run([sys.executable, "scripts/assign_vhp_id.py"], env={**os.environ, "GITHUB_OUTPUT": output.name}, stdout=sys.stderr, check=True)
         return output.read().split("vhp_id=")[-1].strip()
 
 
@@ -26,6 +26,8 @@ for path in sorted(Path("templates").glob("*.tsv")):
     for term in terms:
         if not term["id"] and term["table"] == path.stem and f"\t{term['term'].casefold()}\t" not in known:
             term["id"] = assigned()
+            known += f"\t{term['term'].casefold()}\t"
+            print(json.dumps({"iri": term["iri"], "id": term["id"]}))
             rows.append([term["id"]] + [""] * column)
         for row in rows:
             if row[0] == term["id"] and plain(row[1] + row[3]) != plain(term["term"] + term["definition"]):
